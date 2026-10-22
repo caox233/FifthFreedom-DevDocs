@@ -1,23 +1,25 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "fc8ef510b51be83c31f9f8233997f758b0477acc",
-  "created_utc": "2026-10-22T21:19:30.254810+00:00",
+  "source_commit": "f4eff224b77de94c09a5dafeb3f1db0dd0113aba",
+  "previous_snapshot_source_commit": "fc8ef510b51be83c31f9f8233997f758b0477acc",
+  "created_utc": "2026-10-22T21:56:37.448942+00:00",
+  "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "eefde3233a5473127ae38c57fdc7d51dcb9356d88b4a7af5f741cf539326b5a1",
-      "bytes": 3332
+      "sha256": "ac4fb15ea0ab55ee1ee5a17391c1f1be8782ebef3b467e54d69f6aed9469ed76",
+      "bytes": 4764
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "0c3979b14008ef4ae1d57313d6675cae15423a4b9292bb03008170f34105897b",
-      "bytes": 4488
+      "sha256": "aa139113729762b1261b0b85c546d41cddc921123f8f122b96a37e2a4fb87766",
+      "bytes": 9261
     },
     "README.md": {
-      "sha256": "dc5ba7cbeb921308b4d5bee9aa1cf843cecd06de78b41c5e4dd5f22c192dea18",
-      "bytes": 1960
+      "sha256": "9d7bb1dd83bb11391763fd8859b76ee49acd523633affc9d1af4f61a8c8f4571",
+      "bytes": 2635
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "bc21414f29098caef2d0c98c568e5340ec107d287385f76571546a5f55d33d5d",
@@ -28,20 +30,24 @@
       "bytes": 1210
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "96d7c0a20b01e2bcd4562c7a865187a92ef638398c73e3a1adf37bfb8bf6b87f",
-      "bytes": 1915
+      "sha256": "9cfdce4d35acd4e07200d5a7d2a384d2a61bc19b30cd7390d095ef4b298ec274",
+      "bytes": 2688
     },
     "docs/ASSET-PUBLICATION.json": {
       "sha256": "bd8ff1ded1d86e9c9ee4f21054be479edbe17fb5560c8004c54473f0c08e01e3",
       "bytes": 4839
     },
     "docs/BUILD.md": {
-      "sha256": "8741a35f7e84aaf3d4d613a9aeaff55c4124f0a53b7544466c9cdf2c0d7a5ee8",
-      "bytes": 7893
+      "sha256": "6ff4c36f0b0c9076157fa986f2a104a94600c7039ab06bc4dceb25e7a41c62ca",
+      "bytes": 8613
     },
     "docs/CLOUD-HANDOFF.md": {
-      "sha256": "966dd26fcb547f9c33e5dbfc4bc4f4c812155691c7e3481f21dcd86e0c2c8879",
-      "bytes": 3416
+      "sha256": "e3d14deee2e945a191d6be5011dea24af9c82e46ea2a27bf48e3f68c2d8c45bd",
+      "bytes": 3633
+    },
+    "docs/CLOUD-PROGRESS.md": {
+      "sha256": "8ba4519646d571ac0fc5c35f4b6314f6aab8cb213da0d313c82f814a04f5c4d5",
+      "bytes": 8444
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -75,13 +81,9 @@
       "sha256": "653c169a80fd5f0fa94a4c97829509be02be283c6423a1589d6cdd324dadd5b9",
       "bytes": 1644
     },
-    "docs/tasks/README.md": {
-      "sha256": "a424d0fd9255152ff402e47594670dcfe4407350a5e32465246852a391f8e98d",
-      "bytes": 474
-    },
-    "docs/tasks/remaining-bugs.md": {
-      "sha256": "500dac13c272f725d485fe7292914dc5569ccd4ab4d5ccd9076ea5caa0c634fc",
-      "bytes": 6500
+    "docs/dependency-closure.md": {
+      "sha256": "0133248e4bc2821be200bf54f07da48ea3d4b16655113cc655aa34b8cc7cc657",
+      "bytes": 6533
     },
     "docs/development-reference/historical-replays/INDEX.json": {
       "sha256": "9fc3d3f1055f92eba036d5a274741c7afca344eccf7348a2b3a988b2b0c3afc4",
@@ -91,33 +93,17 @@
       "sha256": "b08d0ed779e6b54395d5d745a4dddd621c20622b45873fcfa17b875e5cc7f3ac",
       "bytes": 3798
     },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/check-source.py.txt": {
-      "sha256": "9f8341d79f31e36bc8f5710e823f8d64c0ee48ea2aa9966af0e057d4dbbf3a8d",
-      "bytes": 4150
+    "docs/development-reference/historical-replays/emf/continuation4/check-source.py.txt": {
+      "sha256": "f711809aea9844890840135c2054917ab9ed611cbc003118eaece6c6c1cd918c",
+      "bytes": 12654
     },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/contract_tests.rs.txt": {
-      "sha256": "a79e641ea13a6950af6feb84b573dc758354e981c728daf7cc8e30f1c60cc6c4",
-      "bytes": 4584
+    "docs/development-reference/historical-replays/emf/continuation4/harness/fixture-stubs.rs.txt": {
+      "sha256": "022d29391ee092db14db3b2801eb3f91453b8844a8d11120dfafa67e2ab9c6b4",
+      "bytes": 2295
     },
-    "docs/development-reference/historical-replays/multiplayer/export-agent/check-source.py.txt": {
-      "sha256": "62b74b49ff5d5f56c2a88b5f5c3880a790b4f36d07429986f7db60e5f3fda0fa",
-      "bytes": 3064
-    },
-    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/probe.cpp.txt": {
-      "sha256": "3e15c81f5bc9cf4d798d28032709664956e59ca41acab514034c200f314e580a",
-      "bytes": 15853
-    },
-    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/run.py.txt": {
-      "sha256": "3e6752dd8425348aeb95be14e5482c1c22fbc27c1a665d720d5cd95e305aaa77",
-      "bytes": 6088
-    },
-    "docs/development-reference/historical-replays/multiplayer/export-agent/candidate/tests/CrashDiagnostics/DiagnosticByteDumpRegression.cs.txt": {
-      "sha256": "70aebd468a721059d96576b70c4346c3fe5b830b7c9f3aa38f7097bff062b764",
-      "bytes": 4900
-    },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/candidate/NativeExceptionContextRegression.cs.txt": {
-      "sha256": "facdf0775a86695ccbca92da0e88f90d17a1e8855829660c550b4bba0857c0c7",
-      "bytes": 4856
+    "docs/development-reference/historical-replays/emf/continuation4/harness/source-probe.cpp.txt": {
+      "sha256": "63e587f4e97b524a2afea5a04b8832f1d5e97790795ba09ba419cd795e236967",
+      "bytes": 8646
     },
     "docs/development-reference/historical-replays/entry/continuation1/entry-root/contract/check.py.txt": {
       "sha256": "214a62c623eb872830ec19cb60985a3228343da70796037b0d2f31c7ddd000af",
@@ -131,17 +117,65 @@
       "sha256": "4d553cc0177c02a3c1be004486a07c1564e495e12b0cdf9c0c79d9f29ac06e99",
       "bytes": 2181
     },
-    "docs/development-reference/historical-replays/emf/continuation4/check-source.py.txt": {
-      "sha256": "f711809aea9844890840135c2054917ab9ed611cbc003118eaece6c6c1cd918c",
-      "bytes": 12654
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/candidate/NativeExceptionContextRegression.cs.txt": {
+      "sha256": "facdf0775a86695ccbca92da0e88f90d17a1e8855829660c550b4bba0857c0c7",
+      "bytes": 4856
     },
-    "docs/development-reference/historical-replays/emf/continuation4/harness/fixture-stubs.rs.txt": {
-      "sha256": "022d29391ee092db14db3b2801eb3f91453b8844a8d11120dfafa67e2ab9c6b4",
-      "bytes": 2295
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/check-source.py.txt": {
+      "sha256": "9f8341d79f31e36bc8f5710e823f8d64c0ee48ea2aa9966af0e057d4dbbf3a8d",
+      "bytes": 4150
     },
-    "docs/development-reference/historical-replays/emf/continuation4/harness/source-probe.cpp.txt": {
-      "sha256": "63e587f4e97b524a2afea5a04b8832f1d5e97790795ba09ba419cd795e236967",
-      "bytes": 8646
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/contract_tests.rs.txt": {
+      "sha256": "a79e641ea13a6950af6feb84b573dc758354e981c728daf7cc8e30f1c60cc6c4",
+      "bytes": 4584
+    },
+    "docs/development-reference/historical-replays/multiplayer/export-agent/candidate/tests/CrashDiagnostics/DiagnosticByteDumpRegression.cs.txt": {
+      "sha256": "70aebd468a721059d96576b70c4346c3fe5b830b7c9f3aa38f7097bff062b764",
+      "bytes": 4900
+    },
+    "docs/development-reference/historical-replays/multiplayer/export-agent/check-source.py.txt": {
+      "sha256": "62b74b49ff5d5f56c2a88b5f5c3880a790b4f36d07429986f7db60e5f3fda0fa",
+      "bytes": 3064
+    },
+    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/probe.cpp.txt": {
+      "sha256": "3e15c81f5bc9cf4d798d28032709664956e59ca41acab514034c200f314e580a",
+      "bytes": 15853
+    },
+    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/run.py.txt": {
+      "sha256": "3e6752dd8425348aeb95be14e5482c1c22fbc27c1a665d720d5cd95e305aaa77",
+      "bytes": 6088
+    },
+    "docs/tasks/README.md": {
+      "sha256": "a424d0fd9255152ff402e47594670dcfe4407350a5e32465246852a391f8e98d",
+      "bytes": 474
+    },
+    "docs/tasks/ci-01.md": {
+      "sha256": "ac1fa807c1528fb68d5898c6cf471d05b7f86750328af7833a33a4342a39162c",
+      "bytes": 10431
+    },
+    "docs/tasks/remaining-bugs.md": {
+      "sha256": "500dac13c272f725d485fe7292914dc5569ccd4ab4d5ccd9076ea5caa0c634fc",
+      "bytes": 6500
+    },
+    "docs/tasks/server-01.md": {
+      "sha256": "4d50b9dc1ad716e494cc17d25bc7ab5ab31144ae39dd84b9198effc21a4c5f09",
+      "bytes": 9670
+    },
+    "docs/tasks/server-02.md": {
+      "sha256": "16d123f3fe47bc3ad358d12869994c664192cb612c9991b362f82eee647b18d2",
+      "bytes": 10056
+    },
+    "docs/tasks/ui-01.md": {
+      "sha256": "c8baf53a7f0b07fde6eafa518381d3f64f53e278f01322a2813358b50ca25df4",
+      "bytes": 5960
+    },
+    "docs/tasks/ui-02.md": {
+      "sha256": "6e498e233e2b0066ba058d7574ca023b5871d56a7af605b2498a60654e19a809",
+      "bytes": 5103
+    },
+    "docs/third-party/WidescreenFixesPack-upstream-MIT.txt": {
+      "sha256": "389eef0fb81f8b3bc7aca2025da43cf007acfb390a70f49439d269e51de0b8dc",
+      "bytes": 1067
     }
   }
 }
