@@ -1,12 +1,12 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "f54c9358c0e8df6775c4f29ed91ea3a91e870a80",
-  "previous_snapshot_source_commit": "814c5c1ae930afc9887c5a6b08ec4a95e3c74597",
-  "created_utc": "2026-10-23T03:36:42.143123+00:00",
+  "source_commit": "463aa521e5cdb3345e460442bacf8050bd42aef8",
+  "previous_snapshot_source_commit": "f54c9358c0e8df6775c4f29ed91ea3a91e870a80",
+  "created_utc": "2026-10-23T04:08:35.067558+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "b1dc264ef93c7ce6b5d363cda2efc8eeb4a37ff50a58dcd1e899b543f7f1203d",
+      "sha256": "c7a6f9d53e708172fb790a4582aad3fa522cba7b640a763f5d56f40363f00e92",
       "bytes": 4764
     },
     "LICENSE": {
@@ -14,12 +14,12 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "13c71060bc4de31089d70aefbcfb026ede0ad6ef454639f217b34dfbd2df796b",
-      "bytes": 11925
+      "sha256": "ae42e9cde3728c294c2d6146d25e6d4f655752ea04351456b1af8939b8167abb",
+      "bytes": 13270
     },
     "README.md": {
-      "sha256": "7272fd0b0469e8fcc525eebcd05a65d9eb3374cec8c889f2d0bbb71a711537d8",
-      "bytes": 3000
+      "sha256": "d4b2d92ebd94182ef9932622f3d4e26eec9838ee637120e178a92f23e6463c28",
+      "bytes": 3242
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "bc21414f29098caef2d0c98c568e5340ec107d287385f76571546a5f55d33d5d",
@@ -46,8 +46,8 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "0b862dc14df6ec02a1e5b1e4fd12165efe46428e6429377a2b116aa4304018b9",
-      "bytes": 13611
+      "sha256": "2f42328c895774c751449cb4fe780b3fd01548c6f9c2fe64fe11a4e54bf9a647",
+      "bytes": 17326
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -149,17 +149,25 @@
       "sha256": "fd81c4c9d713c46aab871f79cbc02206018ad64afa751fe6209aed2adb84ccf2",
       "bytes": 1435
     },
+    "docs/evidence/hosted-candidate-f54c935.json": {
+      "sha256": "24286742271d2691d0ed9453aff4084c02e7eb947665dad03c2e4175ba69ea07",
+      "bytes": 2921
+    },
     "docs/tasks/README.md": {
       "sha256": "a424d0fd9255152ff402e47594670dcfe4407350a5e32465246852a391f8e98d",
       "bytes": 474
     },
     "docs/tasks/ci-01.md": {
-      "sha256": "702020f7e0c6373200f90957d60de478715a8d1723f084704bc4a188ce6c1769",
-      "bytes": 16510
+      "sha256": "17650c44bbfa484aeebf0967ca2933456e5d536fc7d236e2b019e643bd95136c",
+      "bytes": 20616
     },
     "docs/tasks/public-candidate.md": {
       "sha256": "eacd0bc3ad9f5872a4805125633bd9e6eda9b4576357f119c05a4b9378d5d91b",
       "bytes": 2328
+    },
+    "docs/tasks/public-network-dependencies.md": {
+      "sha256": "2e9baaab73abca1756e242503e89ded4c0d2d5d8f1081114b0a3d067d979235e",
+      "bytes": 9557
     },
     "docs/tasks/public-transport.md": {
       "sha256": "717982467836ca36d6c70e8a9b8756fe7b8d80389f079350f3f8db7c34ba46b5",
@@ -181,6 +189,10 @@
       "sha256": "be0da4007134c5737271369aefe5be9137ce03a8beaf9387030020c445c458c3",
       "bytes": 9405
     },
+    "docs/tasks/server-04.md": {
+      "sha256": "d2fc8efa3e8df8dbabac31b00768977e1fb4bfb0fb4cd28f492b43e6a47a9ce8",
+      "bytes": 9018
+    },
     "docs/tasks/ui-01.md": {
       "sha256": "c8baf53a7f0b07fde6eafa518381d3f64f53e278f01322a2813358b50ca25df4",
       "bytes": 5960
@@ -190,8 +202,12 @@
       "bytes": 5516
     },
     "docs/tasks/ui-03.md": {
-      "sha256": "714566550e582d3c7258db51f477bf6ff74ca74a375977cccb09b45bdca66ef1",
-      "bytes": 5250
+      "sha256": "a76a94c6c1e3ead5e09dc6715e2bc80b5d408da0233846794716acc7b7c7a787",
+      "bytes": 6441
+    },
+    "docs/tasks/ui-04.md": {
+      "sha256": "63a24097623855ca734048358189d5e4a053d2adc63afe9fe7fb6801053ccd5e",
+      "bytes": 6736
     },
     "docs/tasks/vss-lifecycle-audit.md": {
       "sha256": "e6d6595b4f0887ab9d3d98ed18940501b423de77e6c8c45da600f5a1b8589acd",
@@ -200,6 +216,10 @@
     "docs/third-party/WidescreenFixesPack-upstream-MIT.txt": {
       "sha256": "389eef0fb81f8b3bc7aca2025da43cf007acfb390a70f49439d269e51de0b8dc",
       "bytes": 1067
+    },
+    "docs/third-party/WinDivert-2.2.2-LICENSE.txt": {
+      "sha256": "14a0cb5214d536e4fdae6aa3f5696f981eeda106cd026e9794bba489ee79d628",
+      "bytes": 61349
     }
   }
 }

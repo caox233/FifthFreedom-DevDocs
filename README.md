@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`f54c9358c0e8df6775c4f29ed91ea3a91e870a80`](https://github.com/caox233/FifthFreedom/blob/f54c9358c0e8df6775c4f29ed91ea3a91e870a80/)
+- 本批文档对应源码提交：[`463aa521e5cdb3345e460442bacf8050bd42aef8`](https://github.com/caox233/FifthFreedom/blob/463aa521e5cdb3345e460442bacf8050bd42aef8/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -19,6 +19,9 @@
 - [原生共享密钥、观察者授权及 Linux 互斥](docs/tasks/server-03.md)
 - [HTTPS 控制服务与 Linux 生命周期](docs/tasks/public-transport.md)
 - [可复现控制面候选包](docs/tasks/public-candidate.md)
+- [公网配置与部署凭据隔离](docs/tasks/ui-04.md)
+- [Linux 服务与 Windows 客户端双身份](docs/tasks/server-04.md)
+- [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
 - [资源来源与隐私门禁](docs/ASSET-PROVENANCE.md)
@@ -33,7 +36,7 @@ Codex 云端负责后续实现；GitHub-hosted Windows/Linux Actions 是常规�
 当前公开源码缺少尚在隐私审查门禁内的默认存档，不得声称可以从公开 checkout
 独立构建完整包。本地已验证包使用的是本地保留输入。不要通过造假资源或放松 hash
 校验绕过门禁。首次 GitHub source-checks 已执行，资源完整性检查因暂存输入缺失而失败，
-这是明确的未完成项，不是通过。后续 GitHub Linux 两个参考构建已通过；
+这是明确的未完成项，不是通过。后续 GitHub Linux LAN、donor 和受保护控制服务构建已通过；
 Windows 组件编译、隔离无游戏 UI 自检及回归检查也已通过，完整包仍受资源门禁阻止。
 开发代码由[源码草稿 PR #1](https://github.com/caox233/FifthFreedom/pull/1)审查。
 
