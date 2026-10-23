@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`533e77d50567cddb340b2144b190b8d9dbd1fd45`](https://github.com/caox233/FifthFreedom/blob/533e77d50567cddb340b2144b190b8d9dbd1fd45/)
+- 本批文档对应源码提交：[`6954eea73f6cd7ee7766ba34efc823ac85d2a319`](https://github.com/caox233/FifthFreedom/blob/6954eea73f6cd7ee7766ba34efc823ac85d2a319/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -45,6 +45,10 @@
 - [认证接收候选的独立云构建](docs/tasks/authenticated-receive-build.md)
 - [自有核心进程的生命周期](docs/tasks/owned-core-process.md)
 - [真实诊断文本流及聊天验证边界](docs/tasks/diagnostic-streaming.md)
+- [当前 Instance 的拥有进程读取通道](docs/tasks/owned-core-read.md)
+- [移除 Packet 捕获依赖的独立源码配方](docs/dependency-patches/easytier-2.6.4-windows-no-packet/README.md)
+- [当前认证 Data 挑战及独立构建](docs/tasks/data-challenge-build.md)
+- [Linux 观察者权限与当前拥有者许可](docs/tasks/server-16.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
