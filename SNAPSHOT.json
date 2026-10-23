@@ -1,47 +1,53 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "fc8ef510b51be83c31f9f8233997f758b0477acc",
-  "created_utc": "2026-10-22T21:19:30.254810+00:00",
+  "source_commit": "6954eea73f6cd7ee7766ba34efc823ac85d2a319",
+  "previous_snapshot_source_commit": "533e77d50567cddb340b2144b190b8d9dbd1fd45",
+  "created_utc": "2026-10-23T11:18:31.735387+00:00",
+  "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "eefde3233a5473127ae38c57fdc7d51dcb9356d88b4a7af5f741cf539326b5a1",
-      "bytes": 3332
+      "sha256": "6cbe7769399219c9962259cbd6f59a8cd06d1d592f239e1e9c24b7aae502c939",
+      "bytes": 10198
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "0c3979b14008ef4ae1d57313d6675cae15423a4b9292bb03008170f34105897b",
-      "bytes": 4488
+      "sha256": "d904e6e74410fa2543ec43a19fabde3b7b61e8f0f941405f5a44312d8bdd7315",
+      "bytes": 50036
     },
     "README.md": {
-      "sha256": "dc5ba7cbeb921308b4d5bee9aa1cf843cecd06de78b41c5e4dd5f22c192dea18",
-      "bytes": 1960
+      "sha256": "068cc933b59e4ebd7b8b29357142711899a4e783409acafbecfa5b45fadc1a7c",
+      "bytes": 5289
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "bc21414f29098caef2d0c98c568e5340ec107d287385f76571546a5f55d33d5d",
       "bytes": 8266
     },
     "docs/ARCHITECTURE.md": {
-      "sha256": "20d75fc2e2178c651117fe4269955749cee759218270ecb45a5d7841d5d3c38d",
-      "bytes": 1210
+      "sha256": "e484cac7d2ed64b9092ccfc996ad4b6b145fb80b01214e4b5ea73ca2983e2817",
+      "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "96d7c0a20b01e2bcd4562c7a865187a92ef638398c73e3a1adf37bfb8bf6b87f",
-      "bytes": 1915
+      "sha256": "3bddaf1260689744da3ff50c7d2d10299610842bbf7f2902b793f9a8e40e1c6c",
+      "bytes": 4381
     },
     "docs/ASSET-PUBLICATION.json": {
       "sha256": "bd8ff1ded1d86e9c9ee4f21054be479edbe17fb5560c8004c54473f0c08e01e3",
       "bytes": 4839
     },
     "docs/BUILD.md": {
-      "sha256": "8741a35f7e84aaf3d4d613a9aeaff55c4124f0a53b7544466c9cdf2c0d7a5ee8",
-      "bytes": 7893
+      "sha256": "8e916e49786e2cbe41b7e0c9773791191d121b6f1b3a97f3f9de46c16a6ec689",
+      "bytes": 9280
     },
     "docs/CLOUD-HANDOFF.md": {
-      "sha256": "966dd26fcb547f9c33e5dbfc4bc4f4c812155691c7e3481f21dcd86e0c2c8879",
-      "bytes": 3416
+      "sha256": "e3d14deee2e945a191d6be5011dea24af9c82e46ea2a27bf48e3f68c2d8c45bd",
+      "bytes": 3633
+    },
+    "docs/CLOUD-PROGRESS.md": {
+      "sha256": "6b62c66a677f7acb35278216b5f1c8968599eea7d71f6f38194233d7f9d863c9",
+      "bytes": 75642
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -52,8 +58,8 @@
       "bytes": 10069
     },
     "docs/MIGRATION.md": {
-      "sha256": "e36356f68586dea38057b67babfdbf5804dda2d55d71b997c766c60a3b38cdb0",
-      "bytes": 3317
+      "sha256": "5450597b261a53fd87d5b692f5818cabfe4438f374d6dbcdf11f071edd479d78",
+      "bytes": 3457
     },
     "docs/PACKAGE-README.txt": {
       "sha256": "4f8a749a3ef5055e69c9e39ba216cb382cda7854d0191c7e908c970ddab8db1a",
@@ -64,24 +70,212 @@
       "bytes": 5372
     },
     "docs/SERVER-INTEGRATION.md": {
-      "sha256": "22ca42955f01f88c84e7748da6151f04964a9b5d6703cae077634d8db098c988",
-      "bytes": 10329
+      "sha256": "2b009ff6635f18fdaa3fd3f85ab26bd1c8aadca35319aebec46c9c4b54b0346d",
+      "bytes": 14071
     },
     "docs/UI-INTEGRATION.md": {
-      "sha256": "4ff7d1034ab1330b154ab6b58beb2c260ab2e1f6ca9fe3c25e87337b828ba458",
-      "bytes": 10150
+      "sha256": "b333728789ac8c5b9589ad8bcbf54de9fb713abaee0b983de7ad4a2c9657b960",
+      "bytes": 10703
     },
     "docs/UPDATE-NOTES.txt": {
       "sha256": "653c169a80fd5f0fa94a4c97829509be02be283c6423a1589d6cdd324dadd5b9",
       "bytes": 1644
     },
-    "docs/tasks/README.md": {
-      "sha256": "a424d0fd9255152ff402e47594670dcfe4407350a5e32465246852a391f8e98d",
-      "bytes": 474
+    "docs/dependency-closure.md": {
+      "sha256": "1369ee37ffb87875328321d42549845e34aea4447b0f90a9af6f25776da26c59",
+      "bytes": 15583
     },
-    "docs/tasks/remaining-bugs.md": {
-      "sha256": "500dac13c272f725d485fe7292914dc5569ccd4ab4d5ccd9076ea5caa0c634fc",
-      "bytes": 6500
+    "docs/dependency-patches/.gitattributes": {
+      "sha256": "d2814d02cb9ed55525636622157e35e83043f80b5b7497166dcf64724ed30b7e",
+      "bytes": 100
+    },
+    "docs/dependency-patches/easytier-2.6.4-authenticated-receive/README.md": {
+      "sha256": "10286e047135848ee920abbcaf38d820523014c59902d31b3100059583121af4",
+      "bytes": 5132
+    },
+    "docs/dependency-patches/easytier-2.6.4-authenticated-receive/authenticated-receive-tests.patch": {
+      "sha256": "091c02ced9456a738bb6917f712a84e209828fc315166ad6bc5241fabd64ebb6",
+      "bytes": 12359
+    },
+    "docs/dependency-patches/easytier-2.6.4-authenticated-receive/receipt.json": {
+      "sha256": "e51f06a20b5324bc6b620c5c0505ed426eb01b0a8027cab772f3dee72c9e10c8",
+      "bytes": 8877
+    },
+    "docs/dependency-patches/easytier-2.6.4-authenticated-receive/record-authenticated-data.patch": {
+      "sha256": "b8a22853644bc3c1e0d38a4dfdaa31db0bfe7805daad2d4a9ba8a42dcb9d4dc6",
+      "bytes": 9663
+    },
+    "docs/dependency-patches/easytier-2.6.4-data-challenge/README.md": {
+      "sha256": "bd2326fbd4d1b61279e08191b45b514e1cf30409d5daf90864deaab16df1c782",
+      "bytes": 5961
+    },
+    "docs/dependency-patches/easytier-2.6.4-data-challenge/correlate-authenticated-data.patch": {
+      "sha256": "af0b7e0c5c936622dfeba5775cec65afd2ee55b2c34de7c82de34ffc98b10eff",
+      "bytes": 17949
+    },
+    "docs/dependency-patches/easytier-2.6.4-data-challenge/data-challenge-tests.patch": {
+      "sha256": "f837ff381aabd283c50dc6c6ecdce68f81eaece0cc4e5f8d27f1fbc7a3af8466",
+      "bytes": 19046
+    },
+    "docs/dependency-patches/easytier-2.6.4-data-challenge/receipt.json": {
+      "sha256": "d4c6e1e531d24d2c80f42c5f69e7f2a41392fe68a8e165b7401d24b9b7ee80f7",
+      "bytes": 10478
+    },
+    "docs/dependency-patches/easytier-2.6.4-explicit-pin/README.md": {
+      "sha256": "864349fad20984edb6fa577e66fe98d0bd387a894148a1b535ef196ad35419e9",
+      "bytes": 5054
+    },
+    "docs/dependency-patches/easytier-2.6.4-explicit-pin/explicit-pin-contract-tests.patch": {
+      "sha256": "9a3d13a08259acbe11352ccb084a565e04df465f42dc6d16f4a805429705b7cb",
+      "bytes": 4765
+    },
+    "docs/dependency-patches/easytier-2.6.4-explicit-pin/receipt.json": {
+      "sha256": "c15783f082985d3ab9710abfad9e50fbaa0475827b024737c149b97a583162b9",
+      "bytes": 6029
+    },
+    "docs/dependency-patches/easytier-2.6.4-explicit-pin/require-explicit-peer-pin.patch": {
+      "sha256": "7eeeda28458f17d8ee393176a767725c19e3315f0bc49e9471ebe138cc123328",
+      "bytes": 1744
+    },
+    "docs/dependency-patches/easytier-2.6.4-ingress-data/README.md": {
+      "sha256": "c314db99e2e4803bd3b78cbc1946053272e8c5b8c5013de6c7b08bcc128e872f",
+      "bytes": 6229
+    },
+    "docs/dependency-patches/easytier-2.6.4-ingress-data/ingress-contract-tests.patch": {
+      "sha256": "13a8719f4ff0679c3a0dcc56d1f61717f8659fcbf2337032656fd66889e072d9",
+      "bytes": 5365
+    },
+    "docs/dependency-patches/easytier-2.6.4-ingress-data/receipt.json": {
+      "sha256": "3917941ab2f76e63331b52f73aadfff6552e86048e4c99b7c18867268ebc54df",
+      "bytes": 8997
+    },
+    "docs/dependency-patches/easytier-2.6.4-ingress-data/require-encrypted-data-ingress.patch": {
+      "sha256": "676e9b9dbeaad45cab7e7b85f245091c5e0d2a683f1436e4a1955f2b6e4245a3",
+      "bytes": 637
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/profile-parser-check.rs": {
+      "sha256": "c8739c2c76deb4d586062f5c085aec82f2d325062df62ad05dd8067b31ee70a5",
+      "bytes": 3659
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-bind-receipt.json": {
+      "sha256": "9025d751c4b855a6dcf237db256654e79a563c4062927db0f2636eaafc32afcb",
+      "bytes": 9921
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-bind-serde-check.rs": {
+      "sha256": "7508806748bb4b1c4e1504dadb525a9b35aa90ee48c935a0b5ecd52ed951169e",
+      "bytes": 2319
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-bind-serde-fixture.json": {
+      "sha256": "02dc0d1c3af5675a131d45deb5f91c305d3e405c02bb3f9ab22c475498dc466b",
+      "bytes": 9665
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-loopback-endpoints.json": {
+      "sha256": "a466fc21869139fd3781487c97eea14c6bc937f5c4287f6824be54827753498f",
+      "bytes": 679
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-loopback-endpoints.rs": {
+      "sha256": "480949cb41d57f22a24a1f0548262aed63738c675d96b54827ef3c43d41b1023",
+      "bytes": 2829
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/quic-resolved-receipt.json": {
+      "sha256": "1dc12e0df5489c3df4760531aaafafa1ba0c6da86bdc77407486e2b6fc3e9193",
+      "bytes": 16309
+    },
+    "docs/dependency-patches/easytier-2.6.4-profile/receipt.json": {
+      "sha256": "4ded6c5368f0555e31dd2add4b1914108b4214392a2a49ee91e31193df58627a",
+      "bytes": 2914
+    },
+    "docs/dependency-patches/easytier-2.6.4-secure-session/README.md": {
+      "sha256": "9f9f2789c9fe4531532d74f7a0c65cdf9239e070ebeb231f114ced7f5846f281",
+      "bytes": 5653
+    },
+    "docs/dependency-patches/easytier-2.6.4-secure-session/contract-tests.patch": {
+      "sha256": "5673d6b3f24dd44a263b7863a491ec0c482b61feadd77cfc2534973d3d8d31c4",
+      "bytes": 3140
+    },
+    "docs/dependency-patches/easytier-2.6.4-secure-session/receipt.json": {
+      "sha256": "df417dd524e8ded4b83f53d327f705e8cbaeac6aae1db86f82976dc059efb450",
+      "bytes": 7300
+    },
+    "docs/dependency-patches/easytier-2.6.4-secure-session/require-encrypted-flag.patch": {
+      "sha256": "06a16ca43e035eb1380c99ace8f19a8495bbd09b6413f0fe800752896aa3d2b3",
+      "bytes": 792
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-no-packet/README.md": {
+      "sha256": "6def2ebccdb54b09fc51d8537097d4998ef8a4184293e21473788e4cf8fc285f",
+      "bytes": 5330
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-no-packet/no-packet.patch": {
+      "sha256": "28c87a392917b01202ebba4b4a74004787ec6d98b1591b83c8502868d9d71469",
+      "bytes": 7771
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-no-packet/receipt.json": {
+      "sha256": "f708927fb2c4cf037f962a33c761bba8575b2da146804f426ad157446551cc76",
+      "bytes": 9312
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-no-packet/source/windows_interfaces.rs": {
+      "sha256": "c6986d726cd98339379f11298b2e63a2802c8a3bbc26b4ca9ad5cff072be5fb1",
+      "bytes": 1785
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-owned-read/README.md": {
+      "sha256": "7d359cc2f8c40d999798acba7dc784b2af2eda5adf2508c362932889a3088365",
+      "bytes": 1438
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-owned-read/owned-read.patch": {
+      "sha256": "425fadf393f2449300b59f84451c990d37ff90f967c72ac7921e979d6819a617",
+      "bytes": 17456
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-owned-read/receipt.json": {
+      "sha256": "2f23207d3f580e4e1efd64034c07ab92f19ae46aa9746bca1916b63c41801aaf",
+      "bytes": 3011
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-owned-read/source/owned_read.rs": {
+      "sha256": "c0a6c3e4678ff4b7a4f5d8d0f2e96e4dbc96a1473b246baa4cfd8b04b98f893e",
+      "bytes": 5407
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-owned-read/source/owned_read_windows.rs": {
+      "sha256": "0e6de880591e6148c90cf7fe6250450fd3eea8abc06f0502b5ed766a11762e56",
+      "bytes": 8604
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session-read/README.md": {
+      "sha256": "97b666e3566fb4ad0a3545e44622466e89e09113244ac23c25d9b67ba42c9f71",
+      "bytes": 6701
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session-read/receipt.json": {
+      "sha256": "377390db0467998b8f42c40a55e4970a070481957d27e8b70407ca9ba1303ed0",
+      "bytes": 2407
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session-read/session-read.patch": {
+      "sha256": "018e17c1d5274d917699264c1930552ef47afcb21aa7277529bfc18a337ce40f",
+      "bytes": 3817
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session-read/source/windows_session_read.rs": {
+      "sha256": "1fe55bb741e4bfa123d42bebc06d8a8ee6359abfd5879efe1ab4751d02209b13",
+      "bytes": 1711
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/README.md": {
+      "sha256": "7d2d121d756062baf0d231c9377ff76c582507203caa002448bceb18d99fa7b3",
+      "bytes": 7041
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/easytier-session-observer.patch": {
+      "sha256": "4dcff819c3c5f730898a8873147ec7ff37fdee32bf143694b4f3b78e1483fec6",
+      "bytes": 6980
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/modern-windows-build.patch": {
+      "sha256": "f46dd1b4b4cec5347cf61be817486625843848072ce3f362fcd010b4bec28c43",
+      "bytes": 723
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/receipt.json": {
+      "sha256": "ead3eb585a46be4346becf5d89f9a5cce5b58c385e32d31b0cc05276f98f5307",
+      "bytes": 6002
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/tun-session-observer.patch": {
+      "sha256": "c61e570db8dd04d9c7dc182620a1ab5b586dd7c4e344aeac81e75f11331c3691",
+      "bytes": 20743
+    },
+    "docs/dependency-patches/easytier-2.6.4-windows-session/verify.py": {
+      "sha256": "036a905fdcbabd7b334c2fa7ffb07b91f90aa8f61f524643599fd7842c29d38d",
+      "bytes": 5037
     },
     "docs/development-reference/historical-replays/INDEX.json": {
       "sha256": "9fc3d3f1055f92eba036d5a274741c7afca344eccf7348a2b3a988b2b0c3afc4",
@@ -91,33 +285,17 @@
       "sha256": "b08d0ed779e6b54395d5d745a4dddd621c20622b45873fcfa17b875e5cc7f3ac",
       "bytes": 3798
     },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/check-source.py.txt": {
-      "sha256": "9f8341d79f31e36bc8f5710e823f8d64c0ee48ea2aa9966af0e057d4dbbf3a8d",
-      "bytes": 4150
+    "docs/development-reference/historical-replays/emf/continuation4/check-source.py.txt": {
+      "sha256": "f711809aea9844890840135c2054917ab9ed611cbc003118eaece6c6c1cd918c",
+      "bytes": 12654
     },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/contract_tests.rs.txt": {
-      "sha256": "a79e641ea13a6950af6feb84b573dc758354e981c728daf7cc8e30f1c60cc6c4",
-      "bytes": 4584
+    "docs/development-reference/historical-replays/emf/continuation4/harness/fixture-stubs.rs.txt": {
+      "sha256": "022d29391ee092db14db3b2801eb3f91453b8844a8d11120dfafa67e2ab9c6b4",
+      "bytes": 2295
     },
-    "docs/development-reference/historical-replays/multiplayer/export-agent/check-source.py.txt": {
-      "sha256": "62b74b49ff5d5f56c2a88b5f5c3880a790b4f36d07429986f7db60e5f3fda0fa",
-      "bytes": 3064
-    },
-    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/probe.cpp.txt": {
-      "sha256": "3e15c81f5bc9cf4d798d28032709664956e59ca41acab514034c200f314e580a",
-      "bytes": 15853
-    },
-    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/run.py.txt": {
-      "sha256": "3e6752dd8425348aeb95be14e5482c1c22fbc27c1a665d720d5cd95e305aaa77",
-      "bytes": 6088
-    },
-    "docs/development-reference/historical-replays/multiplayer/export-agent/candidate/tests/CrashDiagnostics/DiagnosticByteDumpRegression.cs.txt": {
-      "sha256": "70aebd468a721059d96576b70c4346c3fe5b830b7c9f3aa38f7097bff062b764",
-      "bytes": 4900
-    },
-    "docs/development-reference/historical-replays/multiplayer/crash-agent/candidate/NativeExceptionContextRegression.cs.txt": {
-      "sha256": "facdf0775a86695ccbca92da0e88f90d17a1e8855829660c550b4bba0857c0c7",
-      "bytes": 4856
+    "docs/development-reference/historical-replays/emf/continuation4/harness/source-probe.cpp.txt": {
+      "sha256": "63e587f4e97b524a2afea5a04b8832f1d5e97790795ba09ba419cd795e236967",
+      "bytes": 8646
     },
     "docs/development-reference/historical-replays/entry/continuation1/entry-root/contract/check.py.txt": {
       "sha256": "214a62c623eb872830ec19cb60985a3228343da70796037b0d2f31c7ddd000af",
@@ -131,17 +309,477 @@
       "sha256": "4d553cc0177c02a3c1be004486a07c1564e495e12b0cdf9c0c79d9f29ac06e99",
       "bytes": 2181
     },
-    "docs/development-reference/historical-replays/emf/continuation4/check-source.py.txt": {
-      "sha256": "f711809aea9844890840135c2054917ab9ed611cbc003118eaece6c6c1cd918c",
-      "bytes": 12654
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/candidate/NativeExceptionContextRegression.cs.txt": {
+      "sha256": "facdf0775a86695ccbca92da0e88f90d17a1e8855829660c550b4bba0857c0c7",
+      "bytes": 4856
     },
-    "docs/development-reference/historical-replays/emf/continuation4/harness/fixture-stubs.rs.txt": {
-      "sha256": "022d29391ee092db14db3b2801eb3f91453b8844a8d11120dfafa67e2ab9c6b4",
-      "bytes": 2295
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/check-source.py.txt": {
+      "sha256": "9f8341d79f31e36bc8f5710e823f8d64c0ee48ea2aa9966af0e057d4dbbf3a8d",
+      "bytes": 4150
     },
-    "docs/development-reference/historical-replays/emf/continuation4/harness/source-probe.cpp.txt": {
-      "sha256": "63e587f4e97b524a2afea5a04b8832f1d5e97790795ba09ba419cd795e236967",
-      "bytes": 8646
+    "docs/development-reference/historical-replays/multiplayer/crash-agent/contract_tests.rs.txt": {
+      "sha256": "a79e641ea13a6950af6feb84b573dc758354e981c728daf7cc8e30f1c60cc6c4",
+      "bytes": 4584
+    },
+    "docs/development-reference/historical-replays/multiplayer/export-agent/candidate/tests/CrashDiagnostics/DiagnosticByteDumpRegression.cs.txt": {
+      "sha256": "70aebd468a721059d96576b70c4346c3fe5b830b7c9f3aa38f7097bff062b764",
+      "bytes": 4900
+    },
+    "docs/development-reference/historical-replays/multiplayer/export-agent/check-source.py.txt": {
+      "sha256": "62b74b49ff5d5f56c2a88b5f5c3880a790b4f36d07429986f7db60e5f3fda0fa",
+      "bytes": 3064
+    },
+    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/probe.cpp.txt": {
+      "sha256": "3e15c81f5bc9cf4d798d28032709664956e59ca41acab514034c200f314e580a",
+      "bytes": 15853
+    },
+    "docs/development-reference/historical-replays/multiplayer/vss-agent/chat/run.py.txt": {
+      "sha256": "3e6752dd8425348aeb95be14e5482c1c22fbc27c1a665d720d5cd95e305aaa77",
+      "bytes": 6088
+    },
+    "docs/evidence/diagnostic-streaming.json": {
+      "sha256": "47dc20473639eda177fcbeb26637908c03d33b793cd41761b9ce6b4ced9bd678",
+      "bytes": 4512
+    },
+    "docs/evidence/easytier-clean-linux-build-guard2.json": {
+      "sha256": "81f6362b7280bdd6e6e01fe393a8f5f46a3e5ad0c7884b653329b42a04142609",
+      "bytes": 3507
+    },
+    "docs/evidence/easytier-clean-linux-build-guard3.json": {
+      "sha256": "c8604b2f8c799a078bd285de6232d9c85b26b1a4684bc45c867905f6dfe92a9a",
+      "bytes": 4047
+    },
+    "docs/evidence/fusionfix-asi-source-candidate.json": {
+      "sha256": "a76083a6046341bca3fc1bf6781115fe86d4b87d1811ff932a0e6b5f359f5d58",
+      "bytes": 8487
+    },
+    "docs/evidence/hosted-artifact-followup-1b6cdab-6c11c8b.json": {
+      "sha256": "4e98bb3a6ad3db5d17fa2c2f1a78797f715d177a23c9f8c1b7af8872d35d0b51",
+      "bytes": 4955
+    },
+    "docs/evidence/hosted-authenticated-receive-build-05c127a.json": {
+      "sha256": "465052e10dcd7a15d0f6aea95edfe627822ec983b20dad043dd2f786ee8a541f",
+      "bytes": 6332
+    },
+    "docs/evidence/hosted-candidate-0ac6695.json": {
+      "sha256": "5239576e7de8d26d02976d3d2725702533e44f6df9dde3a42684eda7ead59b72",
+      "bytes": 4379
+    },
+    "docs/evidence/hosted-candidate-117a60d.json": {
+      "sha256": "fec5f092237cd8db56f89ebddb1775ba32766113a08f989f042abcf38ba5684b",
+      "bytes": 4685
+    },
+    "docs/evidence/hosted-candidate-1974fad.json": {
+      "sha256": "bf5f6cf973df7f2e66d8f0224edc803d00f0f71b5b94f1e9363536923434eae5",
+      "bytes": 6476
+    },
+    "docs/evidence/hosted-candidate-1b6cdab.json": {
+      "sha256": "baa4fb2a89491aafc40f047c8c5d39d079aa8b7fafaa1ff1ac57a1a3d1fa57c7",
+      "bytes": 6487
+    },
+    "docs/evidence/hosted-candidate-2b66f30.json": {
+      "sha256": "49dbc07890514357a042fa720a5d721bf2a85ae587797ecab415cdcd4c391597",
+      "bytes": 4118
+    },
+    "docs/evidence/hosted-candidate-41fe262.json": {
+      "sha256": "861b7bddd44462896a98296355998ea0e2dedf821602bdf876e8678ebd8cd473",
+      "bytes": 3631
+    },
+    "docs/evidence/hosted-candidate-463aa52.json": {
+      "sha256": "a22ffe8cec7a63bb033c485adbc14926b11dbc73122409389d62480334adb53b",
+      "bytes": 1721
+    },
+    "docs/evidence/hosted-candidate-568c3c5.json": {
+      "sha256": "f067d7f20b5920941f12a9ff71130a78d47808b564e603887f87f94cd8315d1a",
+      "bytes": 5668
+    },
+    "docs/evidence/hosted-candidate-6c11c8b.json": {
+      "sha256": "c70b9f72217c4466a239a09eb485d4dd5c14fb0c3e6305dcf4aec404fd773111",
+      "bytes": 6108
+    },
+    "docs/evidence/hosted-candidate-7dcecd9.json": {
+      "sha256": "b3556f869c47f10a7ff8d1ac95ed859c754f4705ee526e95a3f7bffeefc702d9",
+      "bytes": 3416
+    },
+    "docs/evidence/hosted-candidate-8389cb6.json": {
+      "sha256": "b73a895feeccd5565793c5940489b138d42490d8eb472329e145a26a70d09cb2",
+      "bytes": 5468
+    },
+    "docs/evidence/hosted-candidate-a569ae7.json": {
+      "sha256": "c9246d3146a1a98fcfef2f261bf48430def2743f5f3037c56179ae9de246b5e6",
+      "bytes": 4359
+    },
+    "docs/evidence/hosted-candidate-c3bac15.json": {
+      "sha256": "6842a4588eecace2a0a53dea70822f45291be5fe17f79c78ed153fc0a07185ed",
+      "bytes": 4453
+    },
+    "docs/evidence/hosted-candidate-d0ee78e.json": {
+      "sha256": "fd81c4c9d713c46aab871f79cbc02206018ad64afa751fe6209aed2adb84ccf2",
+      "bytes": 1435
+    },
+    "docs/evidence/hosted-candidate-f54c935.json": {
+      "sha256": "24286742271d2691d0ed9453aff4084c02e7eb947665dad03c2e4175ba69ea07",
+      "bytes": 2921
+    },
+    "docs/evidence/hosted-containment-canonical-f85c515.json": {
+      "sha256": "be1a7ea7474b1e83ec8a49d22cb4e95904ab144516eaebe322dd216773e07ccc",
+      "bytes": 3518
+    },
+    "docs/evidence/hosted-easytier-build-4a273bf.json": {
+      "sha256": "5f26c99e0493ca944f9b887084540e7db1a2eb9a1456506efb28228f3bdf32cd",
+      "bytes": 2101
+    },
+    "docs/evidence/hosted-easytier-build-a569ae7.json": {
+      "sha256": "f0f4f2a14313d115e0aa059f756bb7192379d473a79817b1d47250798ea70aa9",
+      "bytes": 2071
+    },
+    "docs/evidence/hosted-guard3-builder-compatibility-05c127a.json": {
+      "sha256": "b8fe81400e802eceb4f2980becd3d62679da22b2fb96f5a5e6e82cd29f9cb28a",
+      "bytes": 5905
+    },
+    "docs/evidence/hosted-iis-74ee215.json": {
+      "sha256": "f82301b7aff7bec8fcc79c5ccd8192d54db336bcf1f8269b2b03da1b2607cf2d",
+      "bytes": 3526
+    },
+    "docs/evidence/hosted-native-lifecycle-528668e.json": {
+      "sha256": "7a79ebfbe6a4fc8ef418247e4a0815dfc61f01f6ebc363435d6fd18fa3af6ad8",
+      "bytes": 4027
+    },
+    "docs/evidence/hosted-native-lifecycle-b67af6c.json": {
+      "sha256": "580bfde5813483dcb449cc7d2d8432cb660e5cb5513c7bc6e8a7af718478cbeb",
+      "bytes": 4074
+    },
+    "docs/evidence/hosted-owned-core-08b3d07.json": {
+      "sha256": "d57bba70389cd96e6ed61aa8a603934904ce94e25a1ffd09292c4fb4434080dd",
+      "bytes": 4364
+    },
+    "docs/evidence/hosted-owned-overlay-05c127a.json": {
+      "sha256": "c5e7980e0531d377d062a7da6d7c3ef5ffd49ce0897e051c2261d2819374368f",
+      "bytes": 10073
+    },
+    "docs/evidence/hosted-owned-overlay-0ac6695.json": {
+      "sha256": "1357886b893194b384cd363c9f4c2c8fe647cf679e5536b01b46d6bbb3800ce9",
+      "bytes": 4476
+    },
+    "docs/evidence/hosted-owned-overlay-45e879b.json": {
+      "sha256": "710db13073997add7d0c4caa16fef8a3ca95d204589fb3e8a5874c5e0eda2f8e",
+      "bytes": 2439
+    },
+    "docs/evidence/hosted-owned-overlay-49193b5.json": {
+      "sha256": "23e13fe7811d6acc68428c47f93cf513ef50978590f9a40be0c6a62d5c909008",
+      "bytes": 3807
+    },
+    "docs/evidence/hosted-owned-overlay-6c11c8b.json": {
+      "sha256": "614c802a2698cc9c6c9d73b548f4236c2f31f1ccb25accaa1c2aa3d869917370",
+      "bytes": 4848
+    },
+    "docs/evidence/hosted-owned-overlay-b613861.json": {
+      "sha256": "978095e6aa18def6f74a3e81846342f0296a035656b55da6018f0a53cceb4610",
+      "bytes": 3601
+    },
+    "docs/evidence/hosted-owned-overlay-f85c515.json": {
+      "sha256": "9e5cf888dd6176734bec7f36bb78cf1d35591f07047108a1a7dc05a44c4d7fa7",
+      "bytes": 5341
+    },
+    "docs/evidence/hosted-owned-stack-528668e.json": {
+      "sha256": "841a786c7cf914eea4ce9b528f1b8616c4a61370b55161c7f25f592caacc93c1",
+      "bytes": 5010
+    },
+    "docs/evidence/hosted-owned-stack-b67af6c.json": {
+      "sha256": "4fb94e6c7e7c06d2ef372c9a7c25705c78981af351570bab4d433dcc59678c2c",
+      "bytes": 8766
+    },
+    "docs/evidence/hosted-prerequisites-3f3ecfe.json": {
+      "sha256": "7065d40ff86fe80e2e2256c472f800acbe0c5c2054c97eb37573ec947ea781e8",
+      "bytes": 2521
+    },
+    "docs/evidence/hosted-source-matrix-05c127a.json": {
+      "sha256": "588d7823582070cfa2cf0eb7ed867145013d3ef2ac7f5bb034026c88ab180e92",
+      "bytes": 26723
+    },
+    "docs/evidence/hosted-source-matrix-23d5923.json": {
+      "sha256": "7db4e2e531ec1231a463ef37862af276282bd34125c42796e20e6f4498727eb9",
+      "bytes": 26248
+    },
+    "docs/evidence/hosted-source-regressions-4a273bf.json": {
+      "sha256": "218e730db503f8deb1b7d3e7227db8e8c36ef5cc01b19ad54ec9aeac8652f8df",
+      "bytes": 5373
+    },
+    "docs/evidence/hosted-windows-components-1974fad.json": {
+      "sha256": "7aa0cd1e621a788dc2a750a2850ede28edec91325650ac42b6497542c05c6c06",
+      "bytes": 6662
+    },
+    "docs/evidence/hosted-windows-diagnostic-stream-b67af6c.json": {
+      "sha256": "008d61fdf2134d1af6859d589bcb79dc570e9c3ca230be06c1aa5cdd32466fee",
+      "bytes": 2469
+    },
+    "docs/evidence/hosted-windows-easytier-1a6b2e6.json": {
+      "sha256": "0978d1ebc0301a0ed1925c5ab1ff3cffa1f946946a4385fe13853e34888d2b8f",
+      "bytes": 1238
+    },
+    "docs/evidence/hosted-windows-easytier-23d5923.json": {
+      "sha256": "b787018341800d89e0b200c007c87e40ed1236c3a1c85363400dc97fe7f298a0",
+      "bytes": 15517
+    },
+    "docs/evidence/hosted-windows-easytier-41fe262.json": {
+      "sha256": "9d469ef8ffddb17110b057a2fddac66fba5a18573302f8b5bf9693ce4d4bd920",
+      "bytes": 8866
+    },
+    "docs/evidence/hosted-windows-loopback-568c3c5.json": {
+      "sha256": "79eea61c0bc9247b9c86416a44c9ad607541d0a364fb00dd654956dc98bcbddf",
+      "bytes": 4139
+    },
+    "docs/evidence/hosted-windows-loopback-b6e0687.json": {
+      "sha256": "1ecc94135b961e4df5c79058aecdc621cbe0cb5e7fa0bc43718fa8fcdfd3c569",
+      "bytes": 3780
+    },
+    "docs/evidence/hosted-windows-return-27-1974fad.json": {
+      "sha256": "ea599966dbafb65fca38037002933b92ffb8e9190f6dbaa7f621f84519438f21",
+      "bytes": 5090
+    },
+    "docs/evidence/hosted-windows-return-cleanup-9e1c7a1.json": {
+      "sha256": "ae75d282d59e03c1ae32b6ca5efb12a1754564d0c2c3febdc0ddda3f048bfb90",
+      "bytes": 4899
+    },
+    "docs/evidence/hosted-wintun-319bf44.json": {
+      "sha256": "e84c1e44ed0d5e2b9d35e3c9a1276a07042ecfb9eb472aa09500ed589faabd39",
+      "bytes": 3494
+    },
+    "docs/evidence/hosted-wintun-b613861.json": {
+      "sha256": "582f960549c4a20b0c0514114e003dbf0406eb002060b28e8fe5a64c50222647",
+      "bytes": 1419
+    },
+    "docs/fusionfix-provenance.json": {
+      "sha256": "0ddde020bbf021dcb9fcc043c83074a82077813042d549796a6fc0f1812dfc70",
+      "bytes": 13115
+    },
+    "docs/tasks/README.md": {
+      "sha256": "3093693a70b8141b98446668e825e7dfbe561ec247d16948697cfff71cc8e594",
+      "bytes": 3205
+    },
+    "docs/tasks/authenticated-receive-build.md": {
+      "sha256": "47d3e1cb67476ef0c29629f33c46d2636f9c62a718c39e0ca6a5c909c2677a76",
+      "bytes": 8231
+    },
+    "docs/tasks/authenticated-receive.md": {
+      "sha256": "dc28bfc1b3261a489c94e6311c250f8ccb63d0de890000cf83a968a28e6bcfe6",
+      "bytes": 3420
+    },
+    "docs/tasks/ci-01.md": {
+      "sha256": "385c3e6024b1b0ea42d4ddcbb6ce9c7f134df0b0e8bc097a75cb928d8e0b74f4",
+      "bytes": 73501
+    },
+    "docs/tasks/data-challenge-build.md": {
+      "sha256": "0229f0b73ff56647a61a55a927ac106af2bc5155fb5f09256f35117b365bc0f9",
+      "bytes": 5726
+    },
+    "docs/tasks/data-challenge.md": {
+      "sha256": "e50c356163d46b923d5080b695420fbf3fdb74dc81d0035d300e7840125ad1f9",
+      "bytes": 2347
+    },
+    "docs/tasks/diagnostic-streaming.md": {
+      "sha256": "229717d3c03cde7a2d4724875c8ae7456c00b77d016b5a69fcd2a4745a0f6ff1",
+      "bytes": 5355
+    },
+    "docs/tasks/owned-core-process.md": {
+      "sha256": "01eb2bf2e64bf6961b765b6763fbcb642d8036f41c863b93050d6a277862fa69",
+      "bytes": 7616
+    },
+    "docs/tasks/owned-core-read.md": {
+      "sha256": "e7804ca95bccffe9dba5b8a4ebf5cb1b4e569014e29b7904888905714c100d03",
+      "bytes": 7604
+    },
+    "docs/tasks/public-candidate.md": {
+      "sha256": "eacd0bc3ad9f5872a4805125633bd9e6eda9b4576357f119c05a4b9378d5d91b",
+      "bytes": 2328
+    },
+    "docs/tasks/public-network-dependencies.md": {
+      "sha256": "9d6b9d9e1e6a1791a5e1780f7ccee6a3d9a8f2ea19e66fae61581c040fb9eca9",
+      "bytes": 14797
+    },
+    "docs/tasks/public-network-windows-imports.json": {
+      "sha256": "af0098f1c866d02fdda2bf11fbfb232e703cc03fc4d3968921040ed1ab3a5700",
+      "bytes": 5677
+    },
+    "docs/tasks/public-transport.md": {
+      "sha256": "717982467836ca36d6c70e8a9b8756fe7b8d80389f079350f3f8db7c34ba46b5",
+      "bytes": 8503
+    },
+    "docs/tasks/remaining-bugs.md": {
+      "sha256": "500dac13c272f725d485fe7292914dc5569ccd4ab4d5ccd9076ea5caa0c634fc",
+      "bytes": 6500
+    },
+    "docs/tasks/server-01.md": {
+      "sha256": "4d50b9dc1ad716e494cc17d25bc7ab5ab31144ae39dd84b9198effc21a4c5f09",
+      "bytes": 9670
+    },
+    "docs/tasks/server-02.md": {
+      "sha256": "fb9163426b6d844aa65c38ce52a2cbdc487af47224d57f2a9544676689ade964",
+      "bytes": 10286
+    },
+    "docs/tasks/server-03.md": {
+      "sha256": "be0da4007134c5737271369aefe5be9137ce03a8beaf9387030020c445c458c3",
+      "bytes": 9405
+    },
+    "docs/tasks/server-04.md": {
+      "sha256": "d2fc8efa3e8df8dbabac31b00768977e1fb4bfb0fb4cd28f492b43e6a47a9ce8",
+      "bytes": 9018
+    },
+    "docs/tasks/server-05.md": {
+      "sha256": "7c759380be13f1104e6c043ff75eded85829539dcd10c7e9dc2480711779aed5",
+      "bytes": 10385
+    },
+    "docs/tasks/server-06.md": {
+      "sha256": "0fbe2b61ca6624d40337fc4d6bc724a247077cb9ec8d04c99a2960ccdb8708a9",
+      "bytes": 8236
+    },
+    "docs/tasks/server-07.md": {
+      "sha256": "28fea4eaea6b7706a0259149fae12659de2a7ab68e2658950c466967949c2558",
+      "bytes": 20340
+    },
+    "docs/tasks/server-08.md": {
+      "sha256": "a2324e3664715c75bcc15311739a0936adb53d73a8c3f2022b8cf5a50a0382d2",
+      "bytes": 7772
+    },
+    "docs/tasks/server-09.md": {
+      "sha256": "50a31c7bf176ad6bcc3cdea1b9a008c851a8ed2d02a67504d36a4d80664ee63a",
+      "bytes": 10264
+    },
+    "docs/tasks/server-10.md": {
+      "sha256": "3b0f15fe9f71d474719f0702417d1f1a5bbf426143aff6d77ea2d7c010d62457",
+      "bytes": 9571
+    },
+    "docs/tasks/server-11.md": {
+      "sha256": "bd362a5737175c345ef88d2e37a310fbed912a883ea07be9d2dd26ad7f72adae",
+      "bytes": 14436
+    },
+    "docs/tasks/server-12.md": {
+      "sha256": "61b35871a7b7f754ba9422d1c447534ca8f0eac17acf48d1401060be798304a8",
+      "bytes": 15667
+    },
+    "docs/tasks/server-13.md": {
+      "sha256": "2e48b13941c100bc4d161fc91b0c492d44e98521a685254dc71aefbe185ce9bc",
+      "bytes": 22922
+    },
+    "docs/tasks/server-14.md": {
+      "sha256": "4e80a13ce676f4700a12fffa1a189f35159f8fae70ee08c71ba1124f4a86fcdf",
+      "bytes": 12457
+    },
+    "docs/tasks/server-15.md": {
+      "sha256": "1d877c7f164c0793995f3a3196de9d064481acf56a3a8c218cabe408e63573f0",
+      "bytes": 16045
+    },
+    "docs/tasks/server-16.md": {
+      "sha256": "daf3ae36bce414338b79a0b5defa5ab3cf3e31e625921c6ffb463b67205fa1b5",
+      "bytes": 5842
+    },
+    "docs/tasks/socket-isolation.md": {
+      "sha256": "3f475e5ada78a151f27a7b094375c718d0cfd60edb822b734d4a6f91cb5c88a9",
+      "bytes": 6443
+    },
+    "docs/tasks/ui-01.md": {
+      "sha256": "69efa8fb9123b6f19c3a9b9f755ca346bb2de1891b199a0337d7fc322908bc64",
+      "bytes": 6667
+    },
+    "docs/tasks/ui-02.md": {
+      "sha256": "8cb9342ae27d49ad2b019885624d8865d2af69d4ac7f486cdaffb4618ce359d0",
+      "bytes": 5516
+    },
+    "docs/tasks/ui-03.md": {
+      "sha256": "f67d541454d24db513503371cff038e384935bba1bd19579c5bc0344d3422648",
+      "bytes": 7148
+    },
+    "docs/tasks/ui-04.md": {
+      "sha256": "63a24097623855ca734048358189d5e4a053d2adc63afe9fe7fb6801053ccd5e",
+      "bytes": 6736
+    },
+    "docs/tasks/ui-05.md": {
+      "sha256": "3dda85f4a9a92adadb65172559c16d15f91792835a789a69b4cf2917e0e199df",
+      "bytes": 10766
+    },
+    "docs/tasks/ui-06-native-return.md": {
+      "sha256": "476efbee0ddff6f727a2d58b920a527b7b574a429f00a5c5d9cd5ab4aa72f64c",
+      "bytes": 13091
+    },
+    "docs/tasks/ui-06.md": {
+      "sha256": "ecb76a245c1691905f04bd3326fbba7693da1248b1da0cd1df060c5b7b9a6067",
+      "bytes": 9816
+    },
+    "docs/tasks/ui-07.md": {
+      "sha256": "037123242a3ca097c279533546818d0bf4a7e4a687b78ee51c55a32fe48dbdfb",
+      "bytes": 5034
+    },
+    "docs/tasks/ui-08.md": {
+      "sha256": "4a3231fabe70a7170d4dd379ab3de71a74a1ac07eacee2222aded5a3fe877b16",
+      "bytes": 6788
+    },
+    "docs/tasks/ui-09.md": {
+      "sha256": "a16a64489abe0579657b71a3dd34f81e62b4a0b5aedfc10bd8c14861b7e26b4d",
+      "bytes": 10602
+    },
+    "docs/tasks/vss-lifecycle-audit.md": {
+      "sha256": "4a9472d339f1b739b90df08bcca57d32af598076b0db084c9122e331a882409a",
+      "bytes": 6078
+    },
+    "docs/tasks/vss-replay-closure.json": {
+      "sha256": "b5f1b173f2c9af9f5c057e211807235f9df1fbb24a7c04524d16050c47042d35",
+      "bytes": 5743
+    },
+    "docs/tasks/vss-replay-closure.md": {
+      "sha256": "67a149c79de0a240b67b88ac666c8bf64ecd02260a2bbd3ef8f3d700d3af6e31",
+      "bytes": 7838
+    },
+    "docs/tasks/windows-owned-fixture-cleanup.md": {
+      "sha256": "1838037bd56322864771b92b4fe6d5693afec49fb2e45ae6d09acff322f1075b",
+      "bytes": 2776
+    },
+    "docs/tasks/wintun-official-binary-evidence.json": {
+      "sha256": "39d6b70bad174ca8ecccd9bb0ed7a442e564bccadb2a1b67e4ffe320e931a9ce",
+      "bytes": 4216
+    },
+    "docs/tasks/wintun-retained-session-probe.md": {
+      "sha256": "4746f037a481fa2dbf38295440f9b779ce79a9a8e667e0a652505259dda3e096",
+      "bytes": 14122
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-MIT.txt": {
+      "sha256": "ceca73c504e39084b0b80d2a437aea9988313d1915418d3c629c3e4a8313f5a1",
+      "bytes": 1067
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-MemoryModule-MPL-2.0.txt": {
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "bytes": 16726
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-MinHook-BSD-2-Clause.txt": {
+      "sha256": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+      "bytes": 4365
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-d3d8to9-BSD-2-Clause.txt": {
+      "sha256": "fa65d158beefa55f270ee0c69c42cf5e92cc607d14336e7d74b8524b59a08902",
+      "bytes": 1293
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-injector-utility-MIT.txt": {
+      "sha256": "7124c298a1fe76b169db561ee640101f88f573f21d1f269b34817b9538321f5f",
+      "bytes": 1064
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-injector-zlib.txt": {
+      "sha256": "4c71e58a290b09e756291ed676b5931d42d8e30b49de6ec33244797297e67ae5",
+      "bytes": 891
+    },
+    "docs/third-party/Ultimate-ASI-Loader-v9.7.0-miniz-MIT.txt": {
+      "sha256": "6f20fa7672b00e2e975c291df737cf227addf3ad32e36fef3fe0f416e4664d3d",
+      "bytes": 1162
+    },
+    "docs/third-party/WidescreenFixesPack-upstream-MIT.txt": {
+      "sha256": "389eef0fb81f8b3bc7aca2025da43cf007acfb390a70f49439d269e51de0b8dc",
+      "bytes": 1067
+    },
+    "docs/third-party/WinDivert-2.2.2-LICENSE.txt": {
+      "sha256": "14a0cb5214d536e4fdae6aa3f5696f981eeda106cd026e9794bba489ee79d628",
+      "bytes": 61349
+    },
+    "docs/third-party/Wintun-0.14.1-Prebuilt-LICENSE.txt": {
+      "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
+      "bytes": 5431
     }
   }
 }
