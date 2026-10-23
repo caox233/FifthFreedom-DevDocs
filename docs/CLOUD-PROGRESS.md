@@ -266,3 +266,117 @@ instance lacks effective NET_ADMIN/NET_RAW/SYS_ADMIN and a TUN device, and an
 owned empty `unshare --net true` probe returned EPERM. Isolated privileged
 network testing belongs in an explicitly checked hosted Linux job, not a claim
 of local runtime verification or a connection to an old deployment.
+
+[Run 39898671437](https://github.com/caox233/FifthFreedom/actions/runs/39898671437)
+against `463aa521e5cdb3345e460442bacf8050bd42aef8` then completed with a new
+Windows source-test failure in `public_server_candidate`. Windows compilation,
+new DPAPI/WPF checks and the dependent dual-identity assembly did not execute.
+Linux LAN, donor and control jobs passed. This failure is separate from the
+unchanged strict resource gate and requires its own fix/rerun;
+[official job evidence](evidence/hosted-candidate-463aa52.json) is retained.
+
+The supplemental source patch from the original handoff to `463aa52` has SHA256
+`ecb523925d1b1c65670895affe83271a553014b04ac3c4ff63708f87076830f8`.
+All 98 changed paths reconstructed with exact bytes and modes, and reverse
+application restored all originals in owned temporary directories. An initial
+check had 98 mode-only mismatches under inherited umask 077, with every byte
+already matching. The successful rerun set umask 022 only inside the patch
+subprocess for these public source files; both receipts are retained. Private
+original four-role evidence was not regenerated or changed.
+
+## Native preflight and enforced socket policy
+
+The Windows metadata compatibility correction passed the actual Windows source
+step in [run 39899786790](https://github.com/caox233/FifthFreedom/actions/runs/39899786790)
+at `7dcecd96d27d7aa6490bab1614a64092b79671ef`. That run then completed with
+Windows and all three Linux component jobs successful. The new combined job
+120244277083 also passed using the actual same-run Windows/Linux artifacts and
+native dual-identity checker. This includes real Windows DPAPI and no-game WPF
+context/owned-exit checks. The strict resource gate failed and complete packaging
+skipped; overall workflow failure is preserved. Exact public artifact metadata
+is in [the hosted receipt](evidence/hosted-candidate-7dcecd9.json); redirected
+archive contents were not downloaded in this cloud session. The prior Windows
+failure remains recorded separately. New SERVER05/06 checks below await their
+own hosted revision.
+
+[SERVER-05](tasks/server-05.md) connects an explicit read-only native preflight
+to the actual Linux/Windows package identities, private issuer key/data directory
+and retained native configuration. Actual Debug and Release programs returned
+the strictly static successful report with `startup_allowed:false`; ordinary
+Public startup and mixed arguments still failed, with test inputs unchanged.
+Those local runs used explicitly inert synthetic Windows role files, not hosted
+client artifacts. They exposed two complete identity markers in the real Linux
+binary when both verifier paths were linked. A shared non-inline retention
+anchor fixed both actual binaries to exactly one marker; the strict count and
+original catalog roles were not relaxed. Final API45 and dedicated341 passed.
+
+[SERVER-06](tasks/server-06.md) routes every native TCP/UDP listener and temporary
+peer socket through explicit immutable socket policy. Linux interface binding
+checks the actual stored interface index; LAN preserves its original binding,
+Tonic nodelay and kernel source information. The final committed Quazal suite
+passed75 (63unit+11integration+1doc), with no warning/error. Real local loopback
+checks passed but do not establish a two-interface boundary.
+
+The [three-namespace harness](tasks/socket-isolation.md) has26 focused checks
+and a dedicated hosted Linux job. It requires successful wrong-path traffic
+under ordinary IP binding before testing wrong-interface rejection, repeats
+correct-path checks and requires all owned processes/namespaces to be removed.
+The real cloud execution failed for missing privilege and created zero namespaces;
+no successful skip was substituted. Hosted privileged execution is still required.
+
+CI adds9 native-preflight adapter and5 socket-result checks. A real local Release
+preflight adapter run passed using synthetic Windows inputs, preserving candidate
+bytes and removing every temporary key/config/data input. The fresh hosted
+assembly job explicitly installs the Ubuntu libraries needed by its system-sodium
+build; a locally static binary does not prove hosted dynamic dependency closure.
+A clean checkout of `5e5ef05940a387bc3f275132acf474ba14674860` passed232 source
+methods:230 passed and two existing Windows-only skips. Full-package readiness
+remains false. None of these checks proves owned encrypted-overlay liveness,
+Public source admission or live gameplay, so Public activation remains closed.
+
+
+## Source admission, owned lifecycle and protected session client
+
+[Run 39901945731](https://github.com/caox233/FifthFreedom/actions/runs/39901945731)
+at `2b66f307a8b4fd1106ca529a72f974bebc362d54` completed with Windows and all three
+Linux components successful. Real privileged three-namespace ingress isolation
+and same-run native dual-identity/static Public preflight also passed. The
+unchanged resource gate failed and complete packaging skipped; this is still
+an overall failed workflow. [The official receipt](evidence/hosted-candidate-2b66f30.json)
+records all eight jobs and seven artifacts without claiming redirected archive
+downloads, Public activation or gameplay.
+
+[SERVER-08](tasks/server-08.md) applies immutable kernel-peer source admission
+before HTTP, API, PRUDP and ticket effects while retaining LAN policy and signed
+current-run/package checks. Dedicated348 and Quazal81 passed. [UI-05](tasks/ui-05.md)
+adds the actual bounded HTTPS session reader, with 15 real temporary-CA TLS
+cases and independent review. [SERVER-09](tasks/server-09.md) adds exact owned
+Linux process execution, pidfds, parent-death cleanup and revoke-before-stop
+ordering; 16 real synthetic-child cases passed twice. These implementations
+retain closed production admission pending profile, encrypted-peer and native
+parent-lease integration. No static manifest alone enables Public service.
+
+Pinned EasyTier source tests preserved both original failures: an unencrypted
+Data packet reached the secure session, and secure filter branches could pass
+unencrypted Data onward. Two minimal reviewed guards now pass all 26 selected
+contracts, including an actual in-memory Noise handshake/Data path. Both clean
+GNU Release builds completed; [guard2 build evidence](evidence/easytier-clean-linux-build-guard2.json)
+records exact output hashes and unchanged prepared sources. Those binaries were
+not executed or published. This bounded audit is not a complete upstream
+security or license review. Original archives, prior failures and each built
+revision remain separately preserved.
+
+The build-only workflow prepares the exact Git archive, verifies each excluded
+binary/archive and applied patch, then tests and compiles on hosted Linux. Only
+three bounded JSON receipts are upload candidates. Windows candidate checks now
+include source admission, UI-05 and actual executable FileVersionInfo branding.
+These new hosted checks await the next pushed revision; local builds do not
+stand in for their results. A fresh detached checkout of
+`d37854d39ee68e54fbf931af598f471b43a93b77` passed 265 source methods: 263 passed
+and two existing Windows-only skips. Full-package readiness remained false.
+
+Work continues on native inherited owner leases with actual listener readiness,
+explicit private overlay profiles and exact owned-process native token return.
+The full six milestones remain active, including unresolved gameplay evidence,
+Capture source closure and private resource gates. No persistent Goal or
+scheduler interface is exposed in this session.

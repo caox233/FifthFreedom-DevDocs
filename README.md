@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`463aa521e5cdb3345e460442bacf8050bd42aef8`](https://github.com/caox233/FifthFreedom/blob/463aa521e5cdb3345e460442bacf8050bd42aef8/)
+- 本批文档对应源码提交：[`4a273bf9356ccd3036f67a3e8e7ee1cfce89baeb`](https://github.com/caox233/FifthFreedom/blob/4a273bf9356ccd3036f67a3e8e7ee1cfce89baeb/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -21,6 +21,12 @@
 - [可复现控制面候选包](docs/tasks/public-candidate.md)
 - [公网配置与部署凭据隔离](docs/tasks/ui-04.md)
 - [Linux 服务与 Windows 客户端双身份](docs/tasks/server-04.md)
+- [真实静态 Public 预检](docs/tasks/server-05.md)
+- [原生接口约束](docs/tasks/server-06.md)
+- [真实三命名空间隔离验证](docs/tasks/socket-isolation.md)
+- [Public 请求源准入](docs/tasks/server-08.md)
+- [精确进程所有权与撤销](docs/tasks/server-09.md)
+- [受保护会话 HTTPS 客户端](docs/tasks/ui-05.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
