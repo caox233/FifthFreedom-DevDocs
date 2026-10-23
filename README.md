@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`4a273bf9356ccd3036f67a3e8e7ee1cfce89baeb`](https://github.com/caox233/FifthFreedom/blob/4a273bf9356ccd3036f67a3e8e7ee1cfce89baeb/)
+- 本批文档对应源码提交：[`0ac6695a112bf15cbb016c1c34a0c011b3f07137`](https://github.com/caox233/FifthFreedom/blob/0ac6695a112bf15cbb016c1c34a0c011b3f07137/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -27,6 +27,13 @@
 - [Public 请求源准入](docs/tasks/server-08.md)
 - [精确进程所有权与撤销](docs/tasks/server-09.md)
 - [受保护会话 HTTPS 客户端](docs/tasks/ui-05.md)
+- [原生启动许可与父进程续期](docs/tasks/server-10.md)
+- [实际服务生命周期与隔离验证](docs/tasks/server-11.md)
+- [明确的加密网络配方与观测](docs/tasks/server-12.md)
+- [真实隔离加密网络探测](docs/tasks/server-13.md)
+- [启动器与原生认证回传](docs/tasks/ui-06.md)
+- [原生管道契约与跨语言边界](docs/tasks/ui-06-native-return.md)
+- [最终登录与启动准备所有权](docs/tasks/ui-07.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
@@ -42,8 +49,8 @@ Codex 云端负责后续实现；GitHub-hosted Windows/Linux Actions 是常规�
 当前公开源码缺少尚在隐私审查门禁内的默认存档，不得声称可以从公开 checkout
 独立构建完整包。本地已验证包使用的是本地保留输入。不要通过造假资源或放松 hash
 校验绕过门禁。首次 GitHub source-checks 已执行，资源完整性检查因暂存输入缺失而失败，
-这是明确的未完成项，不是通过。后续 GitHub Linux LAN、donor 和受保护控制服务构建已通过；
-Windows 组件编译、隔离无游戏 UI 自检及回归检查也已通过，完整包仍受资源门禁阻止。
+这是明确的未完成项，不是通过。后续托管运行的结果按准确提交记录在 PROJECT-STATE.json 与 CLOUD-PROGRESS.md；
+早先 Windows/Linux 组件通过不能替代最新提交验证，完整包仍受资源门禁阻止。
 开发代码由[源码草稿 PR #1](https://github.com/caox233/FifthFreedom/pull/1)审查。
 
 平台当前没有可调用的持续 Goal/调度接口。云端这一轮与 GitHub Actions 不依赖
