@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`814c5c1ae930afc9887c5a6b08ec4a95e3c74597`](https://github.com/caox233/FifthFreedom/blob/814c5c1ae930afc9887c5a6b08ec4a95e3c74597/)
+- 本批文档对应源码提交：[`f54c9358c0e8df6775c4f29ed91ea3a91e870a80`](https://github.com/caox233/FifthFreedom/blob/f54c9358c0e8df6775c4f29ed91ea3a91e870a80/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -15,6 +15,10 @@
 - [云端实现、真实 CI 与验证边界](docs/CLOUD-PROGRESS.md)
 - [UI 壳与生命周期实现](docs/tasks/ui-02.md)
 - [服务端认证桥接与原生互通](docs/tasks/server-02.md)
+- [生产 LAN 生命周期接入](docs/tasks/ui-03.md)
+- [原生共享密钥、观察者授权及 Linux 互斥](docs/tasks/server-03.md)
+- [HTTPS 控制服务与 Linux 生命周期](docs/tasks/public-transport.md)
+- [可复现控制面候选包](docs/tasks/public-candidate.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
 - [资源来源与隐私门禁](docs/ASSET-PROVENANCE.md)
