@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`11181ce8ea6e23425acfd8a57ed67818c675a3e8`](https://github.com/caox233/FifthFreedom/blob/11181ce8ea6e23425acfd8a57ed67818c675a3e8/)
+- 本批文档对应源码提交：[`00e6971b9608e89a7efe6e1398814ea95ec111a2`](https://github.com/caox233/FifthFreedom/blob/00e6971b9608e89a7efe6e1398814ea95ec111a2/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -35,6 +35,9 @@
 - [原生管道契约与跨语言边界](docs/tasks/ui-06-native-return.md)
 - [最终登录与启动准备所有权](docs/tasks/ui-07.md)
 - [拥有进程的网络观测与启动许可](docs/tasks/server-14.md)
+- [覆盖网络与原生服务的实际组合检查](docs/tasks/server-15.md)
+- [原生连接的来源限制与即时撤销](docs/tasks/ui-08.md)
+- [历史回放依赖闭包](docs/tasks/vss-replay-closure.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)

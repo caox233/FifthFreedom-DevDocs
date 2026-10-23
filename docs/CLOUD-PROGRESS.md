@@ -563,3 +563,76 @@ owned namespace. It will distinguish lease revocation while the route remains
 alive (real held TCP closure) from peer disappearance (process/FD cleanup, without
 calling an unreachable remote TCP timeout an EOF). Ordinary Public admission
 remains closed and no complete package or gameplay acceptance is inferred.
+
+
+## Actual fixed-port and strict containment prerequisites passed
+
+The [568c3c5 Windows quick run](https://github.com/caox233/FifthFreedom/actions/runs/39915438709)
+completed successfully: exact default-IIS identity/HTTP80 member, scoped stop,
+owned port80 bind, original final-login nine checks, and restoration to Started.
+Production ports and exclusion rules were unchanged. The original failures and
+extra default WCF binding observations remain in the bounded official receipts.
+
+The [f85c515 Linux quick run](https://github.com/caox233/FifthFreedom/actions/runs/39916016496)
+also passed exact nft readback and owned namespace cleanup. Official nft source
+confirmed that a typed TCP/UDP port selector generates its own protocol check;
+readback elides the redundant explicit condition. Commita689dd5 avoids emitting
+that duplicate only for typed port rules. Portless protocol checks, default drop
+and full normalized-rule equality remain intact;20 independent checks passed.
+The quick probe executes no EasyTier/TUN/native runtime. The separate full owned
+transport run39916016529 remains required.
+
+The full568c3c5 Windows candidate is retained while later runs queue, so new pushes
+do not destroy its first native pipe/interop evidence. No cancellation is called
+a pass. The standalone knowledge repository is pushed at92a1342 and binds101
+snapshot files, including99 exact mirrors, to source11181ce. Official environment
+draft11 was saved and read back after complete workspace discovery:19,699
+directories, two projects and24 explicitly classified dependency/evidence Git
+roots, no errors. It selects source568c3c5 and knowledge92a1342; the tested install
+script, startup instructions and narrow network draft were preserved. Saving
+still does not publish/apply the draft or verify fresh snapshot restoration.
+
+
+## Combined runtime harness, source-bound transport and retained failures
+
+[SERVER-15](tasks/server-15.md), commit31f1e5e, connects the real owned overlay
+monitor, supervisor and native lease in a new finite hosted harness. Its two
+controls distinguish actual held TCP closure on native lease revocation while
+the overlay stays alive from cleanup after the remote peer disappears. Seventeen
+local and independent checks passed; their synthetic observations are identified.
+Actual same-run native and same-job core/CLI positives remain pending. CI wiring
+at6c11c8b preserves strict prerequisite checks and publishes only bounded receipts.
+
+[UI-08](tasks/ui-08.md), commit75db71b, constrains each native API connection and
+reconnect to a validated Windows source/interface and numeric destination, and
+revokes pending and retained sockets with the shared lease. Linux API56 passed;
+local i686 type checks are not Windows execution. Eight real Windows socket
+contracts are registered. The production issuer remains closed because a real
+owned adapter/session and secure-peer liveness chain is not implemented yet.
+
+The [568c3c5 candidate](https://github.com/caox233/FifthFreedom/actions/runs/39915438707)
+passed its managed suites, including return25 and final-login9, then failed the
+hooks test build with official compiler code E0425. Native IPC and interop had
+not executed. A local full-Rust diagnostic reproduced an absent external C71
+fixture causing E0425. The unchanged13 replay tests now require an explicit
+feature and retain their real fixture requirement; a distinct strict CI input
+gate fails while those inputs are absent. Targeted IPC/source contracts never
+count the held replays as passed. The unrelated authored fixture is not used as
+a replacement, and the original0ac managed-return failure remains unexplained.
+
+The [f85c515 full overlay run](https://github.com/caox233/FifthFreedom/actions/runs/39916016529)
+passed strict containment and real builds, then failed WORKER_REPLY_EOF,
+OWNED_WORKER_CLEANUP_FAILED and TRANSPORT_MATRIX_INCOMPLETE. Those codes do not
+prove core/TUN/peer startup. Reviewed3b0fadc adds fixed phase diagnostics and
+corrects an independently reproduced exact-child reap race; it is not yet proved
+to explain the hosted EOF. The next actual run retains strict cleanup failures.
+
+A fresh detached31f1e5e checkout passed376 methods:374 passed and two existing
+Windows-only skips, tracked files unchanged. Report SHA256 is
+e1864699e94efe24405d4539b1221f73159a434f0d73357b804a69a17df079fc.
+The canonical patch fromfc8ef510 to31f1e5e applied and reversed with exact Git
+bytes/modes/pathsets:1312 baseline,1520 target,1312 restored and clean status.
+Patch SHA256 is4cd14dbc41681767d3d43b70524f65023e2165aed2a8d5e1eed24eadd0b18be2.
+This supplements cloud receipts and does not replace the private PC originals.
+Complete resource packaging, native replay closure and live acceptance remain
+separate open work within the original six milestones.

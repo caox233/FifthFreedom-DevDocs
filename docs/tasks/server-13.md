@@ -185,7 +185,86 @@ printed. The equality decision is unchanged. Possible nft canonicalization is
 still a hypothesis until the next real readback supplies evidence; no expression
 or operator is ignored to obtain a pass.
 
-No hosted positive is recorded yet. The next executable action is the quick
-privileged containment preflight and inspection of its fixed diagnostics, then a
-narrow reviewed correction if the actual representation warrants one. Source
-tests or this preflight cannot replace the full transport run.
+Two subsequent real preflights,
+[39913525945](https://github.com/caox233/FifthFreedom/actions/runs/39913525945) and
+[39914866601](https://github.com/caox233/FifthFreedom/actions/runs/39914866601),
+reported the same first-rule difference: `NFT_I5_RULE_EXPR_COUNT_6_TO_5`, followed
+by `META_MISSING_KEY`, `PAYLOAD_EXTRA_KEY` and `RIGHT_TYPE_STRING_TO_INTEGER` at
+expression index 3. Normalized item 5 is the first input loopback TCP sport rule:
+its explicit `meta l4proto tcp` preceded a typed `tcp sport` payload match.
+
+The generator now omits that explicit redundant L4 predicate **only** in rules
+which already contain a typed `tcp`/`udp` `sport`/`dport` expression. The typed
+header selector still requires its transport protocol. Portless overlay rules
+retain their explicit `meta l4proto` match. The full readback comparator,
+normalizer, IP/interface/port constraints and default-drop policies are unchanged.
+Tests mutate the typed protocol, port field and port value and continue to reject
+each difference, as well as extra accepts and changed policies.
+
+The protocol dependency was also checked in the actual
+[Ubuntu-hosted nftables 1.0.9 source archive](https://archive.ubuntu.com/ubuntu/pool/main/n/nftables/nftables_1.0.9.orig.tar.xz):
+971,968 bytes, observed SHA256
+`a3c304cd9ba061239ee0474f9afb938a9bb99d89b960246f66f0c3a0a85e14cd`.
+This is a recorded source download, not a claim to have independently reproduced
+or pinned the runner's nft binary. `src/parser_json.c:628` resolves the named
+protocol/header field into a non-raw payload expression;
+`src/evaluate.c:771` generates and prepends a missing protocol dependency;
+`src/payload.c:401` constructs the required protocol equality, with
+`payload_gen_dependency` at line 544 selecting the lower-layer dependency.
+On readback, `src/netlink_delinearize.c:2069` and `src/payload.c:925` remove a
+redundant displayed dependency when a higher-layer payload implies it. The
+archive and selected original source files/hashes are retained privately under
+`.local/dependencies/nftables_1.0.9.orig.tar.xz` and
+`.local/evidence/cloud/server13-nft-source/`; no downloaded source or binary is
+added to the project runtime.
+
+The focused probe suite has 20 passing tests. The narrow correction then passed
+the actual privileged quick preflight:
+[39916016496](https://github.com/caox233/FifthFreedom/actions/runs/39916016496), job
+120289657927 at `f85c515168c35a7d727b0f936ad2254be144e036`. Official GitHub metadata
+reports success for the checked containment/cleanup step and its sanitized
+receipt upload. The workflow applies the strict three-transport/two-owned-
+namespace receipt validator. Bounded metadata is retained in
+`docs/evidence/hosted-containment-canonical-f85c515.json`; individual artifact
+fields were not independently downloaded through the unavailable archive path.
+
+This is an actual containment configuration/readback/cleanup pass, with no
+EasyTier or native runtime execution in that quick workflow. It resolves the
+observed predicate presentation mismatch while leaving strict comparisons in
+place. The complete owned runtime matrix is a separate run and is still needed;
+no full overlay or production admission success follows from this preflight.
+
+The subsequent full run
+[39916016529](https://github.com/caox233/FifthFreedom/actions/runs/39916016529),
+job 120289658048, passed containment and compiled the reviewed runtime/native
+probe, then failed with `WORKER_REPLY_EOF`, `OWNED_WORKER_CLEANUP_FAILED` and
+`TRANSPORT_MATRIX_INCOMPLETE`. Its original worker error handler discarded the
+exception and stage. These codes do **not** establish whether core startup, TUN
+ownership, peer authentication or packet transfer had succeeded. Raw artifact
+contents remain unavailable through the attempted official archive path.
+
+The worker now emits a bounded `ff-easytier-worker-failure-v1` protocol record
+after its child cleanup attempts. Exact source-defined phase/error enums and a
+separate cleanup result are the only fields; private configuration, RPC output,
+exception messages and runtime stdout/stderr remain excluded. The parent rejects
+unknown schemas, codes, extra keys and inconsistent cleanup booleans. A failure
+record always fails the transport and matrix. Its cleanup acknowledgement replaces
+the normal stop acknowledgement; the parent still waits for its exact worker and
+does not infer child reaping from worker exit or parent-death signals. Failed
+spawns that return no ownership handle conservatively report their internal
+cleanup unconfirmed. A short-lived peer-query child whose construction or close
+does not return confirmed ownership cleanup also fails immediately with a
+separate `CLI_CHILD_CLEANUP_UNCONFIRMED` result; it cannot become an ordinary
+unauthenticated observation or a claim that all children were reaped.
+
+The new real short-lived subprocess regression also exposed a parent cleanup
+race: after a failed stop command, an already-readable pidfd previously bypassed
+`Popen.wait()`. The parent now always waits/reaps that exact child. The test checks
+that a second `waitpid` reports no remaining child. This reproduced cleanup bug
+is independent of the still-unknown cause of the hosted worker EOF.
+
+The focused suite now has 25 passing tests, including actual bounded failure
+protocol/reaping and independent source-error plus cleanup-error injection. No
+EasyTier core, TUN or namespace runs in those tests. No timeout, containment rule,
+readiness check or production admission gate was relaxed; another actual hosted
+run must supply the missing runtime diagnosis.
