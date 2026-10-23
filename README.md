@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`c893c0bfed1036675ede6c6e6fb3ce29fe183050`](https://github.com/caox233/FifthFreedom/blob/c893c0bfed1036675ede6c6e6fb3ce29fe183050/)
+- 本批文档对应源码提交：[`060465124986e6f766974065171ca3200f04f574`](https://github.com/caox233/FifthFreedom/blob/060465124986e6f766974065171ca3200f04f574/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -38,6 +38,7 @@
 - [覆盖网络与原生服务的实际组合检查](docs/tasks/server-15.md)
 - [原生连接的来源限制与即时撤销](docs/tasks/ui-08.md)
 - [历史回放依赖闭包](docs/tasks/vss-replay-closure.md)
+- [Windows 自有网络会话与配对源码构建](docs/tasks/ui-09.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
