@@ -1,25 +1,25 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "0ac6695a112bf15cbb016c1c34a0c011b3f07137",
-  "previous_snapshot_source_commit": "4a273bf9356ccd3036f67a3e8e7ee1cfce89baeb",
-  "created_utc": "2026-10-23T06:19:00.502199+00:00",
+  "source_commit": "11181ce8ea6e23425acfd8a57ed67818c675a3e8",
+  "previous_snapshot_source_commit": "0ac6695a112bf15cbb016c1c34a0c011b3f07137",
+  "created_utc": "2026-10-23T07:01:36.875741+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "482815f6ed9a0c4d1b31d9fdb70b076387d082507a86ca11dfef5ec92ea4f81a",
-      "bytes": 7520
+      "sha256": "38bba393e77a71eea624aaed5e88bec0a4a4bacae74b4767490d458673de2916",
+      "bytes": 7712
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "bc996fecc5702045a1d41d1db394598b082d67333447815d1393beed1e99e1cc",
-      "bytes": 22877
+      "sha256": "33342b32069959245497b9b67a0f2982d96f8532cf14f70fe9b6a61826279951",
+      "bytes": 25383
     },
     "README.md": {
-      "sha256": "785216379353b3e18cb12ec452a4cf2837affc78d5fbd2c82f1df01220a4304d",
-      "bytes": 4049
+      "sha256": "31ffb8245e150d7285af145c35d80dd4832a2b5d6153bd9c7f7502503fb2cd25",
+      "bytes": 4121
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "bc21414f29098caef2d0c98c568e5340ec107d287385f76571546a5f55d33d5d",
@@ -46,8 +46,8 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "dad6a3be9a4df81961ebcc94f51b6923d4d9e7196f32974f1c4a22757afc6fe5",
-      "bytes": 33218
+      "sha256": "d01efde220b7b7ca4d7e8ef3dee44b2979566faf55e89c83ab7010f8d6eefb7a",
+      "bytes": 37168
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -213,6 +213,14 @@
       "sha256": "c8604b2f8c799a078bd285de6232d9c85b26b1a4684bc45c867905f6dfe92a9a",
       "bytes": 4047
     },
+    "docs/evidence/hosted-candidate-0ac6695.json": {
+      "sha256": "5239576e7de8d26d02976d3d2725702533e44f6df9dde3a42684eda7ead59b72",
+      "bytes": 4379
+    },
+    "docs/evidence/hosted-candidate-117a60d.json": {
+      "sha256": "fec5f092237cd8db56f89ebddb1775ba32766113a08f989f042abcf38ba5684b",
+      "bytes": 4685
+    },
     "docs/evidence/hosted-candidate-2b66f30.json": {
       "sha256": "49dbc07890514357a042fa720a5d721bf2a85ae587797ecab415cdcd4c391597",
       "bytes": 4118
@@ -249,17 +257,33 @@
       "sha256": "5f26c99e0493ca944f9b887084540e7db1a2eb9a1456506efb28228f3bdf32cd",
       "bytes": 2101
     },
+    "docs/evidence/hosted-easytier-build-a569ae7.json": {
+      "sha256": "f0f4f2a14313d115e0aa059f756bb7192379d473a79817b1d47250798ea70aa9",
+      "bytes": 2071
+    },
+    "docs/evidence/hosted-iis-74ee215.json": {
+      "sha256": "f82301b7aff7bec8fcc79c5ccd8192d54db336bcf1f8269b2b03da1b2607cf2d",
+      "bytes": 3526
+    },
+    "docs/evidence/hosted-owned-overlay-0ac6695.json": {
+      "sha256": "1357886b893194b384cd363c9f4c2c8fe647cf679e5536b01b46d6bbb3800ce9",
+      "bytes": 4476
+    },
     "docs/evidence/hosted-source-regressions-4a273bf.json": {
       "sha256": "218e730db503f8deb1b7d3e7227db8e8c36ef5cc01b19ad54ec9aeac8652f8df",
       "bytes": 5373
     },
+    "docs/evidence/hosted-windows-loopback-b6e0687.json": {
+      "sha256": "1ecc94135b961e4df5c79058aecdc621cbe0cb5e7fa0bc43718fa8fcdfd3c569",
+      "bytes": 3780
+    },
     "docs/tasks/README.md": {
-      "sha256": "87ac383e7f0519ae66682a44271b0a856b15dfa527cb5211839681437a9d72a0",
-      "bytes": 2662
+      "sha256": "43c4a3cb48747d5380bf2a53bdf895d479c984ddd3fcc37d6307c8be02e8db1d",
+      "bytes": 2698
     },
     "docs/tasks/ci-01.md": {
-      "sha256": "c4b9f98b4d3cc4b9216d073a4e689f73c2adc570332113ac8d47543bf9374f63",
-      "bytes": 42630
+      "sha256": "232d42a394e0e7220288ee3dfc90eed98251a9b68d8e1e0429fce72f3529d087",
+      "bytes": 48797
     },
     "docs/tasks/public-candidate.md": {
       "sha256": "eacd0bc3ad9f5872a4805125633bd9e6eda9b4576357f119c05a4b9378d5d91b",
@@ -330,8 +354,12 @@
       "bytes": 10640
     },
     "docs/tasks/server-13.md": {
-      "sha256": "51082b2c5bf1120658a367a9e04392ef5cf867bdb87079ce9901d63507f68060",
-      "bytes": 9354
+      "sha256": "422523edbe41722c72c1525ac110a095621c606ebf481291a23616c1292f9ceb",
+      "bytes": 11163
+    },
+    "docs/tasks/server-14.md": {
+      "sha256": "09ce379fcd7b7bf5a837be76e76f12563cad1e886b2da92e5f7df68b1eba1194",
+      "bytes": 8748
     },
     "docs/tasks/socket-isolation.md": {
       "sha256": "3f475e5ada78a151f27a7b094375c718d0cfd60edb822b734d4a6f91cb5c88a9",
