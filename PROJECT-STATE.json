@@ -4,8 +4,8 @@
   "status": "migration_in_progress",
   "goal_complete": false,
   "ACTIVE_OBJECT": "Fifth Freedom repository",
-  "LAST_CONFIRMED_RESULT": "The actual b67af6c candidate now has eight successful component, isolation, static-preflight and runtime jobs. Its five native lifecycle cases and both owned TCP overlay/native cases have independently verified official JSON artifacts and strict consumers. These cases predate the later pre-revocation OPEN barrier; no causal closure inference or current nonce proof is made. Both withheld-input gates remain failed and complete packaging is skipped. The separate 05c guard3 QUIC/WSS/development-TCP matrix passed all nine phases. Reviewed4b49da7 passed a fresh detached checkout:536 passed, two existing Windows skips, unchanged tracked files; its canonical patch applied/reversed exactly1312\u21921660\u21921312. The earlier533 source proof remains recorded. DevDocs3872f3f binds that source with172 exact public mirrors; official environment draft18 was saved/read back but still requires publication. Earlier actual Windows typed20+8, owned synthetic x86 process17 and diagnostic streaming12 successes retain their exact revisions and scopes. New nonce correlation, independent Windows no-Packet source and Linux observer policy are implemented and reviewed; their newer hosted and owner-IPC composition results remain separate. All six milestones remain tracked; no complete package, live game or production Public admission is claimed.",
-  "NEXT_EXECUTABLE_ACTION": "The actual-Instance Windows owner-read IPC is independently reviewed and committed atbe08a7a; follow run39944703650 for its managed19, native8 and interoperability4 Windows checks plus retained owned-process17. Follow the independent no-Packet and authenticated Data challenge59 hosted builders without replacing successful10/44/guard3 recipes. Verify the newer pre-revocation OPEN barrier and Linux observer policy in actual candidates. Connect only current Weak PeerMap/Peer/Conn ownership to a future Instance-bound challenge; keep production Public admission closed until real NIC/route/all game-UDP ownership and runtime gates are satisfied. Preserve accepted gameplay, originals and historical failures. Missing Capture/retail extraction inputs, private SAV/META, live acceptance, distribution conditions and environment publication remain explicit.",
+  "LAST_CONFIRMED_RESULT": "Reviewed local implementation 8a694fac1def93966ffc10ef2569783f6a92aa9b passed a fresh detached Linux source check: 603 passed, 2 explicit platform skips, unchanged tracked files. Its canonical patch applies/reverses exactly 1312\u21921714\u21921312. The query-exit race fix passed83 checks, actual Instance/Weak PeerMap membership passed12+59 contracts, and inert STUN configuration passed13+21+1; independent reviews retained the real negative controls. The newer Windows core/NIC lane remains unexecuted here. The official432 combined stack failed: case A passed with OPEN and case B reported QUERY_IMAGE_CHANGED before combined readiness was confirmed; cleanup was verified. GitHub API401 and normal Git credential failure block newer pushes and hosted verification. Last verified remote source is fe6e3cd; knowledge b809b4a binds6954, and environment draft19 still binds its earlier verified source6954/knowledgeb809 pins. No complete package, ordinary Public admission, full migration or persistent Goal is claimed.",
+  "NEXT_EXECUTABLE_ACTION": "Restore this managed session's GitHub identity through supported platform controls; no credential-refresh interface is exposed and no new development permission is needed. Preserve local branches, fetch normally, compare intervening remote changes, push reviewed source and verify its exact remote SHA. Read actual results of39947362637,39947934755 and39947934694; do not infer outcomes from the authentication interruption. Run the new71 Linux builder, Windows dependency13/read22 and reviewed inert13-patch actual-core/NIC candidate; verify exact official receipts and cleanup. Re-run the query-race/observer-policy/kernel-diagnostic composition. Then publish the reviewed source-bound DevDocs branch, refresh both draft PRs and update only published source pins in the environment draft. Continue all six milestones, whole-game UDP enforcement, held asset/retail/Capture/ASI closure and unresolved live checks without reopening accepted gameplay. See docs/tasks/cloud-authentication-recovery.md.",
   "INPUT_PATHS": [
     "docs/MIGRATION.md",
     "docs/ACCEPTANCE.md",
@@ -28,17 +28,17 @@
     {
       "id": 3,
       "name": "Windows LAN and Linux public servers",
-      "status": "linux_isolated_overlay_full_matrix_and_native_owned_composition_verified_new_open_barrier_and_windows_owned_chain_pending_production_admission_closed"
+      "status": "finite_linux_matrix_and_native_owned_composition_passed_later_tcp_restore_failure_under_diagnosis_windows_full_owned_core_pending_public_closed"
     },
     {
       "id": 4,
       "name": "Reviewed public source and development knowledge base",
-      "status": "source_draft_pr1_and_source_bound_devdocs_draft_pr1_created"
+      "status": "draft_prs_exist_reviewed_new_local_source_and_knowledge_pending_restored_github_access"
     },
     {
       "id": 5,
       "name": "Cloud handoff and ongoing implementation",
-      "status": "cloud_implementation_and_hosted_component_checks_verified_no_goal_scheduler_interface"
+      "status": "reviewed_local_commits_retained_hosted_followup_blocked_by_credentials_no_goal_scheduler"
     },
     {
       "id": 6,
@@ -83,16 +83,16 @@
   "cloud": {
     "thread_title": "FifthFreedom\u4e91\u7aef",
     "repository": "caox233/FifthFreedom",
-    "verified": "running connected Linux x86_64; Git HTTPS fetch/push and official gh repository/PR APIs succeeded",
+    "verified": "Running connected Linux x86_64; earlier Git/API operations succeeded, but latest official API is401 and normal Git remote/push fails for unavailable credentials",
     "environment_display_name": "FifthFreedom in official configuration draft; live status exposes environment ID but not a separate display name",
-    "snapshot_publish_status": "Official draft revision18 saved and read back with source533e77d and DevDocs3872f3f after a complete workspace inventory (29332 directories, two projects,26 classified dependency/evidence Git roots, zero errors). Normalized repository membership/revisions, depth and all other setup/network/secret/requirement fields were preserved. requires_publish is true; no publish interface is available. Saving is not publication or verified fresh restoration.",
+    "snapshot_publish_status": "Official draft19 saved/read back with source6954eea and DevDocsb809b4a after complete inventory:30688 directories, two projects,26 classified dependency/evidence Git roots, zero errors. Normalized repository membership/revisions, depth and all other setup/network/secret/requirement fields were preserved. requires_publish remains true; no publish or Goal/scheduler tool is exposed. Saving is not publication or verified fresh restoration.",
     "handoff_commit": "fc8ef510b51be83c31f9f8233997f758b0477acc",
     "development_branch": "codex/cloud-integration",
     "knowledge_repository": "caox233/FifthFreedom-DevDocs",
     "knowledge_initial_commit": "c01ccf440990752cf8fd9b6b573cc41fef6fad31",
     "continuous_goal": "No Goal query/create/scheduler interface is available in this session. Full six-milestone scope is retained here; current turn runs autonomously, later turns require a new message or platform wake-up. No unlimited background execution is promised.",
-    "api_access": "Official GitHub API and normal redirected job-log/artifact downloads now succeed under existing unrestricted network selection. Earlier restricted/denied observations remain historical. Runtime reports network enforcement unknown; no policy bypass or token output.",
-    "candidate_run": "https://github.com/caox233/FifthFreedom/actions/runs/39938418762",
+    "api_access": "Current official API HTTP401 and normal Git exit128 USERNAME_UNAVAILABLE. Earlier successes are historical. Existing network configuration was preserved; no bypass, credential output or retry loop.",
+    "candidate_run": "https://github.com/caox233/FifthFreedom/actions/runs/39943233020",
     "pull_request": "https://github.com/caox233/FifthFreedom/pull/1",
     "hosted_history": [
       {
@@ -239,12 +239,34 @@
     ],
     "candidate_windows_source": "At1974 run39922764910 Windows job120311712409 succeeded. Official component ZIP digest verified; native8, interop3 and source8 each fully passed with zero ignored/skipped; four component hashes and checked PE branding matched. Quick39922765064 separately passed27return+9final and restored IIS.",
     "knowledge_pull_request": "https://github.com/caox233/FifthFreedom-DevDocs/pull/1",
-    "candidate_linux_matrix": "05c127a run39936896183/job120358529852 SUCCESS; official artifact digest and strict consumer verified all nine QUIC/WSS/development-TCP correct-pin/wrong-pin/restore phases, core cleanup/new traffic denial/TUN removal, six namespace removals and private-stage cleanup. Separate current-session challenge, native owner lease and production admission remain unverified.",
+    "candidate_linux_matrix": "05c finite9-phase matrix succeeded. Later4b49 run39944703157 failed after8 phases at TCP restore/OVERLAY_ADDRESS_QUERY_UNAVAILABLE; official artifact and complete cleanup verified, role/errno unknown. Reviewed fixed diagnostic fields await an actual rerun; no stability guarantee or weakened refusal.",
     "validated_implementation_commit": "2b66f307a8b4fd1106ca529a72f974bebc362d54",
-    "candidate_component_result": "b67 run39938418762: all eight component/isolation/static-preflight/native/stack jobs succeeded. Five native cases and both TCP owned-stack cases have verified official artifacts and strict-consumer success. This historical source predates OPEN. The retained13 replay and complete-package input gates failed; complete package skipped. Earlier528 failures and their unresolved exact causes remain in their records.",
-    "knowledge_snapshot_commit": "3872f3fabe27663e0d138e51d7cbcc2283455a2d",
-    "knowledge_snapshot_source": "533e77d50567cddb340b2144b190b8d9dbd1fd45",
-    "knowledge_snapshot_files": 174
+    "candidate_component_result": "Historical b67 eight jobs succeeded before OPEN;432 native5 passed with OPEN, but combined stack failed caseB QUERY_IMAGE_CHANGED after successful caseA. Both strict held-input gates failed and fullpackage skipped. Newer Windows12/core and observer candidate results were not retrieved after401.",
+    "knowledge_snapshot_commit": "b809b4a6c8efac0c63627630f0ac3fb8413939a9",
+    "knowledge_snapshot_source": "6954eea73f6cd7ee7766ba34efc823ac85d2a319",
+    "knowledge_snapshot_files": 194,
+    "last_verified_remote_source_commit": "fe6e3cd5992888273bada9c7810a264cf8d54630",
+    "latest_reviewed_local_implementation_commit": "8a694fac1def93966ffc10ef2569783f6a92aa9b",
+    "latest_reviewed_local_implementation_pushed": false,
+    "authentication_recovery": {
+      "official_api_http_status": 401,
+      "normal_git_exit_code": 128,
+      "normal_git_failure_class": "USERNAME_UNAVAILABLE",
+      "formal_credential_refresh_interface_available": false,
+      "github_connector_available": false,
+      "platform_identity_repair_required": true,
+      "new_development_permission_required": false,
+      "credentials_printed": false,
+      "network_policy_changed_or_bypassed": false,
+      "record": "docs/tasks/cloud-authentication-recovery.md"
+    },
+    "hosted_results_unobserved_after_authentication_failure": [
+      39947362637,
+      39947934755,
+      39947934694
+    ],
+    "duplicate_cancellations_confirmed": false,
+    "knowledge_snapshot_delivery": "b809b4a remains the last verified remote; a newer exact local snapshot, when committed, is identified by its own SNAPSHOT.json and is not yet remotely verified"
   },
   "validation_boundaries": [
     "no new game execution or live acceptance",
@@ -317,15 +339,15 @@
       "scope": "Windows-specific numeric Winsock assertions fail on Linux; unchanged assertions remain in Windows CI"
     },
     "cloud_source_current": {
-      "source_commit": "4b49da73223b97e40ad4923325d45af1e3064684",
-      "executed": 538,
-      "passed": 536,
+      "source_commit": "ebd008bfcd31d99e1412339125ea8fe86112fee8",
+      "executed": 552,
+      "passed": 550,
       "skipped": 2,
       "exit_code": 0,
-      "environment": "fresh detached4b49da7; .local/cloud-receipts/clean-checkout-4b49da73223b/receipt.json",
+      "environment": "fresh detached ebd008b Linux; .local/cloud-receipts/clean-checkout-ebd008bfcd31/receipt.json",
       "tracked_files_unchanged": true,
       "complete_package": false,
-      "source_report_sha256": "877dda8e7a11fb994e1458f17743f40c9a1fd172963cd70de7391dfd26f26b8e"
+      "source_report_sha256": "730db8f624e58dcde0ab1bd1c27cd90d694b959a994f1c452f2e62774e91a4de"
     },
     "cloud_authenticated_reader": {
       "passed": 69,
@@ -523,7 +545,7 @@
       "local_checks_passed": 13,
       "actual_local_preflight_exit": 1,
       "actual_local_namespaces_created": 0,
-      "actual_hosted": "b67run39938418762/job120375464994 SUCCESS: all five cases, official658-byte ZIP digest and strict consumer verified. Withheld/denied create no state; EOF/expiry/parent-death each observe five listeners, rejection/closure/release/exit92 and cleanup. Historical pre-OPEN source; synthetic runtime bindings, no production-provider claim. Older528 listener failure remains unexplained, not rewritten.",
+      "actual_hosted": "432 run39943233020/job120389777244 SUCCESS; five cases, official659-byte artifact and strict consumer verified. Actualmerge2c20ac33 contains mandatory same-live-socket OPEN checks before EOF/expiry/parent death; no causal exclusivity/observerpolicy/ordinaryPublic claim. Earlierb67 success and528 failure remain in exact records.",
       "scope": "five owned isolated main-process activation/revocation cases; no ordinary production admission",
       "checkout_fix_commit": "ce0df6da5630e76f9bd5960920fe8ca18ac13176"
     },
@@ -532,16 +554,17 @@
       "local_checks_passed": 30,
       "actual_local_preflight_exit": 1,
       "actual_local_runtime_started": false,
-      "actual_hosted": "45e879b run39924391718/job120317103110 failed. Verified official artifact: QUIC initiator123 observations, owned core image/TUN true, parser rejects PEER_RESOLVED_ENDPOINT_INVALID;0 phases. Namespaces2/2/private stage cleanup verified. A separate production QUIC loopback reproduced a mapped-IPv4 resolved form rejected at that parser boundary;45 did not retain its raw endpoint.54a62c4 permits only the exact configured IPv4/port canonical mapping for QUIC initiator resolved_remote_addr. Correctedb613 run39929836302/job120335089272 instead failed observe/OVERLAY_OBSERVATION_UNAVAILABLE, zero phases. Official ZIP SHA256 e38d93d4ad3a3395b5aeea910c9b6884a0c535c10517e8c68bde568e0941197d verified; worker cleanup_reaped true and2/2 namespaces removed, no cleanup errors. Neither observation proves an authentication failure or successful readiness. Latest49193b5run39933668757 completed the QUIC correct-pin-before three-echo phase then failed precise OVERLAY_ADDRESS_QUERY_UNAVAILABLE, worker reaped and namespaces/private stage removed. Role/errno unknown; neither complete matrix nor authentication-failure claim. Separate actual ioctl/source evidence supports reviewed1bc552c: only first UP/EADDRNOTAVAIL is pending, while other errors and address loss after success remain fatal.20lifecycle+19overlay+31probe local checks passed; independent2regressions passed, actual rerun pending.",
+      "actual_hosted": "05c finite9-phase matrix succeeded. Later4b49 run39944703157 failed after8 phases at TCP restore/OVERLAY_ADDRESS_QUERY_UNAVAILABLE; official artifact and complete cleanup verified, role/errno unknown. Reviewed fixed diagnostic fields await an actual rerun; no stability guarantee or weakened refusal.",
       "scope": "owned QUIC/WSS/TCP positives, wrong configured key with same PSK, restore; native SocketPolicy traffic and cleanup; not production admission",
-      "readiness_fix_commit": "45e879be85814ac7b7a46596092d139398610f90"
+      "readiness_fix_commit": "45e879be85814ac7b7a46596092d139398610f90",
+      "historical_hosted_failures": "45e879b run39924391718/job120317103110 failed. Verified official artifact: QUIC initiator123 observations, owned core image/TUN true, parser rejects PEER_RESOLVED_ENDPOINT_INVALID;0 phases. Namespaces2/2/private stage cleanup verified. A separate production QUIC loopback reproduced a mapped-IPv4 resolved form rejected at that parser boundary;45 did not retain its raw endpoint.54a62c4 permits only the exact configured IPv4/port canonical mapping for QUIC initiator resolved_remote_addr. Correctedb613 run39929836302/job120335089272 instead failed observe/OVERLAY_OBSERVATION_UNAVAILABLE, zero phases. Official ZIP SHA256 e38d93d4ad3a3395b5aeea910c9b6884a0c535c10517e8c68bde568e0941197d verified; worker cleanup_reaped true and2/2 namespaces removed, no cleanup errors. Neither observation proves an authentication failure or successful readiness. Latest49193b5run39933668757 completed the QUIC correct-pin-before three-echo phase then failed precise OVERLAY_ADDRESS_QUERY_UNAVAILABLE, worker reaped and namespaces/private stage removed. Role/errno unknown; neither complete matrix nor authentication-failure claim. Separate actual ioctl/source evidence supports reviewed1bc552c: only first UP/EADDRNOTAVAIL is pending, while other errors and address loss after success remain fatal.20lifecycle+19overlay+31probe local checks passed; independent2regressions passed, actual rerun pending."
     },
     "cloud_canonical_patch_proof": {
       "base": "fc8ef510b51be83c31f9f8233997f758b0477acc",
-      "target": "4b49da73223b97e40ad4923325d45af1e3064684",
-      "patch_sha256": "69832130f880f98d9576b5bc33834b9d1613be29d4c2fc97417a45d33e228a51",
+      "target": "ebd008bfcd31d99e1412339125ea8fe86112fee8",
+      "patch_sha256": "1afcaa6a0fe650b7e6ac2f1f9eec1059ec6e464a96f6d523678c1841b7bc70f3",
       "original_paths": 1312,
-      "forward_paths": 1660,
+      "forward_paths": 1672,
       "reverse_paths": 1312,
       "reverse_git_clean": true,
       "scope": "exact canonical Git bytes/modes/pathsets; original private four-role evidence unchanged"
@@ -914,6 +937,255 @@
       "current_nonce_challenge_in_runtime": false,
       "production_admission": false,
       "record": "docs/evidence/hosted-owned-stack-b67af6c.json"
+    },
+    "hosted_source_retry_4d28": {
+      "source_head": "4d28bb58b8ad0ba6d7e1c52b8dc5aae64514b5f0",
+      "run_id": 39945828604,
+      "linux_passed": 536,
+      "linux_skipped": 2,
+      "windows_passed": 440,
+      "windows_skipped": 98,
+      "failed": 0,
+      "errors": 0,
+      "complete_package": false,
+      "record": "docs/evidence/hosted-source-retry-4d28bb5.json"
+    },
+    "hosted_windows_no_packet": {
+      "source_head": "82dbda3e3dcba91179399bb9b15e0ee5b8c6cfd6",
+      "run_id": 39942377014,
+      "job_id": 120376683160,
+      "conclusion": "success",
+      "prepared_source_files": 750,
+      "ordered_patches": 11,
+      "official_artifact_sha256": "68137e1d2d366007a72d7317384dcbe92b643ec7f87d39546a20f245ee2dedc4",
+      "core_cli_release_compiled": true,
+      "normal_and_delay_imports_exclude_packet": true,
+      "runtime_or_driver_executed": false,
+      "owned_read_or_nonce_composed": false,
+      "record": "docs/evidence/hosted-windows-no-packet-82dbda3.json"
+    },
+    "hosted_owned_read": {
+      "source_head": "4b49da73223b97e40ad4923325d45af1e3064684",
+      "run_id": 39944703650,
+      "job_id": 120384385455,
+      "conclusion": "success",
+      "managed_passed": 19,
+      "native_passed": 8,
+      "interop_passed": 4,
+      "retained_owned_process_passed": 17,
+      "skipped": 0,
+      "official_artifact_sha256": "64628af73111b36971391ee0b5a151d2b203ad14daf0d042cfed26493d0f443d",
+      "synthetic_nic_observations": true,
+      "easytier_core_or_driver_executed": false,
+      "actual_instance_hook_full_compile_in_this_run": false,
+      "record": "docs/evidence/hosted-owned-read-4b49da7.json"
+    },
+    "hosted_data_challenge_build": {
+      "source_head": "4322658bd7f3c4489888f62311293da0e73899d9",
+      "run_id": 39943233069,
+      "job_id": 120379516061,
+      "conclusion": "success",
+      "contracts_passed": 59,
+      "ignored": 0,
+      "retained_separate_builds_passed": [
+        35,
+        44
+      ],
+      "all_three_locked_release_builds_passed": true,
+      "official_artifact_sha256": "40637f8e72d1e46f590a794246fcf085bb33f482079726108c3e9c154ef9831a",
+      "whole_source_inventory_files": 700,
+      "runtime_executed": false,
+      "production_admission": false,
+      "record": "docs/evidence/hosted-data-challenge-build-4322658.json"
+    },
+    "hosted_native_open_432": {
+      "source_head": "4322658bd7f3c4489888f62311293da0e73899d9",
+      "checkout_commit": "2c20ac332d0c46a6e1c16f6f7b53e5f446f73d51",
+      "run_id": 39943233020,
+      "job_id": 120389777244,
+      "conclusion": "success",
+      "cases_passed": 5,
+      "actual_checkout_open_barrier_verified": true,
+      "observer_policy_eba_in_this_source": false,
+      "official_artifact_sha256": "7faf3c5815d616f90d3f097ec515830fc160f35ed06a7eb9a8cfdf2559d1835f",
+      "production_admission": false,
+      "record": "docs/evidence/hosted-native-lifecycle-4322658.json"
+    },
+    "hosted_overlay_retry_4b49": {
+      "source_head": "4b49da73223b97e40ad4923325d45af1e3064684",
+      "run_id": 39944703157,
+      "job_id": 120384530669,
+      "conclusion": "failure",
+      "completed_phases": 8,
+      "failed_phase": "tcp_correct_pin_after_observe",
+      "error": "OVERLAY_ADDRESS_QUERY_UNAVAILABLE",
+      "exact_role_and_errno_known": false,
+      "worker_reaped": true,
+      "all_six_namespaces_removed": true,
+      "private_stage_removed": true,
+      "official_artifact_sha256": "04fd93b7c4308909d08280a1955f31d3dd79bac6c2e9e43b2144e0a73c88a09f",
+      "record": "docs/evidence/hosted-owned-overlay-4b49da7.json"
+    },
+    "latest_local_detached_source": {
+      "source_commit": "8a694fac1def93966ffc10ef2569783f6a92aa9b",
+      "initial_git_clean": true,
+      "tracked_source_unchanged": true,
+      "exit_code": 0,
+      "executed": 605,
+      "passed": 603,
+      "skipped": 2,
+      "complete_package_ready": false,
+      "source_report_sha256": "542f3b2f981bf2864a6e0f86cf820352182c2b6c63cc7ed73af982eb19fce5cc",
+      "retained_log_sha256": "ec964ae58c97e2bfa67fcd3eb93aaf4df7c7b3e338ae164e14fa7c4bed931992"
+    },
+    "latest_local_canonical_patch": {
+      "base": "fc8ef510b51be83c31f9f8233997f758b0477acc",
+      "target": "8a694fac1def93966ffc10ef2569783f6a92aa9b",
+      "patch_sha256": "c99b637b560f4df4f920669932b4dcc5f958ebf0a9d986be8ce4210877bd8c0c",
+      "patch_bytes": 4176870,
+      "changed_paths": 456,
+      "original_paths_verified": 1312,
+      "forward_exact_bytes_modes_paths": 1714,
+      "reverse_exact_bytes_modes_paths": 1312,
+      "reverse_git_clean": true,
+      "public_file_subprocess_umask": "022",
+      "private_original_four_roles_changed": false,
+      "baseline_materialization": "canonical Git blobs and modes; attribute-driven checkout CRLF conversion excluded",
+      "scope": "supplemental cloud source patch, not a replacement for original private four-role evidence"
+    },
+    "retained_local_clean_check_failure_507e93f": {
+      "source_commit": "507e93f0612495b36508f79fd01956287c1e9e93",
+      "initial_git_clean": true,
+      "tracked_source_unchanged": true,
+      "exit_code": 1,
+      "executed": 604,
+      "passed": 601,
+      "skipped": 2,
+      "complete_package_ready": false,
+      "source_report_sha256": "325fa580ed28f6c2944618040918395a1941c89f29248b2327cdb89d9268a390",
+      "retained_log_sha256": "3832fd12e470d13db9a98507de2b297d7877898efe1a885b1875049792ce1393",
+      "failed_method": "test_overlay_supervisor.OwnedLifecycleTests.test_kernel_monitor_syscall_stages_remain_fail_closed_and_close_fds",
+      "failed_subtest_stage": "INTERFACE_RECHECK",
+      "observed_error": "OVERLAY_FDINFO_ENTRY_UNAVAILABLE",
+      "expected_error": "OVERLAY_INTERFACE_RECHECK_UNAVAILABLE",
+      "failure_is_not_erased_by_later_success": true
+    },
+    "cloud_query_exit_race": {
+      "implementation_commit": "4f2d9802d896c244242cd1f71de3b8f793eca152",
+      "passed": 83,
+      "skipped": 0,
+      "independent_same_checks_passed": 83,
+      "actual_expected_image_then_exit_control_old_failed_new_passed": true,
+      "actual_other_image_then_exit_zero_rejected": true,
+      "ordinary_long_lived_core_identity_rule_changed": false,
+      "hosted432_unique_cause_established": false,
+      "new_hosted_combination_verified": false,
+      "record": "docs/tasks/server-14.md"
+    },
+    "cloud_peer_map_challenge": {
+      "implementation_commit": "6c8686b30b188bb85021f57a34feeac9a25ed2d2",
+      "builder_commit": "c2d176079d5199103c1a683d329a91ddbae45e2b",
+      "new_contracts_passed": 12,
+      "retained_contracts_passed": 59,
+      "deliberate_pointer_check_mutation_detected": true,
+      "builder_python_checks_passed": 43,
+      "independent_review_passed": true,
+      "whole_source_files": 701,
+      "whole_source_sha256": "4f0a55d01c4a25dcb4bd7c62972b51e42425b99959566fb3046887dfecda2140",
+      "new_hosted71_executed": false,
+      "production_admission": false,
+      "atomic_membership_or_complete_nic_process_lease": false,
+      "record": "docs/tasks/peer-map-build.md"
+    },
+    "cloud_inert_stun_configuration": {
+      "implementation_commit": "cb2d0b9e12ea167e27b0f33df6c1e9aa642777b1",
+      "new_contracts_passed": 13,
+      "retained_config_passed": 21,
+      "retained_global_ctx_passed": 1,
+      "before_passed": 4,
+      "before_failed": 3,
+      "first_after_passed": 12,
+      "first_after_failed": 1,
+      "initial_failure_retained_and_fixture_corrected_to_actual_prefix24": true,
+      "independent_review_passed": true,
+      "exact_prepared_identity": {
+        "cargo_lock_patched_sha256": "37c7e066bef9d801b7b67942a18bd7365485e613c18d14f366aed178bb38a696",
+        "patch_manifest_sha256": "bbad0f9c745a018fb833ad0ced41a1e79c3253cf947a98288d5763d03f27f3eb",
+        "source_tree_sha256": "8cf92686e0cce91f6db26dccdb3ca36f4e776b21254da036939fc17e9992c584"
+      },
+      "normal_lan_defaults_changed": false,
+      "core_driver_or_network_stun_probe_started": false,
+      "record": "docs/dependency-patches/easytier-2.6.4-inert-stun/receipt.json"
+    },
+    "cloud_owned_dependency_and_read_followup": {
+      "dependency_implementation_commit": "d824c505b1cc3f62b876e0f81f450db21b3969a1",
+      "end_reads_rpc_implementation_commit": "5ecc0f362078c37786b3eaca2dca8e196a17ea95",
+      "dependency_local_passed": 5,
+      "dependency_windows_skipped": 8,
+      "owned_read_local_passed": 9,
+      "owned_read_windows_skipped": 13,
+      "independent_review_passed": true,
+      "new_hosted13_and22_executed": false,
+      "existing_19_8_4_and17_windows_success_is_historical": true,
+      "record": "docs/tasks/owned-core-dependencies.md"
+    },
+    "cloud_actual_core_runtime_entry": {
+      "implementation_checkpoint": "8a694fac1def93966ffc10ef2569783f6a92aa9b",
+      "portable_contracts": {
+        "passed": 22,
+        "skipped": 0
+      },
+      "entry_negative_checks": {
+        "passed": 2,
+        "host_rejected_before_process_attempt": true,
+        "old_twelve_patch_source_rejected_before_process_attempt": true
+      },
+      "win_x86_cross_compile": {
+        "exit_code": 0,
+        "warnings": 0,
+        "errors": 0,
+        "self_contained_publish": false,
+        "windows_executed": false
+      },
+      "kernel_abi_metadata": [
+        {
+          "target": "x86_64-pc-windows-msvc",
+          "compiler": "rustc 1.95.0",
+          "mode": "metadata-only const assertions using actual windows-sys declarations",
+          "exit_code": 0
+        },
+        {
+          "target": "i686-pc-windows-msvc",
+          "compiler": "rustc 1.92.0-nightly (844264add 2025-10-14)",
+          "mode": "cargo check --offline --locked metadata only",
+          "exit_code": 0
+        }
+      ],
+      "actual_core_executed": false,
+      "driver_executed": false,
+      "new_thirteen_patch_hosted_build_or_runtime_verified": false,
+      "core_alive_nic_absence_is_stricter_than_final_process_cleanup": true,
+      "normal_early_core_exit_does_not_alone_prove_nic_leak": true,
+      "public_admission": false,
+      "record": "docs/tasks/owned-core-runtime.md",
+      "ci_record": "docs/tasks/ci-windows-inert-runtime.md"
+    },
+    "hosted_combined_stack_open_432": {
+      "source_head": "4322658bd7f3c4489888f62311293da0e73899d9",
+      "checkout_commit": "2c20ac332d0c46a6e1c16f6f7b53e5f446f73d51",
+      "run_id": 39943233020,
+      "job_id": 120389777286,
+      "conclusion": "failure",
+      "lease_revoke_passed_with_open": true,
+      "peer_loss_failed_phase": "observe",
+      "peer_loss_failure_code": "QUERY_IMAGE_CHANGED",
+      "peer_loss_combined_readiness_confirmed": false,
+      "query_race_unique_cause_proven": false,
+      "all_four_namespaces_removed": true,
+      "worker_reaped": true,
+      "private_stage_removed": true,
+      "official_artifact_sha256": "c445d4e3d8a1e05b55d970c9abd0ce0e5bea77983fc4ede6aca7a72a21242a95",
+      "record": "docs/evidence/hosted-owned-stack-4322658.json"
     }
   }
 }

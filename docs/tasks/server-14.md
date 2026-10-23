@@ -201,3 +201,108 @@ run's receipt already records `correct-pin-before` TCP, fixed UDP and ephemeral
 UDP echoes; a later observation failed in the address-query stage, and both
 namespaces plus private state were cleaned. Its successful phase and later
 failure remain intact. A new hosted matrix must establish the complete result.
+
+## Kernel query failure details
+
+The later independent run [39944703157](https://github.com/caox233/FifthFreedom/actions/runs/39944703157),
+job 120384530669, already included the initial-address correction. Its actual
+checkout was `b46c8fe56e1b160cbe7d1098843c7ac66eeb9249`. QUIC and WSS each completed
+all three phases; TCP completed correct-pin-before and wrong-pin, then failed
+at `observe / OVERLAY_ADDRESS_QUERY_UNAVAILABLE` before the restored phase was
+confirmed. The worker reported cleanup complete, all six namespaces were removed
+and private staging was removed. The receipt does not identify the worker role,
+errno or whether that monitor had previously succeeded. The initiator is
+recreated during restoration while the responder persists; neither can be
+selected as the cause from that record. Earlier 05c success remains evidence
+for its own run, not a repeatability guarantee.
+
+The monitor now attaches immutable, bounded diagnostic metadata to the original
+`LifecycleError`, retaining its exact type and fixed code. An exact-type extractor
+returns only the syscall stage, one of twelve named errno classes or `OTHER`, a
+boolean stating whether an index was committed before this call, and the UP flag
+from this call's successful flags query (otherwise null). There are no addresses,
+paths, numeric errno, exception text or raw kernel output. The worker can combine
+this with its validated recipe role in an optional strictly checked failure
+object. Historical frames remain valid. These fields are not readiness evidence.
+
+The initial UP/`EADDRNOTAVAIL` pending condition and every subsequent rejection
+are unchanged. Real read-only ioctl controls retain the old missing-diagnostic
+failure, then verify the new address classification and a subsequent earlier
+flags failure without stale metadata. Additional tests cover all nine stages,
+finite/unknown errno classes, strict field/type validation and the original
+pending boundary. The local suites pass 23 lifecycle, 19 owned-overlay and 27
+combined-stack tests, with zero skips. They do not reproduce the unspecified
+4b49 errno or identify its cause. The next actual hosted failure must supply the
+new details before any broader runtime change is justified. Evidence remains in
+`.local/evidence/cloud/kernel-query-details/`.
+
+## Short-lived query completion and image identity
+
+The first combined run containing OPEN, [39943233020](https://github.com/caox233/FifthFreedom/actions/runs/39943233020),
+job 120389777286, completed case A: actual five-listener READY, the held TCP
+connection, lease revocation, exit 92, port release and EOF/reset while the
+overlay remained alive. Case B then failed at `observe / QUERY_IMAGE_CHANGED`
+before combined readiness was confirmed. Its worker reported reaped children;
+both namespace pairs and private staging were removed, with unchanged source
+inputs. That code does not distinguish a changed executable from an exit between
+the old guard's separate liveness and `/proc/exe` observations. It does not
+identify the cause of the earlier 528 unclassified failure either.
+
+A deterministic control now releases an actual owned interpreter child to exit
+normally immediately after the kernel returns the expected executable identity.
+The exact pidfd confirms its exit before the old guard rechecks liveness. The
+old reader rejects this case; the revised query reader drains the complete,
+bounded stdout and requires the actual exit status to be zero.
+
+Only `OwnedQueryChild` uses the new MATCH/MISMATCH/EXITED/UNAVAILABLE distinction.
+It is available after the existing hash acknowledgment, owner release and
+CLOEXEC barrier. An observed different executable or live procfs failure is
+permanent for that child, including when it subsequently exits with zero.
+An absent `exe` link is treated as exit only when that same pinned pidfd already
+signals termination. Other procfs errors remain failures even if termination
+then occurs. Spawn and output reading use the same distinction; the ordinary
+long-lived core/native image rule, deadlines, output bounds, callbacks and exact
+cleanup remain unchanged. EXITED alone is never successful query output.
+
+The regressions use real executable transitions to a different interpreter inode
+and real exit barriers, plus explicitly injected procfs errors. They reject a
+different-image/exit-zero sequence both at spawn and during output reading,
+preserve failure after later exit, and retain the failed-exec/nonzero/overflow/
+timeout/cancellation controls. Local results pass 23 owned-overlay, 23 supervisor,
+10 native-lease and 27 combined-stack tests, with zero skips. No EasyTier, game,
+driver or privileged namespace is started. Evidence is retained in
+`.local/evidence/cloud/query-exit-observation/`. This fixes the demonstrated
+query-exit race; another actual hosted composition must determine its runtime
+result, without assigning it as the uniquely established cause of 432.
+
+## Deterministic syscall-stage test inputs
+
+The clean source check at `507e93f0612495b36508f79fd01956287c1e9e93`
+ran 604 methods: 601 passed, two were skipped and one failed. In the 139-method
+server suite, the synthetic `INTERFACE_RECHECK` fault test instead reached
+`OVERLAY_FDINFO_ENTRY_UNAVAILABLE`. The original aggregate and server failure
+logs remain retained. They do not identify the descriptor that disappeared.
+
+The fixture previously enumerated every descriptor of a real interpreter child
+before injecting a later fault. The spawn barrier proves execution of the
+verified image; it does not promise that interpreter startup has finished or
+that all enumerated descriptors will remain open. The production monitor
+correctly rejects an entry that disappears before its procfs open.
+
+Only the tests change. Synthetic read, TUN-descriptor and final-interface faults
+now select the actual child stdin descriptor, whose `/dev/null` identity is
+checked and which this fixture never closes. A separate owned-child control
+enumerates the real stdin and fd200, explicitly closes fd200 after enumeration,
+and records its actual procfs open returning `ENOENT`. Including both entries
+must still fail at `FDINFO_ENTRY`; selecting only the persistent stdin under
+the same closure must reach the injected `INTERFACE_RECHECK` error. Real child
+image checks, descriptor-leak checks and exact cleanup remain in both cases.
+The interface and TUN metadata are explicitly synthetic; no TUN or namespace
+is created, and no production descriptor is ignored.
+
+The new controlled test and original stage test each pass. The complete local
+server suite passes 140/140, with zero skips. Production monitor bytes remain
+unchanged. Evidence is retained in `.local/evidence/cloud/kernel-stage-fixture/`.
+This demonstrates and removes the fixture's uncontrolled descriptor lifetime;
+it does not assign fd200 to the earlier clean-checkout failure or explain any
+historical hosted runtime failure. A new clean aggregate is still required.

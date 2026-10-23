@@ -1,9 +1,14 @@
 # Fifth Freedom 开发知识库
 
+> 此快照暂为云工作区本地提交，GitHub 授权故障尚未恢复。下列固定源码链接
+> 已与本地 Git 对象核对，但新提交尚未推送，不能视为已公开可访问。
+> 最后一次核实的远端是 b809b4a 快照；恢复步骤见
+> [云会话授权恢复](docs/tasks/cloud-authentication-recovery.md)。
+
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`6954eea73f6cd7ee7766ba34efc823ac85d2a319`](https://github.com/caox233/FifthFreedom/blob/6954eea73f6cd7ee7766ba34efc823ac85d2a319/)
+- 本批文档对应源码提交：[`c42e0ebbc8084e943076aab7effc6abd4e8662c7`](https://github.com/caox233/FifthFreedom/blob/c42e0ebbc8084e943076aab7effc6abd4e8662c7/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -49,6 +54,11 @@
 - [移除 Packet 捕获依赖的独立源码配方](docs/dependency-patches/easytier-2.6.4-windows-no-packet/README.md)
 - [当前认证 Data 挑战及独立构建](docs/tasks/data-challenge-build.md)
 - [Linux 观察者权限与当前拥有者许可](docs/tasks/server-16.md)
+- [实际 Instance 成员身份与独立 71 项构建](docs/tasks/peer-map-build.md)
+- [核心依赖文件的身份与生命周期](docs/tasks/owned-core-dependencies.md)
+- [隔离核心配置与默认发现关闭](docs/dependency-patches/easytier-2.6.4-inert-stun/README.md)
+- [实际 Windows 核心与网卡验证入口](docs/tasks/owned-core-runtime.md)
+- [同作业隔离核心构建与恢复检查](docs/tasks/ci-windows-inert-runtime.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)

@@ -1,6 +1,10 @@
 # Instance-owned Windows NIC read channel
 
-Status: implemented and independently reviewed; actual Windows pipe execution pending.
+Status: implemented and independently reviewed; actual Windows managed 19, native 8,
+interop 4 and retained owner 17 passed with zero skips. The [official run receipt](../evidence/hosted-owned-read-4b49da7.json)
+binds run `39944703650`, source `4b49da7` and both sanitized artifacts.
+The follow-up normal suite now has 22 cases; its three additions await hosted
+execution and do not change the earlier 19-case evidence.
 This is a historical observation channel. It does not enable Public, construct a
 live overlay lease, authenticate a remote peer or run the full EasyTier core.
 
@@ -73,24 +77,26 @@ not valid evidence of current routing or an ongoing session after return.
 
 ## Verification and exact source composition
 
-- `tests/OwnedCoreRead` links the actual production classes. Eight portable cases
-  pass locally. Eleven further cases are explicitly Windows-only and remain pending:
+- The initial `tests/OwnedCoreRead` suite links the actual production classes. Eight portable cases
+  pass locally. All 19 passed on hosted Windows, including eleven platform cases:
   actual owned pipe identity, unavailable response, nonce/replay rejection,
   pending cancellation, bounded timeout, EOF with a still-live child, process
-  exit, foreign same-image descendant rejection disposal of pending I/O and a throwing cancellation callback after exact job
+  exit, foreign same-image descendant rejection, disposal of pending I/O and a throwing cancellation callback after exact job
   cleanup.
 - `tests/native/windows-owned-read` links the exact two new production Rust
   modules. Eight real parser/duplex/cancellation tests pass. All library/test/helper
-  targets type-check for `x86_64-pc-windows-msvc`; this does not execute Windows.
+  targets type-check for `x86_64-pc-windows-msvc`. The same eight library cases
+  also executed successfully on hosted Windows.
 - The separate test-only Rust helper uses those real parent/pipe/serve modules
   with explicitly synthetic observations. Managed `--native-helper <exact exe>`
-  has four Windows-pending cases: positive exchange with a four-second idle and
+  passed all four hosted Windows cases: positive exchange with a four-second idle and
   explicit unavailable result, wrong parent birth, wrong actual image digest,
   and an incomplete prefix that must terminate after the real first-byte budget.
   It does not import EasyTier, load a driver, create a NIC or open a network socket.
 - The retained owned-process project still has 17 cases. Its ambient-environment
-  control now also covers the new descriptor. WPF cross-compilation passed; the
-  new optional branch has not yet received hosted execution evidence.
+  control now also covers the new descriptor; all 17 passed again on hosted Windows.
+  WPF cross-compilation passed. Apphost/helper hashes are actual runner measurements,
+  checked before and after execution; no executable was downloaded or published.
 
 The [independent patch receipt](../dependency-patches/easytier-2.6.4-windows-owned-read/receipt.json)
 binds the successful ten-patch input, four exact touched files and test inputs.
@@ -110,3 +116,34 @@ runtime assets and real route/UDP/peer proof remain gates.
 Windows API contract reference:
 
 - [CreateNamedPipeW and PIPE_REJECT_REMOTE_CLIENTS](https://learn.microsoft.com/windows/win32/api/winbase/nf-winbase-createnamedpipew)
+
+## Finite shutdown and explicit loopback RPC follow-up
+
+`EndReads()` invokes the existing permanent close path: pending reads are rejected,
+the lifetime is cancelled and the pipe closes. It neither stops the exact process
+nor releases its image/configuration/dependency pins. `IsOwnedProcessAlive` reads
+the existing retained process handle. Callers still own `DisposeAsync()` and must
+use it to drain the exact job, including descendants. These APIs do not assert
+that Rust cleanup ran, a NIC disappeared or a session remains usable.
+
+The finite future core experiment can first end reads, independently check the
+exact observed NIC identity disappears while that same core is alive, and finally
+drain the job. Timeout, core death or a remaining NIC must be recorded accurately;
+forced job termination cannot be reported as successful normal Instance cleanup.
+
+`OwnedCoreRpcMode.LoopbackProbe` adds only the fixed pair
+`--rpc-portal 127.0.0.1:15998`. Undefined modes reject; callers cannot supply an
+arbitrary argument string. Default mode retains the original seven arguments
+byte for byte. Upstream RPC port zero invokes a candidate-port scan that briefly
+binds a wildcard socket, so this mode uses an explicit nonzero port. Collision
+must fail rather than select another port. This limits the RPC bind destination;
+it is not a complete inert configuration or a production network isolation rule.
+
+The three added normal cases check invalid modes, actual pending-I/O cancellation
+and permanent closure with the live owned process/configuration pin retained
+until final disposal, and actual child receipt of exactly the fixed RPC arguments.
+The helper validates all seven existing arguments and the optional two extra
+arguments before answering the real pipe. Current local results are 9 passes and
+13 explicit Windows skips (22 total); native 8/interop 4 protocols are unchanged.
+The separate dependency suite checks official DLL file lifetime; the new read
+case itself checks configuration file sharing, not DLL loading or loader search.
