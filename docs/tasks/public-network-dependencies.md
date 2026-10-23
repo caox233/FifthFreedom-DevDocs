@@ -83,9 +83,39 @@ README](https://github.com/WireGuard/wintun/blob/bfef136abfa1665c2592be09a7e383d
 and [COPYING](https://github.com/WireGuard/wintun/blob/bfef136abfa1665c2592be09a7e383d646cdbe6e/COPYING)
 were read. They explicitly distinguish GPLv2 source from a more permissive
 prebuilt-binary license contained in the official ZIP. The ordinary HTTPS request
-to `https://www.wintun.net/builds/wintun-0.14.1.zip` was denied by the environment's
-proxy (`CONNECT 403`). Thus the exact original binary ZIP and its terms are still
-unverified; the source GPL is not substituted for the missing binary license.
+to `https://www.wintun.net/builds/wintun-0.14.1.zip` was initially denied by the
+environment's proxy (`CONNECT 403`); that history remains in the lock. A later
+ordinary HTTPS request succeeded. The official ZIP is now pinned at 750540 bytes,
+SHA256 `07c256185d6ee3652e09fa55c0b673e2624b565e02c4b9091c79ca7d2f24ef51`.
+Its amd64/x86 DLLs match the existing EasyTier member hashes and lengths. The
+[original prebuilt license](../third-party/Wintun-0.14.1-Prebuilt-LICENSE.txt)
+is retained byte-for-byte with SHA256
+`183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2`.
+See the [static receipt](wintun-official-binary-evidence.json) and
+[separate retained-session verification](wintun-retained-session-probe.md).
+
+This closes the missing official ZIP/terms input, not all package obligations.
+The binary license grants lawful use subject to its restrictions, defines the
+accompanying `wintun.h` API as the Permitted API, and permits redistribution with
+other software only under its stated conditions. Final API use, unchanged DLL
+and accompanying notices/redistribution conditions still require package review.
+No DLL was loaded or driver installed by this audit; the source GPL is not being
+substituted for the binary terms. Npcap and the overall publication gate remain.
+
+Separately, [hosted run 39930667783](../evidence/hosted-wintun-319bf44.json)
+executed the exact official amd64 DLL through the paired tun backend on a clean
+disposable Windows 2025 VM. Both actual owner-drop and async-shutdown session
+cases passed; the owned devices disappeared and unrelated kernel/PnP identities
+were preserved. Normal signature/signer checking and real driver/session startup
+succeeded. The installed driver remained in that VM, as authorized; no global
+uninstall ran. This was not performed by the read-only dependency checker.
+
+The lock now references that independent, source-bound development receipt by
+SHA256. Its existing top-level/per-artifact `runtime_executed: false` and
+`installed: false` remain accurate for the audit operation. They are not a claim
+that no separate development test has ever executed the DLL. The two cases do
+not establish live address/route admission, a secure peer, a complete Windows
+overlay, Public enablement, final package compliance or production deployment.
 
 **Packet.dll / Npcap:** EasyTier's x86_64 package contains Npcap **1.79**, while its
 i686 package contains **1.81**, according to the PE version/copyright resources.
@@ -102,11 +132,11 @@ inspected Npcap files. They remain outside Git and candidate packaging until the
 specific rights or an independently reviewed replacement/distribution path is
 established.
 
-The two denied official hosts have been added through the formal environment
-configuration draft. The draft requires publication; the current network was not
-changed. No proxy, DNS, credentials or TLS checks were bypassed. Independent
-official GitHub source-license reads do not claim to retrieve the denied binary
-license or OEM page.
+The two originally denied official hosts were added through the formal environment
+configuration draft. This audit did not change the active policy or infer that a
+draft had been published. Wintun's later successful ordinary request is recorded
+separately above; the Npcap OEM page remains unverified here. No proxy, DNS,
+credentials or TLS checks were bypassed.
 
 ## Repeatable offline verification
 
@@ -141,8 +171,10 @@ snapshot, with no second read of a potentially changed archive.
 
 Next work is to integrate the fixed-version selection and explicit operator
 configuration into a reviewed Public adapter and Linux service, satisfy the
-remaining third-party notice/rights gates, then perform the separately authorized
-Windows driver and real network acceptance. A pinned download alone does not
+remaining third-party notice/rights gates, then verify the remaining Windows
+address/route, secure-peer and real network acceptance. The finite Wintun session
+checks above have already passed and should not be repeated without a relevant
+change. A pinned download alone does not
 establish tunnel compatibility, game behavior or a completed public server.
 
 ## Windows Packet.dll is a loader dependency of the pinned cores
