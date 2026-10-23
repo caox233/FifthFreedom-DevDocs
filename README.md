@@ -3,7 +3,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`9d823da309cba4d2872ad2fd2d01821731faa798`](https://github.com/caox233/FifthFreedom/blob/9d823da309cba4d2872ad2fd2d01821731faa798/)
+- 本批文档对应源码提交：[`533e77d50567cddb340b2144b190b8d9dbd1fd45`](https://github.com/caox233/FifthFreedom/blob/533e77d50567cddb340b2144b190b8d9dbd1fd45/)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -43,6 +43,8 @@
 - [当前 Windows 网卡会话的类型化读取](docs/dependency-patches/easytier-2.6.4-windows-session-read/README.md)
 - [实际认证数据接收与会话失效](docs/tasks/authenticated-receive.md)
 - [认证接收候选的独立云构建](docs/tasks/authenticated-receive-build.md)
+- [自有核心进程的生命周期](docs/tasks/owned-core-process.md)
+- [真实诊断文本流及聊天验证边界](docs/tasks/diagnostic-streaming.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)

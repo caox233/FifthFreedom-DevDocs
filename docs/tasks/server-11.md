@@ -175,3 +175,58 @@ raw configuration digest, owner credentials, READY sequence1, five actual bind
 callbacks and EOF/expiry/parent-death cleanup agree with the harness inputs.
 No additional definite startup blocker was identified in that source review;
 actual hosted execution remains the deciding evidence.
+
+## TCP listener ownership: established and retired connections
+
+The actual hosted native lifecycle run39932526946/job120355233722 at source
+528668e failed with `WORKER_NATIVE_LISTENER_OWNERSHIP_INVALID`. Its public log
+does not identify the failing case, port or socket rows. That failure remains
+historical evidence; the local reproduction below does not establish those
+missing details.
+
+Review found a concrete error in the shared native/stack observer: it counted
+every TCP row with a matching local address and port before requiring LISTEN.
+An accepted connection (ESTABLISHED), or a retired connection (TIME_WAIT), can
+legitimately share that tuple with the one owned listener. The check now selects
+TCP LISTEN rows before requiring exactly one row and an inode held by the exact
+pinned child. Exact IP/port, image checks, the socket-table size bound, and UDP's
+existing state07 and uniqueness requirements remain unchanged.
+
+Three Linux regressions use a verified private copy of the Python interpreter,
+an exact owned child, three TCP and two UDP sockets on ephemeral loopback ports,
+and actual kernel socket tables. The old checker rejects both a real held
+ESTABLISHED connection and a subsequent real TIME_WAIT connection alongside the
+owned listener; the corrected checker accepts both. A remaining accepted socket
+without its listener, a different process's listener, and two simultaneous
+LISTEN rows still fail. The duplicate-listener control uses SO_REUSEPORT only
+inside the test child; no production socket option changed.
+
+The full local harness suite passes 16/16, including all prior input and cleanup
+tests. These controls do not execute the native artifact or create namespaces,
+TUNs, game processes or a production provider. A new isolated hosted native and
+combined-stack run is still required to determine their actual result.
+
+## Held TCP observation before the revocation control
+
+A separate real loopback control found a gap in the connection evidence: the
+peer could receive FIN before any revocation, yet the old client would emit
+CONNECTED then CLOSED with exit0. This involved a synthetic Python TCP peer,
+no native process or lease; it is not an attribution of a hosted failure.
+
+Each positive native case now requests CHECK_OPEN from the existing held TCP
+client and requires its ordered OPEN acknowledgement before sending EOF,
+EXPIRY or PARENT_DEATH to the native owner. The same socket is sampled in
+nonblocking mode, draining at most16KiB of protocol data within100ms. Only
+actual EAGAIN acknowledges open; queued FIN, reset, any other socket failure,
+excess data or an expired budget rejects. Its original socket timeout is
+restored. CHECK_CLOSED cannot bypass this step. The later closure still requires
+actual EOF/reset and never treats a timeout as success.
+
+Five additional Linux tests exercise the real client subprocess command
+protocol against real loopback TCP, including early FIN with and without queued
+data, early reset, over-limit data, open then later close, and refusal to skip
+the OPEN acknowledgement. The old subprocess implementation fails the last
+regression; the current harness passes21/21 locally. No native artifact,
+namespace or game is executed. These are two bounded observations before and
+after the control, not proof of strict causation between them or authenticated
+peer freshness; a natural close between observations remains possible.

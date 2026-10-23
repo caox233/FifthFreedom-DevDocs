@@ -933,3 +933,138 @@ exact case/listener/cause is still under investigation. This new result is not
 assigned retroactively to older generic native failures. The combined stack
 job120355233682 remains running. No independent new component-byte rehash or
 positive native lifecycle result is claimed by this metadata follow-up.
+
+## Typed Windows build, listener state and retained diagnostics
+
+The actual [23d5923 Windows build](evidence/hosted-windows-easytier-23d5923.json)
+completed successfully: 20 builder checks, eight typed current-session contracts
+with zero ignored tests, locked metadata, and full MSVC core/CLI compilation and
+linking. The official three-receipt artifact digest was independently verified.
+Its exact ten-patch source inventory is
+efb765a226be8ad35826c71868b105f09d5d6971b9d58580754389efec058fcd.
+Runner inspection of the compiled outputs confirms that core directly imports
+Packet.dll; CLI does not, and both delay-import lists are empty. The executable
+bytes were not published or independently downloaded. This is a successful
+build with known runtime dependencies, not core execution or a Public lease.
+The earlier nine-patch build and separate two-case Wintun driver evidence remain
+unchanged.
+
+Reviewed2f10f82 fixes a real native listener-checker defect: established and
+TIME_WAIT TCP connections sharing a local tuple were incorrectly counted as
+additional listeners. Actual owned sockets reproduced both failures before the
+fix and passed afterward. Only LISTEN rows now enter TCP listener cardinality;
+exact owned inode, address, port and uniqueness remain required. Accepted-only,
+foreign-owner and duplicate-LISTEN controls still fail. Sixteen native and20
+stack checks passed; independent review reran three actual socket controls.
+This identifies a checker defect, not the exact unrecorded case/port of the528
+hosted failure. New candidate39938418762 still must verify native execution.
+
+Reviewed6a60418 extracts the retained diagnostic text reader into one shared
+production implementation and adds12 real-file streaming regressions. Tests
+cover UTF-8/redaction across16KiB reads, line and JSON limits, snapshot extent,
+cancellation and output failure while verifying unchanged original bytes.
+Independent12/12 and full WPF cross-target compilation with zero warnings/errors
+passed. These checks do not rerun the Windows full-ZIP24 cases or resolve the
+user's historical export exception. The independent hosted Windows job120363584181
+in run39938418815 subsequently passed all12 with zero skips. Its official
+single-receipt artifact SHA256 is
+c203db5c00f0d7bdee38ced6313098607d86a4b02ddde3e9e3809567faf4123b,
+independently verified; the receipt explicitly keeps full-ZIP coverage false.
+The [task record](tasks/diagnostic-streaming.md) also preserves the actual chat
+boundary: historical391 checks explicitly simulated delivery, and exact retail
+extraction/generated inputs are absent. Inventing three socket clients would
+not test the uploaded native serializer or establish three-client acceptance.
+
+The [05c127a source matrix](evidence/hosted-source-matrix-05c127a.json) passed with
+both official ZIP digests verified: Linux484 passed plus two existing Windows
+skips; Windows397 passed plus89 explicit platform-specific skips, including two
+symlink privilege cases. Separately, a fresh detachedb67af6c checkout passed489
+with two existing Windows-only skips and unchanged tracked files. Its report
+SHA256 is ed804c635988cfaca6755dd609727d8e721bd5580b6ffdb3410418f6c2a53613.
+The canonical patch fromfc8ef510 applied and reversed with exact bytes, modes
+and path sets:1312→1607→1312, clean. Patch SHA256 is
+4c0a6eb1d9e15a8d114e0d86e7f1ef955496af7170088412e1a316d3d85a0deb.
+Original private four-role evidence remains unchanged; full packaging remains
+blocked by the explicit withheld inputs.
+
+DevDocs68779b3 was pushed and its remote SHA verified:162 files, including160
+exact public source mirrors, bind source9d823da. Official environment draft17
+was saved and read back with source05c127a and that DevDocs revision after a
+complete workspace inventory:28281 directories, two projects,26 classified
+dependency/evidence Git roots and zero errors. Existing setup, network selection
+and requirements were preserved. The draft still requires publication through
+the environment UI; no publish or Goal/scheduler tool is exposed, and a fresh
+restoration has not been verified. All six milestones remain tracked; no formal
+Release, production deployment or game/capture launch has occurred.
+
+## Complete Linux transport matrix and partial native composition
+
+The first complete finite guard3 runtime matrix succeeded in
+[05c127a run39936896183](evidence/hosted-owned-overlay-05c127a.json), actual
+merge checkoutd7d819317a4e3ff72efa53400ce258c4154eb783. The official artifact
+SHA256 is a72a3b2cacc7857b4cd4bb8c1bf4a330f2a648dd4568414de7930f9faea00699.
+The strict receipt consumer verified all nine phases: QUIC, WSS and development
+TCP each passed correct-pin-before, wrong-pin rejection and correct-pin restore.
+Both positive phases exercised TCP, fixed UDP and ephemeral UDP echoes. Every
+wrong-pin phase retained the owned TUN while rejecting all three kinds of new
+traffic over the bounded observation. Core reaping, new-traffic denial, TUN
+removal, all six namespace removals and private-stage cleanup are recorded.
+This closes that development matrix, without asserting packet-capture encryption
+proof, the newer active nonce challenge, native owner lease or Public admission.
+Prior failures and their unknown exact errno/role remain unchanged.
+
+The older [528 native composition](evidence/hosted-owned-stack-528668e.json)
+completed with an overall failure. Its lease-revoke case recorded real native
+READY, five owned listeners, watchdog exit92, five rebound ports and held TCP
+EOF/reset while the overlay remained alive. This source predates the explicit
+pre-revocation OPEN barrier, so those samples alone do not prove revocation
+caused the connection closure. The second peer-loss case failed during observe
+with WORKER_UNCLASSIFIED_ERROR before combined readiness was confirmed.
+The missing result field does not establish that the native process never
+reached READY in the background. Its exact cause is unknown;
+the two cases used separate namespaces, so no cross-case TIME_WAIT explanation
+is inferred. Both namespace pairs, worker and private stage were cleaned up.
+The official artifact SHA256 is
+29adfe90b748e878d7123237f0b3e28dc7743d10ea0e7de970dc79438c7a6d8e.
+
+Reviewed8b25109 now requires a bounded OPEN observation on the same held TCP
+socket before revocation or peer shutdown. Real early-FIN/reset and excess-data
+controls reject; native21 and stack22 checks passed, including independent5+2
+new controls. The original deadline is not extended. This improves before/after
+evidence without promising continuous observation or strict causal proof.
+Later hosted runs must exercise this corrected path; the old528 result is not
+rewritten as a pass.
+
+The independent authenticated-receive job120358530925 in run39936896405 also
+succeeded: all44 actual production-linked contracts passed with zero ignored
+tests, followed by locked GNU Release core/CLI compilation. The official three
+JSON receipts match ZIP SHA256
+09e287ffda1ac7b0f63073c02fe47dc4243a7a71c2180be786947225e31f230c,
+the exact699-file source inventory and eight-patch recipe. Independent review
+verified the artifacts. Core/CLI identities are runner static ELF observations;
+no runtime binary was uploaded, downloaded or executed. The successful recipe
+does not yet include the new nonce-correlation work. The separate old35
+compatibility job120358530652 subsequently passed its own35 contracts with zero
+ignored tests and a locked Release build; its official ZIP digest
+c27ca2d0f06942c3e112f7da046e48efb05c0a0905ea6f9482efe19b76c410a0
+and full source inventory were independently verified. The unchanged default
+entry remains distinct from the new44 recipe.
+
+Reviewedf79ecc6 implements atomic Windows Job containment from process creation,
+retains exact process identity and independently checked image/configuration
+handles, and observes the full owned job draining before releasing inputs.
+Local tests passed5 with12 explicit Windows skips; retained return tests passed14
+with13 Windows skips, and WPF cross-compilation had zero warnings/errors. The
+08b3d07 hosted lane requires a real x86 self-contained helper and17 cases with
+zero skips. Actual run39939697022/job120367800235 passed all17 with zero
+skips, including the real32-bit assertion, and the helper apphost hash matched
+before/after. The official single-receipt artifact SHA256 is
+a587b7102370bcfed7e3a63f4c230962fb50550aad0e62ff423168bcf41578b1.
+A synthetic helper is not an executed EasyTier core, owner IPC or live Public
+network; those production-path prerequisites remain in progress.
+
+Six inactive native incremental compiler caches were reclaimed after their owners
+confirmed they were unused:681 generated files,490245263 bytes. All6887 retained
+entries matched before and after by regular-file bytes/modes/path or symlink
+target; symlinks were not traversed. Sources, final binaries, logs and original
+evidence remain. Active EasyTier targets and ongoing compilation were untouched.
