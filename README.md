@@ -7,7 +7,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`9139c9ed3fe7dd90db6dfbd79666fe28f8474c3d`](https://github.com/caox233/FifthFreedom/commit/9139c9ed3fe7dd90db6dfbd79666fe28f8474c3d)
+- 本批文档对应源码提交：[`2429db80264d4c2fd5b68260b23523308369e10f`](https://github.com/caox233/FifthFreedom/commit/2429db80264d4c2fd5b68260b23523308369e10f)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -61,6 +61,7 @@
 - [Windows 启动前防火墙核查](docs/tasks/windows-core-firewall-prerequisite.md)
 - [云会话授权恢复与真实续接步骤](docs/tasks/cloud-authentication-recovery.md)
 - [MemoryModule 精确上游源码与随包说明](docs/development-reference/fusionfix-loader-memorymodule/README.md)
+- [候选产物上传与源码完整性](docs/tasks/ci-artifact-source-closure.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
