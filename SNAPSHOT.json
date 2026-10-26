@@ -1,30 +1,30 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "9aede37dd34cb770b72003bb50dcec237ac8ed14",
-  "previous_snapshot_source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
-  "created_utc": "2026-10-26T19:31:16.025889+00:00",
+  "source_commit": "9139c9ed3fe7dd90db6dfbd79666fe28f8474c3d",
+  "previous_snapshot_source_commit": "9aede37dd34cb770b72003bb50dcec237ac8ed14",
+  "created_utc": "2026-10-26T20:39:34.905344+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "5e7b258374fc30e81c21a7069fcad3fe401281ba",
+  "last_verified_remote_knowledge_commit": "2eebd2144111f7f986bb134df3766efe6850ff08",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "25d967f210dff578275edc73e50bd9c738a726d56be470b865c479af435f48ee",
-      "bytes": 12447
+      "sha256": "a26de0114081e8894cd015a96d814f71a00ba8d4795dae984195bd3851d96d19",
+      "bytes": 13135
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "52960aae7a6f7547839e916476e6bf2011cc05702f6d7379d10e621887fa1383",
-      "bytes": 69892
+      "sha256": "633b01bea86c6246b5ca79aec491d28142a45153ffbabec5de7dd575a392ad93",
+      "bytes": 77505
     },
     "README.md": {
-      "sha256": "15043a067a4efe762e986a155c4292ced9eaae91af82bc2599ca967fdaf742e2",
-      "bytes": 6445
+      "sha256": "2048500e1fde91ee9e5050198c08820ab44992f2d5241e056e5f7387dd9b0551",
+      "bytes": 6564
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
@@ -35,8 +35,8 @@
       "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "3fa6e4807ac4bc91a38c45eb66e15b0f753fcea29ede37cfa6e4ef529e471fc6",
-      "bytes": 5131
+      "sha256": "d9179e5112f4131be7d9aa8b6975385936cf845a20e695d5cb1726aef801d4fd",
+      "bytes": 6317
     },
     "docs/ASSET-PUBLICATION.json": {
       "sha256": "af63ab0ca31925a68756912df1686a460d2c4e9b148cb58bf0659b5618b4702b",
@@ -51,16 +51,16 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "3bcf393efc919aafeef017afcbef7976afe26958858cc94f23061f9f26289ac4",
-      "bytes": 93629
+      "sha256": "fbf00231eb9115e3308c49eb53bcd2ac0125f32cfe39f0254846994681a90559",
+      "bytes": 97888
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
       "bytes": 1879
     },
     "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
-      "sha256": "065e898aaf2ab25cb647a1f48564784cc7cd03fddf05a3c937a029a3eebe9e8e",
-      "bytes": 3223
+      "sha256": "f1c687d8a6fcb2faf78437846a1b4ebdf27c069bc60e329bbce47cc82d2dcff5",
+      "bytes": 3927
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -91,8 +91,8 @@
       "bytes": 1644
     },
     "docs/dependency-closure.md": {
-      "sha256": "1369ee37ffb87875328321d42549845e34aea4447b0f90a9af6f25776da26c59",
-      "bytes": 15583
+      "sha256": "366917782e0689a87d0f064b044219333bfb3f842a88bcdc1b8b55a20b22fec3",
+      "bytes": 17967
     },
     "docs/dependency-patches/.gitattributes": {
       "sha256": "d2814d02cb9ed55525636622157e35e83043f80b5b7497166dcf64724ed30b7e",
@@ -346,6 +346,166 @@
       "sha256": "bed779d4302b68e4397a8e3fe9afddfa886c9b96c8667a4a9279def85e11a43b",
       "bytes": 16267
     },
+    "docs/development-reference/fusionfix-loader-memorymodule/README.md": {
+      "sha256": "f680c1edac04712465891b0f3e3c1978eabb62bde543bbe3971968e3acb6b77b",
+      "bytes": 3547
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/SOURCE-MANIFEST.json": {
+      "sha256": "b94b1f2e9ff1cbbd7c982f31fee662148f4ec0b21358460bcebbbaf10ffcd7b8",
+      "bytes": 11141
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/.gitattributes": {
+      "sha256": "ba9707535af7fde7fd5c60fb8947a0b8d487a6e7c2409892504cd0b6f3dad395",
+      "bytes": 140
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/.gitignore": {
+      "sha256": "1aa380980a310bc003db68218bf85d9001100582b2efba687ce413a5346c4616",
+      "bytes": 87
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/.travis.yml": {
+      "sha256": "2aac9d0f35ac618918b66baa9f023614bfd5655879e23b967e11d9445483a761",
+      "bytes": 3079
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/CMakeLists.txt": {
+      "sha256": "2ad322054b74247a6bb18c7334f85d8a79089c57b0787f9fdf420d56bf2cc783",
+      "bytes": 1851
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/LICENSE.txt": {
+      "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "bytes": 16726
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/Makefile": {
+      "sha256": "4203b4a76e08848028479e371efe10d11df7c4731f40f6a8df92b9cd393f105c",
+      "bytes": 285
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/MemoryModule.c": {
+      "sha256": "38f8c8f449fff52d9df12f00125ab91bf5d75a4e7a9abd0a8c764c9d9d05a7f4",
+      "bytes": 39766
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/MemoryModule.h": {
+      "sha256": "10e21151838e6304e92aa28e283a2a39848af159812141b6a773e03fd3060a57",
+      "bytes": 4751
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/appveyor.yml": {
+      "sha256": "4481860f4ac2e7b516305d33c2e6ed462aeef261c7d113c0d29d56316dff8b18",
+      "bytes": 876
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/doc/readme.rst": {
+      "sha256": "6c6ad19d0ce8b1e8fc2e31988d15b8b323551100d69ee8302d7cae97ec52a725",
+      "bytes": 18535
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/CMakeLists.txt": {
+      "sha256": "48baeb3dad07fa9eeb15bd0e4b40c3793eb293289ed32deb666369ba9c619c4c",
+      "bytes": 58
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/.gitignore": {
+      "sha256": "d7d3dd5d67de6776268fdd2e858c777725ddd162b57f6116407ca445f8c2f1cb",
+      "bytes": 9
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/CMakeLists.txt": {
+      "sha256": "ad44b1e301071682822575dc2f9d657188c7214492ea676683bf7696b2655341",
+      "bytes": 827
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/DllLoader.cpp": {
+      "sha256": "8ba5e8e4673d35cdc56253946a94fde2f5ee8999487dfe670d7770f82dbb5a58",
+      "bytes": 9668
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/DllLoader.vcproj": {
+      "sha256": "69e2b18191c34e74d603aa8ed4177d7b5a020c874789251690b9b129821237d5",
+      "bytes": 3386
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/DllLoaderLoader.cpp": {
+      "sha256": "c93b8067e0a13a2fffb089e22b1d5c535160879b04a8db0cd43d44b508c2618f",
+      "bytes": 1267
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllLoader/Makefile": {
+      "sha256": "85e03cfa296229888a88a66939ea3a151eaa0765f5c08cfd8b3e1d3051f1ce27",
+      "bytes": 821
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/DllMemory.sln": {
+      "sha256": "43a454902164e974f2ea951ae89a187f1eaf93dd0dad08487bc0382586dfdfd5",
+      "bytes": 1483
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/Makefile": {
+      "sha256": "881525cbb71ccbe337c7ee53a902e3964425f6ddbb1b8d2512c40ed40f639906",
+      "bytes": 255
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/.gitignore": {
+      "sha256": "9f22abfcdb63dd119c4fce27972c1bc93c15ed37792b0cd7997eb16974a76388",
+      "bytes": 16
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/CMakeLists.txt": {
+      "sha256": "df0fb2758d40964538b4c1bd168ddd9e08ef1f98a38d32588b6f82c6a1c23831",
+      "bytes": 290
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/Makefile": {
+      "sha256": "97109069095ce76ed0447a48633bdd013c53a6716f127d5b8f68aa1064fa8df8",
+      "bytes": 629
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/SampleDLL.cpp": {
+      "sha256": "65132acaa5b3268f4e6ae23cac333ea25eb78eb7daac516c188168934f7534c4",
+      "bytes": 106
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/SampleDLL.h": {
+      "sha256": "ec1808d07e31785fba5179f4437abe8c0eb3a88e434bb0ff654ddf3eadebf661",
+      "bytes": 188
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/SampleDLL.rc": {
+      "sha256": "bf252d751842c2f237e8cbc2907a3dddad82b4a808f001c37d3b774321f40079",
+      "bytes": 691
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/example/SampleDLL/SampleDLL.vcproj": {
+      "sha256": "af028100273936ec40287ebb663193fe482a5dde904358511d8e49c18fffa3eb",
+      "bytes": 3458
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/readme.md": {
+      "sha256": "58681d873ce32375eb9e2fe5d865ca1d26e1b969655a5608f45b2a360b2f1587",
+      "bytes": 1077
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/scripts/run-appveyor.bat": {
+      "sha256": "da46f5c3faf5e29e9d779cc0f47e7fe09b1a9e6aede9ce11bd726f3a9478c226",
+      "bytes": 1380
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/CMakeLists.txt": {
+      "sha256": "dc3f5c10e5ae41b4df47a3b38bcd1f5c456f11eb5192e68b6c2811fa62b2b824",
+      "bytes": 361
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/LoadDll.cpp": {
+      "sha256": "f29874f41338d2f513d2653bbe78ea2a97960e77e31e318438d6ed0605661b38",
+      "bytes": 9000
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/Makefile": {
+      "sha256": "e5d44c318ec3223e5f52a9997771b7b4799d7f87d40d283bb97ace2e9881798b",
+      "bytes": 2136
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/SampleDLL.cpp": {
+      "sha256": "65132acaa5b3268f4e6ae23cac333ea25eb78eb7daac516c188168934f7534c4",
+      "bytes": 106
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/SampleDLL.h": {
+      "sha256": "ec1808d07e31785fba5179f4437abe8c0eb3a88e434bb0ff654ddf3eadebf661",
+      "bytes": 188
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/SampleDLL.rc": {
+      "sha256": "526b1cc9eb3647d9dc41eba1c2628515ada95868fdfe173b94a519695234e388",
+      "bytes": 1038
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/TestSuite.c": {
+      "sha256": "d2ca2977d14470f63b273bac8db942512340c11ff4df1c4c76a404c7d7594835",
+      "bytes": 340
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/generate-exports.sh": {
+      "sha256": "91c08cfb4368f47196af5dda983a0b2faa57ac198df23c81b3d90213955a6763",
+      "bytes": 631
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/runtests.sh": {
+      "sha256": "861b5d4bae3ed1793814dbbec2729e63521ec0f13e460f9cb5ed82b3cb7cbd16",
+      "bytes": 288
+    },
+    "docs/development-reference/fusionfix-loader-memorymodule/upstream/tests/runwine.sh": {
+      "sha256": "b5456e24cdb93686923650e2b1826899ecae7b3e6494d3bc1cc0de42af4be07e",
+      "bytes": 299
+    },
     "docs/development-reference/historical-replays/INDEX.json": {
       "sha256": "9fc3d3f1055f92eba036d5a274741c7afca344eccf7348a2b3a988b2b0c3afc4",
       "bytes": 5070
@@ -417,6 +577,10 @@
     "docs/evidence/easytier-clean-linux-build-guard3.json": {
       "sha256": "c8604b2f8c799a078bd285de6232d9c85b26b1a4684bc45c867905f6dfe92a9a",
       "bytes": 4047
+    },
+    "docs/evidence/fixture-clock-regressions.json": {
+      "sha256": "f741d09cfd0d3820bb7dc16af23defc514723cf4ed41c51b890f70f06330faa8",
+      "bytes": 8405
     },
     "docs/evidence/fusionfix-asi-source-candidate.json": {
       "sha256": "a76083a6046341bca3fc1bf6781115fe86d4b87d1811ff932a0e6b5f359f5d58",
@@ -518,6 +682,10 @@
       "sha256": "946c3e50355574bc07ca6a860d953c6f801e238cd5ebb8d8e4b8eb7b019c7ca1",
       "bytes": 5698
     },
+    "docs/evidence/hosted-final-lanes-9aede37.json": {
+      "sha256": "037b76c51440e4a758c2411b3a2726bafb69d62a4b829f5786dd8b6e0a79557d",
+      "bytes": 24676
+    },
     "docs/evidence/hosted-firewall-prerequisites.json": {
       "sha256": "a950c66ad2cc025370815005b0b9c45581f18b5a753f78fa046a54ce370616cb",
       "bytes": 3760
@@ -530,6 +698,14 @@
       "sha256": "f82301b7aff7bec8fcc79c5ccd8192d54db336bcf1f8269b2b03da1b2607cf2d",
       "bytes": 3526
     },
+    "docs/evidence/hosted-initial-9aede37.json": {
+      "sha256": "52636d0b8f2f88c90e443013c811c4ce348040468e77c0ee33f4e319e237cb9e",
+      "bytes": 5532
+    },
+    "docs/evidence/hosted-lan-failure-9aede37.json": {
+      "sha256": "34c4ce9ee8bd21c3990abb817501633847a50dcb1a4ae78fe3f60334b0514f0d",
+      "bytes": 2337
+    },
     "docs/evidence/hosted-local-pipe-6ecfdb.json": {
       "sha256": "23fbc6560390075ae576aa564c1bc04db121837000222b97c5dcf8e63ba11227",
       "bytes": 2287
@@ -537,6 +713,10 @@
     "docs/evidence/hosted-matrix-c42e0eb.json": {
       "sha256": "b8f7c7550e6a6e38d2c088d1e50e35e470a4531e2fd9899d02bcb5dfd877ae65",
       "bytes": 1528
+    },
+    "docs/evidence/hosted-matrix-partial-9aede37.json": {
+      "sha256": "76fc5947271030d426ed8a5d8de1193698830ea72168a1ded720518150a71344",
+      "bytes": 2911
     },
     "docs/evidence/hosted-native-lifecycle-4322658.json": {
       "sha256": "f5d65908fbb1c421cefb50f4a4bb53770b216aaec0385dcaff9141fcc22a2ad5",
@@ -642,6 +822,10 @@
       "sha256": "127943a87dcd4e2743471d0935df371e48a5d1fea0c720eccc8aaadb1e2fe38f",
       "bytes": 28658
     },
+    "docs/evidence/hosted-wfp-diagnostic-f319a07.json": {
+      "sha256": "e2985a264fb47c19671ed78fdc0c30fdacb58dd0794738319c96852f5362f39f",
+      "bytes": 4157
+    },
     "docs/evidence/hosted-windows-components-1974fad.json": {
       "sha256": "7aa0cd1e621a788dc2a750a2850ede28edec91325650ac42b6497542c05c6c06",
       "bytes": 6662
@@ -690,13 +874,25 @@
       "sha256": "582f960549c4a20b0c0514114e003dbf0406eb002060b28e8fe5a64c50222647",
       "bytes": 1419
     },
+    "docs/evidence/initial-fd-scan-regression.json": {
+      "sha256": "aaa97590fd408cb096dd4bfd9a9a46fea6f65eae68dd1c9f1e07ef93260bda4b",
+      "bytes": 2360
+    },
     "docs/evidence/initial-overlay-address-regression.json": {
       "sha256": "f569732a80141da0db9cc741b3819550dd2b216a1c507c03f2b3ef344147574e",
       "bytes": 2737
     },
+    "docs/evidence/memorymodule-source-packaging.json": {
+      "sha256": "ef193e633bd037830ba2def313afa091e0069b2c5185f33fd739d56df2db377c",
+      "bytes": 3424
+    },
     "docs/evidence/query-exit-transition-regression.json": {
       "sha256": "ea3164bc47dc7d60f100d53e8641edf6027d25242bd973a3db22d66df75a95e2",
       "bytes": 3745
+    },
+    "docs/evidence/quick-match-close-callback-regression.json": {
+      "sha256": "866b2cfe915f449ac8cce6677b547ca076833f5680bcca2250c084e30b7d7966",
+      "bytes": 3979
     },
     "docs/evidence/quick-match-protocol-regressions.json": {
       "sha256": "f674844de431a38d5d3bb7f68bac3b23af7ae0c9308422baacc5eaa148925eb5",
@@ -791,8 +987,8 @@
       "bytes": 8503
     },
     "docs/tasks/quick-match-same-session.md": {
-      "sha256": "d7f5d71f9e8f50bddaf1fe35e0fd63a3c1a9ca2712c6c7404165ed2aaca2f002",
-      "bytes": 5853
+      "sha256": "10cc226f6ccb5baa608eff4fa40a54a56c19a4710a73b2aefbd7f8e5133bc92e",
+      "bytes": 8493
     },
     "docs/tasks/remaining-bugs.md": {
       "sha256": "a13b41c2f9a69f35efd1ba0f37ab68a68b36db2a3d943dd3fec0216ca2647f14",
@@ -847,16 +1043,16 @@
       "bytes": 15667
     },
     "docs/tasks/server-13.md": {
-      "sha256": "8ffdfc5ced20f8c9ae699eac3a885db0555d8e7d32ef7b46a126e18f8b8ba58b",
-      "bytes": 26039
+      "sha256": "eb39bfe985ddca423c77028bbe18b340275cedc9f270564935d6b49826d9b430",
+      "bytes": 27449
     },
     "docs/tasks/server-14.md": {
-      "sha256": "aba53f40fb246714fb21498f022166c0a66b3a5edce6e7138e2cc19c0d649ca2",
-      "bytes": 23196
+      "sha256": "05c7194b51615048a99d457ea46f9cdcf43d5f68bc2ab9589c15875aff9d6dbe",
+      "bytes": 23903
     },
     "docs/tasks/server-15.md": {
-      "sha256": "02d9eab9480b1bd3ac73c9ba8f90e236623f3e13ea4d8b9cc73a550232dabe40",
-      "bytes": 18515
+      "sha256": "b081abe466135d39ddf3ae8693c3b4a13369d1c30d1a5a83babaf29522598e6d",
+      "bytes": 18994
     },
     "docs/tasks/server-16.md": {
       "sha256": "daf3ae36bce414338b79a0b5defa5ab3cf3e31e625921c6ffb463b67205fa1b5",
@@ -919,8 +1115,8 @@
       "bytes": 7838
     },
     "docs/tasks/windows-core-firewall-prerequisite.md": {
-      "sha256": "bbdf34f7c7bdb0ebf9ef6b1d58ca7b218116c560d18ce156e2ddebfded62d20d",
-      "bytes": 9298
+      "sha256": "ab2f45ca8bab6aaff776ad316b0cab3e74c14ce8114babe9a962a11cfa12935c",
+      "bytes": 10899
     },
     "docs/tasks/windows-owned-fixture-cleanup.md": {
       "sha256": "1838037bd56322864771b92b4fe6d5693afec49fb2e45ae6d09acff322f1075b",
