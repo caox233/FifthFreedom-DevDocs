@@ -4,8 +4,8 @@
   "status": "migration_in_progress",
   "goal_complete": false,
   "ACTIVE_OBJECT": "Fifth Freedom repository",
-  "LAST_CONFIRMED_RESULT": "Original executor/GitHub recovered; c42 source and10e3 knowledge plus both exact recovery bundles preserved and pushed. Further reviewed source6ecfdb also pushed/remoteverified. c42 hosted source Linux603/2skip and Windows500/105skip passed; Windows dependency13/read22+native8+interop4 passed. P2 local-only return pipe fix passed actual Windows28+final9 zero-skips, real legacy/factory/production NT handle controls digest-verified. Capture reference actual Windows x86 build19/19 passed; downloaded PE checksum verified, original source/binary unchanged, rebuiltbytes differ and parity not claimed. Quick-match test-only0fe3 two-client existing-room Official/MOD protocol cases2/2 independently passed; user symptom remains needs-triage. Complete package remains blocked by8 privacy-held SAV/META, C7113 reviewed replay inputs absent; no full package/Public/live completion.",
-  "NEXT_EXECUTABLE_ACTION": "Push reviewed quick-match regression and Capture failed-output corrections with source-bound DevDocs. Verify their exact-SHA hosted results, and read ongoing c42 candidate40371709938, inert40371709889 and Linux71 build40371709759; fix actual code failures without weakening gates. Continue all six milestones and quick-match empty-lobby/native-client triage alongside remaining integration. Complete downloadable unified candidate requires privacy-reviewed genuine default templates or reviewed reproducible replacement and C71 fixture/provenance closure; details in docs/DEVELOPMENT-CANDIDATE-TESTING.md. Do not repeat accepted live results or pretend component artifacts are complete.",
+  "LAST_CONFIRMED_RESULT": "Original cloud executor and normal GitHub access recovered, original source/knowledge heads and recovery bundles preserved. Source7c and knowledge5e published; subsequent reviewed repairs through aac0243 are pushed and verified on the diagnostic development ref. Exact c42 hosted composition/matrix successes and newer7c runtime failures are both retained. Initial DOWN/no-IPv4 readiness now has old-code failing controls and 26+34 passing related tests. Actual query-exit race reproduced before repair; repaired query passes 26 local/independent tests and 500 real invocations. Exact aac clean checkout passes 627 with two platform skips, package readiness false. Quick-match existing-room concurrent/ticket/leave protocol six passed, symptom still needs-triage. Windows raw enforcement remains [InactiveProfile, Full], strict refusal and successful unarmed Restore retained. Eight held SAV/META inputs and thirteen separate C71 replay inputs remain unavailable; no full package or real multiplayer fix is claimed.",
+  "NEXT_EXECUTABLE_ACTION": "Push the reviewed integration checkpoint and read its exact new hosted composition and transport-matrix results; local query/initial-link regressions do not replace those controls or exact cleanup proof. Keep the Windows hard refusal while a separate bounded read-only WFP diagnostic investigates the compiled filter shape; no policy or admission change is authorized by an inventory result. Synchronize exact source-bound DevDocs and preserve a new standalone recovery receipt without replacing originals. Continue all six milestones and quick-match empty-lobby/native-client triage. Complete packaging still needs genuine privacy-reviewed default inputs or a reviewed reproducible generator; C71 needs separate real fixture/provenance closure. Independent cloud work does not require the user PC, and no Goal scheduler interface exists.",
   "INPUT_PATHS": [
     "docs/MIGRATION.md",
     "docs/ACCEPTANCE.md",
@@ -28,12 +28,12 @@
     {
       "id": 3,
       "name": "Windows LAN and Linux public servers",
-      "status": "finite_linux_matrix_and_native_owned_composition_passed_later_tcp_restore_failure_under_diagnosis_windows_full_owned_core_pending_public_closed"
+      "status": "linux_query_exit_and_initial_link_repairs_verified_locally_actual_new_matrix_and_composition_pending_windows_hard_precondition_public_closed"
     },
     {
       "id": 4,
       "name": "Reviewed public source and development knowledge base",
-      "status": "reviewed_source_c42_and_knowledge10_pushed_verified_further_reviewed_updates_in_progress"
+      "status": "source7c_knowledge5e_and_reviewed_repairs_through_aac_on_separate_development_ref_published_new_integration_snapshot_pending"
     },
     {
       "id": 5,
@@ -86,7 +86,7 @@
     "personal_data_excluded": true
   },
   "cloud": {
-    "thread_title": "FifthFreedom\u4e91\u7aef",
+    "thread_title": "FifthFreedom云端",
     "repository": "caox233/FifthFreedom",
     "verified": "Same original managed environment; actual pwd/Git commands exit0, then official connectivity connected revision4; both original development branches and recovery bundles retained",
     "environment_display_name": "FifthFreedom in official configuration draft; live status exposes environment ID but not a separate display name",
@@ -97,7 +97,7 @@
     "knowledge_initial_commit": "c01ccf440990752cf8fd9b6b573cc41fef6fad31",
     "continuous_goal": "No Goal query/create/scheduler interface is available in this session. Full six-milestone scope is retained here; current turn runs autonomously, later turns require a new message or platform wake-up. No unlimited background execution is promised.",
     "api_access": "Normal gh api, git fetch, non-force push and remote SHA verification succeeded using inherited platform access; prior401 preserved as history",
-    "candidate_run": "https://github.com/caox233/FifthFreedom/actions/runs/40371709938",
+    "candidate_run": "https://github.com/caox233/FifthFreedom/actions/runs/40374533090",
     "pull_request": "https://github.com/caox233/FifthFreedom/pull/1",
     "hosted_history": [
       {
@@ -244,14 +244,14 @@
     ],
     "candidate_windows_source": "At1974 run39922764910 Windows job120311712409 succeeded. Official component ZIP digest verified; native8, interop3 and source8 each fully passed with zero ignored/skipped; four component hashes and checked PE branding matched. Quick39922765064 separately passed27return+9final and restored IIS.",
     "knowledge_pull_request": "https://github.com/caox233/FifthFreedom-DevDocs/pull/1",
-    "candidate_linux_matrix": "Digest-verified fe6 run39947934755 completed9 QUIC/WSS/developmentTCP correct/wrong/restore phases and6namespacecleanup. Earlier4b49 eightphasefailure retained; no universal stability or production nativelease claim. Newc42run40371709813 pending at lastobservation.",
+    "candidate_linux_matrix": "The fe6 and c42 guard3 nine-phase matrices passed with namespace cleanup. Newer7c matrix40374509451 failed its first QUIC phase before readiness; cleanup succeeded. Peer-map71 build is separate from guard3 runtime evidence.",
     "validated_implementation_commit": "2b66f307a8b4fd1106ca529a72f974bebc362d54",
-    "candidate_component_result": "Digest-verified ebd008Windows12patchfullcorebuild succeeded without execution. fe6candidate39947934694 failed firstlease-revoke QUERY_IMAGE_CHANGED, no secondcasecomplete; cleanupverified. Newc42candidate40371709938 actuallyrunningwithqueryexitfix; strictSAV/C71 gatesremain. CaptureandP2source6ecpushedandexactremoteSHAverified, Windowsevidencepending.",
-    "knowledge_snapshot_commit": "10e3e4ac4e4d90a4ea9a7755d30ad7eef6fd04bc",
-    "knowledge_snapshot_source": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
-    "knowledge_snapshot_files": 222,
-    "last_verified_remote_source_commit": "6ecfdb474238614a9df5e22abbe91581b99f40e6",
-    "latest_reviewed_local_implementation_commit": "8a694fac1def93966ffc10ef2569783f6a92aa9b",
+    "candidate_component_result": "Newer exact7c candidate40374533090: seven successful jobs, three failures (eight held package inputs, thirteen C71 fixtures and owned composition), complete package skipped. Composition again reports QUERY_IMAGE_CHANGED and CHILD_START_CLEANUP_UNCONFIRMED; newer matrix40374509451 fails initial EADDRNOTAVAIL before readiness. Exact c42 successes remain valid for their runs, not stability proof.",
+    "knowledge_snapshot_commit": "5e7b258374fc30e81c21a7069fcad3fe401281ba",
+    "knowledge_snapshot_source": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
+    "knowledge_snapshot_files": 231,
+    "last_verified_remote_source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
+    "latest_reviewed_local_implementation_commit": "aac0243825d7c6a04168df37cc712118f080a664",
     "latest_reviewed_local_implementation_pushed": true,
     "authentication_recovery": {
       "status": "recovered_actual_operations_verified",
@@ -270,8 +270,10 @@
     },
     "hosted_results_unobserved_after_authentication_failure": [],
     "duplicate_cancellations_confirmed": false,
-    "knowledge_snapshot_delivery": "Exact10e3e4a pushed and remote SHA verified; earlier local-only creation metadata retained historically pending new source-bound snapshot",
-    "recovered_hosted_receipt": "docs/evidence/hosted-recovery-c42e0eb.json"
+    "knowledge_snapshot_delivery": "Source7c614c1 and knowledge5e7b258 pushed; exact remote SHAs and draft PR heads verified. The knowledge snapshot has 230 manifest files, 228 exact source mirrors and 63 code-map links independently checked against remote Git objects; newer diagnostic/failure records await the next source-bound snapshot.",
+    "recovered_hosted_receipt": "docs/evidence/hosted-recovery-c42e0eb.json",
+    "diagnostic_branch": "codex/firewall-diagnostic",
+    "diagnostic_remote_commit": "aac0243825d7c6a04168df37cc712118f080a664"
   },
   "validation_boundaries": [
     "no new game execution or live acceptance",
@@ -279,7 +281,7 @@
     "no production/public server deployment",
     "do not repeat passed user tests"
   ],
-  "updated_utc": "2026-10-26",
+  "updated_utc": "2026-10-26T19:26:37.655620+00:00",
   "build_evidence": {
     "local_package_sha256": "69297cc378c4f8d16cb256f00988271288ac7f97932c0f732e56435260a5a33f",
     "source_tests": 37,
@@ -1256,6 +1258,131 @@
       "complete_package_ready": false,
       "source_report_sha256": "38f239fc01ca640abfc6fc1c22dec77dc280ecf3bc54240b2c9c9884d4092443",
       "retained_log_sha256": "8c9285a0c99502c92d2e6e98cd230aff35ebd916be5fc029cd1bd7c9b0c30e2a"
+    },
+    "peer_map_71_hosted": {
+      "source_commit": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
+      "run_id": 40371709759,
+      "job_id": 121743872131,
+      "new_passed": 12,
+      "retained_passed": 59,
+      "full_gnu_core_cli_build_exit": 0,
+      "runtime_executed": false,
+      "receipt": "docs/evidence/hosted-peer-map-c42e0eb.json"
+    },
+    "owned_composition_c42": {
+      "run_id": 40371709938,
+      "job_id": 121755096661,
+      "actual_cases_passed": 2,
+      "namespaces_created": 4,
+      "namespaces_removed": 4,
+      "query_image_changed_in_this_run": false,
+      "historical_unique_cause_proven": false,
+      "ordinary_public_enabled": false,
+      "receipt": "docs/evidence/hosted-owned-stack-c42e0eb.json"
+    },
+    "recovered_7c_source": {
+      "source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
+      "run_id": 40374532962,
+      "linux_passed": 613,
+      "linux_skipped": 2,
+      "windows_passed": 510,
+      "windows_skipped": 105,
+      "errors": 0,
+      "failures": 0,
+      "complete_package_ready": false,
+      "receipt": "docs/evidence/hosted-recovery-7c614c1.json"
+    },
+    "windows_firewall_prepare_failure": {
+      "runtime_run": 40371709889,
+      "runtime_source": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
+      "runtime_dispatched": false,
+      "fast_probe_run": 40377415703,
+      "classification_probe_run": 40378390311,
+      "field": "APPLICATION_PACKAGE",
+      "observed_package_value_class": "NULL",
+      "path_predicate_passed": true,
+      "fixed_and_revalidated": false,
+      "task": "docs/tasks/windows-core-firewall-prerequisite.md",
+      "package_predicate_corrected": true,
+      "package_ps_contracts_passed": 15,
+      "unarmed_restore_owned_rules_removed": true,
+      "unarmed_restore_baseline_unchanged": true,
+      "current_failure": "ENFORCEMENT_STATUS: adapted ARRAY2 STRING OTHER_STRING; authoritative raw CIM pending"
+    },
+    "clean_source_firewall_package": {
+      "source_commit": "72b43d48ecf0319724a9ccdcd6d669797b85c155",
+      "initial_git_clean": true,
+      "tracked_source_unchanged": true,
+      "exit_code": 0,
+      "executed": 623,
+      "passed": 621,
+      "skipped": 2,
+      "complete_package_ready": false,
+      "source_report_sha256": "6d557c40e731d3ae491e9926601cfc60617554d1f689d6ad6471ba933e29b9b3",
+      "retained_log_sha256": "3c118617f2749d35a679602c138231c5f6f3c9ad15382bad95a98ba06d1992ec"
+    },
+    "recovered_7c_runtime_failures": {
+      "receipt": "docs/evidence/hosted-failures-7c614c1.json",
+      "composition_failure": "QUERY_IMAGE_CHANGED; CHILD_START_CLEANUP_UNCONFIRMED",
+      "matrix_failure": "OVERLAY_ADDRESS_QUERY_UNAVAILABLE; first ipv4_address EADDRNOTAVAIL before readiness",
+      "prior_c42_successes_retained": true,
+      "stability_verified": false
+    },
+    "recovered_7c_components": {
+      "receipt": "docs/evidence/hosted-components-7c614c1.json",
+      "scope": "Verified Windows full MSVC owned-read build, Linux peer-map71 full GNU build and selected actual Windows prerequisites; no full package or successful inert runtime claim."
+    },
+    "query_exit_transition": {
+      "commit": "aac0243825d7c6a04168df37cc712118f080a664",
+      "receipt": "docs/evidence/query-exit-transition-regression.json",
+      "actual_queries_passed": 500,
+      "focused_passed": 26,
+      "independent_focused_passed": 26,
+      "new_hosted_runtime_verified": false
+    },
+    "initial_link_pending": {
+      "commit": "ab002271db8570551ac8a16fe8f13e29fc3633f5",
+      "receipt": "docs/evidence/initial-overlay-address-regression.json",
+      "focused_monitor_passed": 26,
+      "related_probe_passed": 34,
+      "new_hosted_runtime_verified": false
+    },
+    "quick_match_protocol_followup": {
+      "commit": "790b1793085d6f940c107945e8c0e987598ba365",
+      "receipt": "docs/evidence/quick-match-protocol-regressions.json",
+      "passed": 6,
+      "failed": 0,
+      "ignored": 0,
+      "independently_rerun": true,
+      "live_symptom_reproduced": false,
+      "status": "needs-triage"
+    },
+    "clean_source_runtime_repairs": {
+      "source_commit": "aac0243825d7c6a04168df37cc712118f080a664",
+      "initial_git_clean": true,
+      "tracked_source_unchanged": true,
+      "exit_code": 0,
+      "executed": 629,
+      "passed": 627,
+      "skipped": 2,
+      "complete_package_ready": false,
+      "source_report_sha256": "79191c9bdb4a4ebfa384fffdd846b272d34c49250da0cfa0c39919dda8ba72e3",
+      "retained_log_sha256": "49f2d44d6f74c55390df4b828eda931b08a8fe7a046b2e6188e9008f67ec1b40"
+    },
+    "canonical_patch_runtime_repairs": {
+      "base": "fc8ef510b51be83c31f9f8233997f758b0477acc",
+      "target": "aac0243825d7c6a04168df37cc712118f080a664",
+      "patch_sha256": "425cab159effd66e45e636eb076012952b4f03adbbe578142627a69ef86c3fc7",
+      "patch_bytes": 4420053,
+      "changed_paths": 491,
+      "original_paths_verified": 1312,
+      "forward_exact_bytes_modes_paths": 1745,
+      "reverse_exact_bytes_modes_paths": 1312,
+      "reverse_git_clean": true,
+      "public_file_subprocess_umask": "022",
+      "private_original_four_roles_changed": false,
+      "baseline_materialization": "canonical Git blobs and modes; attribute-driven checkout CRLF conversion excluded",
+      "scope": "supplemental cloud source patch, not a replacement for original private four-role evidence"
     }
   }
 }

@@ -1,29 +1,30 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
-  "previous_snapshot_source_commit": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
-  "created_utc": "2026-10-26T18:05:46.323391+00:00",
+  "source_commit": "9aede37dd34cb770b72003bb50dcec237ac8ed14",
+  "previous_snapshot_source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
+  "created_utc": "2026-10-26T19:31:16.025889+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
-  "publication_at_creation": "source_pushed_and_remote_objects_verified_knowledge_snapshot_pending_push",
+  "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
+  "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "10e3e4ac4e4d90a4ea9a7755d30ad7eef6fd04bc",
+  "last_verified_remote_knowledge_commit": "5e7b258374fc30e81c21a7069fcad3fe401281ba",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "9c6300f8be891e819f0e4186f72977f0950de824a25259451ec1b581549fd305",
-      "bytes": 11927
+      "sha256": "25d967f210dff578275edc73e50bd9c738a726d56be470b865c479af435f48ee",
+      "bytes": 12447
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "59abfe164e8a1bd29c5d276c77a7eb476c0a5b6793452c77db73c8645f3d4aed",
-      "bytes": 63903
+      "sha256": "52960aae7a6f7547839e916476e6bf2011cc05702f6d7379d10e621887fa1383",
+      "bytes": 69892
     },
     "README.md": {
-      "sha256": "4bbb20670a03b4ecf206e6f0b1d46f5429c4c0dce780234d1cacb19044a9ca03",
-      "bytes": 6266
+      "sha256": "15043a067a4efe762e986a155c4292ced9eaae91af82bc2599ca967fdaf742e2",
+      "bytes": 6445
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
@@ -50,8 +51,8 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "8ce74393a49de16ebc3c2bef4c7c4a2da8b83c3c9bf030d8a8a7afe54b6507b4",
-      "bytes": 89624
+      "sha256": "3bcf393efc919aafeef017afcbef7976afe26958858cc94f23061f9f26289ac4",
+      "bytes": 93629
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -493,6 +494,10 @@
       "sha256": "cefbc5f880fcada9641c6901f954e25218df627713ee919a7593656eed22f8b0",
       "bytes": 2138
     },
+    "docs/evidence/hosted-components-7c614c1.json": {
+      "sha256": "d17d2856d6dc2f56f1dc64a9507aace7e3200c3f5ed04f275259f196bc95e2e3",
+      "bytes": 5160
+    },
     "docs/evidence/hosted-containment-canonical-f85c515.json": {
       "sha256": "be1a7ea7474b1e83ec8a49d22cb4e95904ab144516eaebe322dd216773e07ccc",
       "bytes": 3518
@@ -509,6 +514,14 @@
       "sha256": "f0f4f2a14313d115e0aa059f756bb7192379d473a79817b1d47250798ea70aa9",
       "bytes": 2071
     },
+    "docs/evidence/hosted-failures-7c614c1.json": {
+      "sha256": "946c3e50355574bc07ca6a860d953c6f801e238cd5ebb8d8e4b8eb7b019c7ca1",
+      "bytes": 5698
+    },
+    "docs/evidence/hosted-firewall-prerequisites.json": {
+      "sha256": "a950c66ad2cc025370815005b0b9c45581f18b5a753f78fa046a54ce370616cb",
+      "bytes": 3760
+    },
     "docs/evidence/hosted-guard3-builder-compatibility-05c127a.json": {
       "sha256": "b8fe81400e802eceb4f2980becd3d62679da22b2fb96f5a5e6e82cd29f9cb28a",
       "bytes": 5905
@@ -520,6 +533,10 @@
     "docs/evidence/hosted-local-pipe-6ecfdb.json": {
       "sha256": "23fbc6560390075ae576aa564c1bc04db121837000222b97c5dcf8e63ba11227",
       "bytes": 2287
+    },
+    "docs/evidence/hosted-matrix-c42e0eb.json": {
+      "sha256": "b8f7c7550e6a6e38d2c088d1e50e35e470a4531e2fd9899d02bcb5dfd877ae65",
+      "bytes": 1528
     },
     "docs/evidence/hosted-native-lifecycle-4322658.json": {
       "sha256": "f5d65908fbb1c421cefb50f4a4bb53770b216aaec0385dcaff9141fcc22a2ad5",
@@ -589,9 +606,21 @@
       "sha256": "4fb94e6c7e7c06d2ef372c9a7c25705c78981af351570bab4d433dcc59678c2c",
       "bytes": 8766
     },
+    "docs/evidence/hosted-owned-stack-c42e0eb.json": {
+      "sha256": "f2026592772b53ca45c1bbe0ad9b6dddb42deca68415fc3884260d05d78c4b2a",
+      "bytes": 8847
+    },
+    "docs/evidence/hosted-peer-map-c42e0eb.json": {
+      "sha256": "9149f52a0c0970122a92e983cfe4c72eb414dd08a266be83faa8e2f352a3f653",
+      "bytes": 2000
+    },
     "docs/evidence/hosted-prerequisites-3f3ecfe.json": {
       "sha256": "7065d40ff86fe80e2e2256c472f800acbe0c5c2054c97eb37573ec947ea781e8",
       "bytes": 2521
+    },
+    "docs/evidence/hosted-recovery-7c614c1.json": {
+      "sha256": "81540685a9211becaef095f31b5fb3f9673c0094c9c33722fb72260f22a6ae6f",
+      "bytes": 4297
     },
     "docs/evidence/hosted-recovery-c42e0eb.json": {
       "sha256": "34f45a0154b625df77002e826051412806b168eff79bf382499ab00cbab4d276",
@@ -661,6 +690,18 @@
       "sha256": "582f960549c4a20b0c0514114e003dbf0406eb002060b28e8fe5a64c50222647",
       "bytes": 1419
     },
+    "docs/evidence/initial-overlay-address-regression.json": {
+      "sha256": "f569732a80141da0db9cc741b3819550dd2b216a1c507c03f2b3ef344147574e",
+      "bytes": 2737
+    },
+    "docs/evidence/query-exit-transition-regression.json": {
+      "sha256": "ea3164bc47dc7d60f100d53e8641edf6027d25242bd973a3db22d66df75a95e2",
+      "bytes": 3745
+    },
+    "docs/evidence/quick-match-protocol-regressions.json": {
+      "sha256": "f674844de431a38d5d3bb7f68bac3b23af7ae0c9308422baacc5eaa148925eb5",
+      "bytes": 4622
+    },
     "docs/fusionfix-provenance.json": {
       "sha256": "0ddde020bbf021dcb9fcc043c83074a82077813042d549796a6fc0f1812dfc70",
       "bytes": 13115
@@ -726,8 +767,8 @@
       "bytes": 7657
     },
     "docs/tasks/peer-map-build.md": {
-      "sha256": "47cb4cad1c7613d14d80544cbecbc1c0ab11a46bef273760d388a79391a2f3a2",
-      "bytes": 5420
+      "sha256": "4a6a5ad44ed566c02cca321e08ceb62d012b90d60019533e435ce689f776f630",
+      "bytes": 5672
     },
     "docs/tasks/peer-map-challenge.md": {
       "sha256": "ff377ccd8856984946fbcea55e3937515ab8c2b313040657588bd399eff45c05",
@@ -750,8 +791,8 @@
       "bytes": 8503
     },
     "docs/tasks/quick-match-same-session.md": {
-      "sha256": "2ca9abe79cb0cc6b63a8d944d40df1180283bea2113ae2c3686088de4b0df1a5",
-      "bytes": 4455
+      "sha256": "d7f5d71f9e8f50bddaf1fe35e0fd63a3c1a9ca2712c6c7404165ed2aaca2f002",
+      "bytes": 5853
     },
     "docs/tasks/remaining-bugs.md": {
       "sha256": "a13b41c2f9a69f35efd1ba0f37ab68a68b36db2a3d943dd3fec0216ca2647f14",
@@ -806,16 +847,16 @@
       "bytes": 15667
     },
     "docs/tasks/server-13.md": {
-      "sha256": "0ab855e62d8c31f6cfb0130879cefd4c4a0c4d9517ba67156c556a746decfde9",
-      "bytes": 24638
+      "sha256": "8ffdfc5ced20f8c9ae699eac3a885db0555d8e7d32ef7b46a126e18f8b8ba58b",
+      "bytes": 26039
     },
     "docs/tasks/server-14.md": {
-      "sha256": "3f8cc2f07d8d158794a40f8a1bf27f3523c027e90d7e7ec0c2a826ab8491bd92",
-      "bytes": 19402
+      "sha256": "aba53f40fb246714fb21498f022166c0a66b3a5edce6e7138e2cc19c0d649ca2",
+      "bytes": 23196
     },
     "docs/tasks/server-15.md": {
-      "sha256": "1d877c7f164c0793995f3a3196de9d064481acf56a3a8c218cabe408e63573f0",
-      "bytes": 16045
+      "sha256": "02d9eab9480b1bd3ac73c9ba8f90e236623f3e13ea4d8b9cc73a550232dabe40",
+      "bytes": 18515
     },
     "docs/tasks/server-16.md": {
       "sha256": "daf3ae36bce414338b79a0b5defa5ab3cf3e31e625921c6ffb463b67205fa1b5",
@@ -877,6 +918,10 @@
       "sha256": "67a149c79de0a240b67b88ac666c8bf64ecd02260a2bbd3ef8f3d700d3af6e31",
       "bytes": 7838
     },
+    "docs/tasks/windows-core-firewall-prerequisite.md": {
+      "sha256": "bbdf34f7c7bdb0ebf9ef6b1d58ca7b218116c560d18ce156e2ddebfded62d20d",
+      "bytes": 9298
+    },
     "docs/tasks/windows-owned-fixture-cleanup.md": {
       "sha256": "1838037bd56322864771b92b4fe6d5693afec49fb2e45ae6d09acff322f1075b",
       "bytes": 2776
@@ -929,6 +974,5 @@
       "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
       "bytes": 5431
     }
-  },
-  "remote_code_map_links_verified": 63
+  }
 }

@@ -7,7 +7,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`7c614c10577eafdaf3727f9ba000f98f1fa355a5`](https://github.com/caox233/FifthFreedom/commit/7c614c10577eafdaf3727f9ba000f98f1fa355a5)
+- 本批文档对应源码提交：[`9aede37dd34cb770b72003bb50dcec237ac8ed14`](https://github.com/caox233/FifthFreedom/commit/9aede37dd34cb770b72003bb50dcec237ac8ed14)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -58,6 +58,8 @@
 - [隔离核心配置与默认发现关闭](docs/dependency-patches/easytier-2.6.4-inert-stun/README.md)
 - [实际 Windows 核心与网卡验证入口](docs/tasks/owned-core-runtime.md)
 - [同作业隔离核心构建与恢复检查](docs/tasks/ci-windows-inert-runtime.md)
+- [Windows 启动前防火墙核查](docs/tasks/windows-core-firewall-prerequisite.md)
+- [云会话授权恢复与真实续接步骤](docs/tasks/cloud-authentication-recovery.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)

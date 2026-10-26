@@ -1,7 +1,11 @@
 # SERVER-14 — owned overlay observations for native lease composition
 
 Status: ready-for-agent. Implementation, local process/IPC tests and independent
-review complete; same-build hosted composition is still required. Ordinary
+review complete. Exact c42 hosted composition passed, but newer7c again reports
+`QUERY_IMAGE_CHANGED` and unconfirmed child cleanup before READY. The further
+exit-transition repair below has real old/new regressions; a fresh hosted run
+is required. See the
+[new hosted failure record](../evidence/hosted-failures-7c614c1.json). Ordinary
 Public startup and `ClosedPublicAdmission` remain closed. No production admission
 provider is added by this task.
 
@@ -171,7 +175,7 @@ timeouts after peer loss are not EOF evidence. Containment checks apply before
 and after both controls. An already running core cannot be adopted into the
 supervisor.
 
-## Initial IPv4 assignment window
+## Initial IPv4 assignment window (earlier UP-only correction)
 
 The exact guard3 `VirtualNic.create_tun` creates an UP interface before
 `NicCtx.run` awaits IPv4 assignment. That later path performs `link_up`, removes
@@ -236,7 +240,7 @@ combined-stack tests, with zero skips. They do not reproduce the unspecified
 new details before any broader runtime change is justified. Evidence remains in
 `.local/evidence/cloud/kernel-query-details/`.
 
-## Short-lived query completion and image identity
+## Short-lived query completion and image identity (earlier correction)
 
 The first combined run containing OPEN, [39943233020](https://github.com/caox233/FifthFreedom/actions/runs/39943233020),
 job 120389777286, completed case A: actual five-listener READY, the held TCP
@@ -306,3 +310,57 @@ unchanged. Evidence is retained in `.local/evidence/cloud/kernel-stage-fixture/`
 This demonstrates and removes the fixture's uncontrolled descriptor lifetime;
 it does not assign fd200 to the earlier clean-checkout failure or explain any
 historical hosted runtime failure. A new clean aggregate is still required.
+
+
+## Verified follow-up at c42e0eb
+
+Run `40371709938`, composition job `121755096661`, passed both actual controls at
+source `c42e0ebbc8084e943076aab7effc6abd4e8662c7`, which includes the query-exit
+fix. The [independently verified receipt](../evidence/hosted-owned-stack-c42e0eb.json)
+binds the official artifact digest and merge/source tree. Each successful branch
+requires the exact held socket's OPEN acknowledgement and live worker pidfd before
+control; the receipt has no separate OPEN field, so this observation combines the
+mandatory exact harness path with its successful result. Lease revoke observed
+native exit92, five rebound ports and EOF/reset while overlay remained alive;
+peer loss observed permanent revocation, exact cleanup and zero native listeners.
+All four namespaces and private stage were removed; source package was unchanged.
+
+No QUERY_IMAGE_CHANGED occurred in this run. The older fe6 failure remains real;
+this does not establish its unique cause or general stability. The runtime uses
+guard3, not the newly built peer-map71 source. Ordinary Public admission remains
+closed. Overall candidate result was eight jobs successful, two strict input
+failures (eight held SAV/META and C71's thirteen unexecuted replays), and complete
+Windows packaging skipped. No component or finite runtime proof is a full package.
+
+## Further initial-link and query-exit transitions
+
+The newer7c failure identifies a previously unobserved link which is DOWN and
+has no IPv4 address. `ab002271` extends the earlier UP-only pending condition to
+that exact initial `EADDRNOTAVAIL` case. It remains bounded by startup timeout
+and publishes no ownership/readiness; address loss after a committed interface
+and every unrelated error remain fatal. See the
+[actual regression and limits](../evidence/initial-overlay-address-regression.json).
+
+`aac0243825d7c6a04168df37cc712118f080a664` handles a second actual query-exit
+window: Linux can remove `/proc/exe` before the thread-group pidfd signals exit.
+Unmodified production code failed three of 56 real verified `printf` invocations
+in one retained run; each later exited zero. A controlled real thread-group
+leader exit reproduces the same boundary without mocking procfs or pidfd, and
+the old production code independently fails that regression.
+
+The new `EXIT_PENDING` state means unresolved completion, never live identity
+or successful output. It is available only after the existing verified exec
+barrier and only for `ENOENT`. Private output may be drained within the same
+size/deadline limits, but publication still requires the exact child's exit0,
+pidfd `EXITED` and unchanged pinned executable. An observed foreign image,
+non-ENOENT error or live image reappearing after this absence remains permanently
+rejected. Ordinary long-lived process rules are unchanged.
+
+All 26 owned-query tests pass locally and independently. The actual post-fix
+stress passed 500/500, observing 96 pending transitions. Nonzero completion,
+EOF while a real worker remains alive, timeout and cancellation controls retain
+exact cleanup requirements. See [the bound receipt](../evidence/query-exit-transition-regression.json).
+This repairs a demonstrated race, not a uniquely proven explanation of all hosted
+failures. Historical `CHILD_START_CLEANUP_UNCONFIRMED` remains unconfirmed: the
+worker can report it before a native handle exists, but its receipt lacks the
+spawn-stage/handle evidence needed to infer either a leak or successful drain.

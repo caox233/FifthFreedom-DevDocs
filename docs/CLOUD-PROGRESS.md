@@ -11,6 +11,20 @@ thirteen replay checks still lack reviewed fixture/provenance. See the
 [recovery task](tasks/cloud-authentication-recovery.md) and
 [candidate delivery requirements](DEVELOPMENT-CANDIDATE-TESTING.md).
 
+Latest reviewed repair checkpoint `aac0243825d7c6a04168df37cc712118f080a664`
+is pushed and remote-verified on the separate development ref. Its fresh clean
+checkout passes627 with2 platform skips (629 total), exit0, unchanged tracked
+files and `complete_package_ready:false`; report SHA256 is
+`79191c9bdb4a4ebfa384fffdd846b272d34c49250da0cfa0c39919dda8ba72e3`.
+The [initial-link repair](evidence/initial-overlay-address-regression.json)
+and [query-exit repair](evidence/query-exit-transition-regression.json) retain
+real old-code failing controls, focused passing regressions and independent
+review. The query also passes500 real invocations with96 pending exit
+observations. New hosted matrix/composition controls are still required.
+The [quick-match suite](evidence/quick-match-protocol-regressions.json) now
+passes6 existing-room concurrent/ticket/LeaveSession controls; the reported
+same-game symptom remains needs-triage, without empty-lobby or real-game proof.
+
 Further reviewed source `6ecfdb4` is also pushed and remote-verified. Its
 [local-only pipe check](evidence/hosted-local-pipe-6ecfdb.json) passed actual
 Windows28 return checks plus9 final-launch checks, zero skips, including real
@@ -31,6 +45,50 @@ upload when its build step did not succeed. A fresh clean source check at exact
 (615 total), exit0, unchanged tracked files and `complete_package_ready:false`.
 The source report SHA256 is
 `38f239fc01ca640abfc6fc1c22dec77dc280ecf3bc54240b2c9c9884d4092443`.
+
+## Later verified results and current firewall boundary
+
+Newer exact `7c614c1` hosted receipts expose two additional failures despite the
+earlier `c42e0eb` successes. Candidate `40374533090` has seven successful jobs,
+three failures and one skipped complete package. Its composition fails before
+recorded READY with `QUERY_IMAGE_CHANGED`; exact child cleanup is unconfirmed.
+Matrix `40374509451` fails before its first phase with initial interface
+`EADDRNOTAVAIL` while the link is down and has never been observed ready.
+Its worker and namespace cleanup passed. The seven mapped harness/production
+files are byte-identical to successful c42; this does not establish a unique
+root cause. Both failures are being reproduced independently, and are distinct
+from the asset and C71 gates. See [the verified failure record](evidence/hosted-failures-7c614c1.json).
+
+The same exact source's separate [component receipts](evidence/hosted-components-7c614c1.json)
+confirm the Windows MSVC core/CLI build, Linux peer-map71 full GNU build and
+Windows return28/final9/dependency13/read22+8+4 checks, zero selected skips.
+The Windows inert lane compiled but failed before runtime at the old firewall
+readback condition. These successful builds do not remove either new runtime
+failure or admit a complete package; its binaries were not independently
+downloaded in this receipt review.
+
+Candidate `40371709938` at `c42e0eb` completed eight successful jobs, two strict
+input failures and one skipped complete package. Its two actual owned-stack
+controls and native lifecycle passed; see [the exact receipt](evidence/hosted-owned-stack-c42e0eb.json).
+The 71-contract [peer-map full GNU build](evidence/hosted-peer-map-c42e0eb.json)
+also passed, without runtime execution. The separately successful
+[guard3 matrix](evidence/hosted-matrix-c42e0eb.json) must not be called peer-map71
+runtime evidence. New [7c source/Capture results](evidence/hosted-recovery-7c614c1.json)
+are likewise independently digest-verified.
+
+The full Windows inert runtime first failed before dispatch. Dedicated
+[actual firewall probes](evidence/hosted-firewall-prerequisites.json) established
+a present-null Package property, corrected by a strict shared predicate and15
+actual PowerShell contracts. Unarmed Restore now removes owned rules and restores
+the original policy. Run `40384304423` at `d432382` now confirms raw CIM
+`UInt16Array [InactiveProfile, Full]`; this is not an all-Full observation.
+The 15 package and 22 diagnostic PowerShell contracts pass, while Prepare still
+rejects and unarmed Restore succeeds. No policy condition was waived. The separate
+cleanup-ownership correction prevents a fresh invocation from restoring an
+older control directory. See [the continuing task](tasks/windows-core-firewall-prerequisite.md).
+A clean checkout at `72b43d4` passed621 source checks with2 platform skips, exit0;
+complete-package readiness remains false. Reviewed diagnostic work is published
+to `codex/firewall-diagnostic` while the stable integration PR remains at7c.
 
 The cloud checkout fetched and verified handoff commit
 `fc8ef510b51be83c31f9f8233997f758b0477acc` before creating
