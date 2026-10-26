@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "2429db80264d4c2fd5b68260b23523308369e10f",
-  "previous_snapshot_source_commit": "9139c9ed3fe7dd90db6dfbd79666fe28f8474c3d",
-  "created_utc": "2026-10-26T23:23:07.512219+00:00",
+  "source_commit": "329f18a40f9959cfb06939c26150cd50126c26ee",
+  "previous_snapshot_source_commit": "2429db80264d4c2fd5b68260b23523308369e10f",
+  "created_utc": "2026-10-26T23:37:14.107643+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "2c3906335ebfff2b2cc798fd7b4e706c93e02ec2",
+  "last_verified_remote_knowledge_commit": "c1f8d1d576a01a82bf1300e5d10d25aba74a205e",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "40f542de9f98dd080541c4a099d541816383ad85d17bd1a2f10fc3a662ce29ae",
+      "sha256": "4d1f1c39f3d95b5fa8a7acf8ce2a2338433245945c321146f0bc63b7ae725609",
       "bytes": 13443
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "d6eab616eb7b658e7ef7c9eb46c441bf664ab18469e4a63f0969d022a8f0603e",
-      "bytes": 80956
+      "sha256": "b9fe43cbf7bb38f1ee533a51847253ccdbc11aa302e8c1fb67933b6c2aacefe5",
+      "bytes": 83207
     },
     "README.md": {
-      "sha256": "5afb8db8eba1c04a1c38ec896c2ef26106b6149ef472bf3a624e99abf9af0490",
+      "sha256": "a28749f66df1cbd9938199b0e2edddd9da1b20d43397957272f71ad0b3fed7fa",
       "bytes": 6647
     },
     "docs/ACCEPTANCE.md": {
@@ -51,8 +51,8 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "b8a083791f59fa5023a9b17d7d506986321e1584e419d19b0654d87a59acf7e2",
-      "bytes": 100184
+      "sha256": "607d2ca90f590321df5b2369706df805086c747d629174fef29ac71529c543ac",
+      "bytes": 101744
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -570,6 +570,10 @@
       "sha256": "722985e71158dac08a77d0977349a297362bdee659da7507afbd8ed7bbcd948b",
       "bytes": 7763
     },
+    "docs/evidence/artifact-windows-metadata-regression.json": {
+      "sha256": "d70f4de37ab88b4cd425673b82b72dc3a86df1f30cb388170fb3faeb70e42861",
+      "bytes": 6807
+    },
     "docs/evidence/diagnostic-streaming.json": {
       "sha256": "47dc20473639eda177fcbeb26637908c03d33b793cd41761b9ce6b4ced9bd678",
       "bytes": 4512
@@ -931,12 +935,12 @@
       "bytes": 4094
     },
     "docs/tasks/ci-01.md": {
-      "sha256": "cf6fe327262d7944983fe0b70481e642175157a5ab6d8c852b5710104c493c6c",
-      "bytes": 80338
+      "sha256": "c2c8b4fb34b5e7975089bb826ebdf496efd462411ab2a1801e4d25b675c00d84",
+      "bytes": 80734
     },
     "docs/tasks/ci-artifact-source-closure.md": {
-      "sha256": "4e585fefa751a7f4532acf41d98bab1101c40876f7f74a76802b561754c11203",
-      "bytes": 5691
+      "sha256": "0725de89c9555b575928019c5079727f7dbb01204b839624a1c9f334dfe696e7",
+      "bytes": 7234
     },
     "docs/tasks/ci-windows-inert-runtime.md": {
       "sha256": "433017dec142e8e249efa176df4080493490ec859c87c1fc0e36ed0d3ff2f7dd",
