@@ -1,14 +1,13 @@
 # Fifth Freedom 开发知识库
 
-> 此快照暂为云工作区本地提交，GitHub 授权故障尚未恢复。下列固定源码链接
-> 已与本地 Git 对象核对，但新提交尚未推送，不能视为已公开可访问。
-> 最后一次核实的远端是 b809b4a 快照；恢复步骤见
-> [云会话授权恢复](docs/tasks/cloud-authentication-recovery.md)。
+> 原云执行器及 GitHub 接入已恢复，原未推送成果已保全并推送。
+> 本快照绑定已推送源码，固定入口的远端 Git 对象已核对。
+> 完整统一包仍受默认存档隐私门禁和未完成集成限制；组件或参考 EXE 不是完整包。
 
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`c42e0ebbc8084e943076aab7effc6abd4e8662c7`](https://github.com/caox233/FifthFreedom/blob/c42e0ebbc8084e943076aab7effc6abd4e8662c7/)
+- 本批文档对应源码提交：[`7c614c10577eafdaf3727f9ba000f98f1fa355a5`](https://github.com/caox233/FifthFreedom/commit/7c614c10577eafdaf3727f9ba000f98f1fa355a5)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -84,3 +83,9 @@ Codex 云端负责后续实现；GitHub-hosted Windows/Linux Actions 是常规�
 新实现应同步补充原因、约束、代码入口、实际命令/结果、失败与回滚及待实机范围。
 项目仓库的同名文档是开发时的权威版本；此独立知识库按提交更新快照。
 不记录密钥、个人账号、聊天正文、原始存档、崩溃转储或图形捕获。
+
+- [统一开发候选包门禁与集中测试](docs/DEVELOPMENT-CANDIDATE-TESTING.md)
+
+- [快速匹配同局调查（needs-triage）](docs/tasks/quick-match-same-session.md)
+
+- [Capture 历史源码独立构建](docs/tasks/capture-reference-build.md)

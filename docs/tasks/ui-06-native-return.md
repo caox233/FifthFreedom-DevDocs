@@ -1,8 +1,10 @@
 # UI-06 native owned authentication return
 
-Status: ready-for-agent. Production-linked implementation and portable tests are
-complete; actual hosted Windows pipe execution, full native build and managed /
-Rust interoperation remain separate required evidence. No game was started.
+Status: ready-for-agent for remaining Public integration. Production-linked
+implementation, portable checks and hosted Windows pipe/native/interoperation
+results are recorded at their precise revisions below. The local-only return
+pipe P2 is now verified on actual production handles at `6ecfdb4`; this does not
+establish complete Public admission. No game was started.
 
 The original configuration pipe, TOML bytes, length header and receipt ACK are
 unchanged. An optional `FF_PUBLIC_RETURN_V1` contains only a pipe name, launch ID,
@@ -84,6 +86,44 @@ cross-language owned-process probe if needed. The separate managed suite and the
 Rust suite are complementary; neither alone proves their live interoperation.
 Public deployment admission, private SAV/META resources and real-game acceptance
 remain gated independently.
+
+## Local-only return pipe correction (2026-10-27)
+
+The review of `fc8ef510...fe6e3cd5` identified a P2 boundary omission that was
+still present in the preserved `c42e0eb` source: `CurrentUserOnly` restricts the
+ACL, but does not set `PIPE_REJECT_REMOTE_CLIENTS`. A peer PID must not be
+interpreted as a local owned-game PID before the pipe excludes remote clients.
+This is a source-confirmed omission, not a demonstrated SMB exploit; ordinary
+Public admission remains closed.
+
+`LocalOnlyPipeServer` now contains the existing native factory extracted from
+`OwnedCoreReadChannel`. Both that channel and every `PublicReturnPipe` server
+instance call it. It keeps the protected current-user-only DACL, non-inherited
+handle, duplex/byte/overlapped operation, first-instance restriction and one
+instance limit, and requests the kernel reject-remote bit at creation. The
+process/creation-time, configuration ACK and nonce checks remain unchanged.
+
+The managed return suite adds a Windows case with actual handles: the former
+managed constructor is a negative control, the shared factory is queried and
+its ACL inspected, successful same-user byte delivery and rejected duplicate
+creation required, and a connection to the actual production receiver queried. The
+probe uses `NtQueryInformationFile(FilePipeLocalInformation)`, whose NT creation
+flag is `FILE_PIPE_REJECT_REMOTE_CLIENTS = 2`; Win32 `GetNamedPipeInfo` does not
+expose that flag. The target Windows observation still needs execution: if the
+OS does not expose the creation bit in this query, this probe must fail and its
+method must be corrected, rather than claiming that a source constant proves
+the live handle boundary. Sanitized receipts retain only fixed query labels.
+No SMB service is enabled or reconfigured by the probe.
+
+Focused Linux validation: PublicNativeReturn **14 passed, 14 Windows cases
+skipped**; the CI adapter **10 passed** and diagnostic parser **24 passed**.
+The adapter now requires **28 passed, zero skipped** on Windows; the prior
+27-case result cannot satisfy the new lane. The four OwnedCore projects retain
+an explicit link to the shared factory. Initial new-test platform-analyzer
+errors and the outdated diagnostic-bound negative fixture were corrected
+without disabling warnings or weakening rejection. Actual Windows kernel
+observations, native interoperability and complete package evidence remain
+separate gates. No game or capture was started.
 
 ## Native / managed interoperability seam
 
@@ -207,3 +247,25 @@ The next hosted run must actually pass the exact IPC 8, source-transport 8 and
 interop 3 suites. Those targeted counts never mean that all hooks or native
 replay tests passed; this external-input dependency remains unresolved and its
 13 native replay tests remain held.
+
+
+### Actual Windows production-handle result
+
+Run [40373151715](https://github.com/caox233/FifthFreedom/actions/runs/40373151715),
+job `121748959278`, at source `6ecfdb474238614a9df5e22abbe91581b99f40e6`
+passed PublicNativeReturn **28/28** and FinalLaunchPreparation **9/9**, zero skips.
+The [independently verified official receipt](../evidence/hosted-local-pipe-6ecfdb.json)
+records the actual NT observations:
+
+- `LEGACY:SUCCESS:BYTE:SERVER`.
+- `FACTORY:SUCCESS:LOCAL_BYTE:SERVER`.
+- `PRODUCTION:SUCCESS:LOCAL_BYTE:CLIENT`.
+
+The actual client handle connected to production PublicReturnPipe observes the
+same kernel pipe creation mode, including FILE_PIPE_REJECT_REMOTE_CLIENTS. The
+legacy current-user-only managed constructor is the real negative control.
+Current-user ACL, noninheritance, first-instance collision and same-user read/write
+also passed. The previously uncertain NT flag visibility is now observed on this
+actual runner. IIS state was restored. This closes the reported missing local-only
+creation boundary; it does not claim a demonstrated SMB exploit, full Public
+admission, game execution or complete-package acceptance.

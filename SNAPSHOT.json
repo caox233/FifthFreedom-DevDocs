@@ -1,45 +1,45 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
-  "previous_snapshot_source_commit": "6954eea73f6cd7ee7766ba34efc823ac85d2a319",
-  "created_utc": "2026-10-23T12:41:11.543786+00:00",
+  "source_commit": "7c614c10577eafdaf3727f9ba000f98f1fa355a5",
+  "previous_snapshot_source_commit": "c42e0ebbc8084e943076aab7effc6abd4e8662c7",
+  "created_utc": "2026-10-26T18:05:46.323391+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
-  "publication_at_creation": "local_only_github_authentication_unavailable",
+  "publication_at_creation": "source_pushed_and_remote_objects_verified_knowledge_snapshot_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
-  "new_source_remote_accessibility_verified": false,
-  "last_verified_remote_knowledge_commit": "b809b4a6c8efac0c63627630f0ac3fb8413939a9",
+  "new_source_remote_accessibility_verified": true,
+  "last_verified_remote_knowledge_commit": "10e3e4ac4e4d90a4ea9a7755d30ad7eef6fd04bc",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "b4778bbc2bca216fb5e74337c6d345117fb287d47fc7d84972af544be921d735",
-      "bytes": 11352
+      "sha256": "9c6300f8be891e819f0e4186f72977f0950de824a25259451ec1b581549fd305",
+      "bytes": 11927
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "229f1321bb98716c69615835481c535691f4a5aa5e2d537556bffa7adbb3c3d0",
-      "bytes": 61985
+      "sha256": "59abfe164e8a1bd29c5d276c77a7eb476c0a5b6793452c77db73c8645f3d4aed",
+      "bytes": 63903
     },
     "README.md": {
-      "sha256": "c62b416c787caed31934800d4bf71987ba1865fa0d8f317f86694f87cb7756ec",
-      "bytes": 6072
+      "sha256": "4bbb20670a03b4ecf206e6f0b1d46f5429c4c0dce780234d1cacb19044a9ca03",
+      "bytes": 6266
     },
     "docs/ACCEPTANCE.md": {
-      "sha256": "bc21414f29098caef2d0c98c568e5340ec107d287385f76571546a5f55d33d5d",
-      "bytes": 8266
+      "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
+      "bytes": 8606
     },
     "docs/ARCHITECTURE.md": {
       "sha256": "e484cac7d2ed64b9092ccfc996ad4b6b145fb80b01214e4b5ea73ca2983e2817",
       "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "3bddaf1260689744da3ff50c7d2d10299610842bbf7f2902b793f9a8e40e1c6c",
-      "bytes": 4381
+      "sha256": "3fa6e4807ac4bc91a38c45eb66e15b0f753fcea29ede37cfa6e4ef529e471fc6",
+      "bytes": 5131
     },
     "docs/ASSET-PUBLICATION.json": {
-      "sha256": "bd8ff1ded1d86e9c9ee4f21054be479edbe17fb5560c8004c54473f0c08e01e3",
-      "bytes": 4839
+      "sha256": "af63ab0ca31925a68756912df1686a460d2c4e9b148cb58bf0659b5618b4702b",
+      "bytes": 4985
     },
     "docs/BUILD.md": {
       "sha256": "8e916e49786e2cbe41b7e0c9773791191d121b6f1b3a97f3f9de46c16a6ec689",
@@ -50,12 +50,16 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "13c3eb95a963ac84257f97f9f13fefb77f1ad849af2f02f455cb44f06d1b5671",
-      "bytes": 87893
+      "sha256": "8ce74393a49de16ebc3c2bef4c7c4a2da8b83c3c9bf030d8a8a7afe54b6507b4",
+      "bytes": 89624
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
       "bytes": 1879
+    },
+    "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
+      "sha256": "065e898aaf2ab25cb647a1f48564784cc7cd03fddf05a3c937a029a3eebe9e8e",
+      "bytes": 3223
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -329,6 +333,18 @@
       "sha256": "036a905fdcbabd7b334c2fa7ffb07b91f90aa8f61f524643599fd7842c29d38d",
       "bytes": 5037
     },
+    "docs/development-reference/capture-helper/.gitattributes": {
+      "sha256": "caae81ff04a566cf5ed72df05ea8be14b66a571b2f78739fe2d52d5f90e6702b",
+      "bytes": 145
+    },
+    "docs/development-reference/capture-helper/README.md": {
+      "sha256": "16a1c4183a34c8568b1b98bb5cfcafd97380cc5f7f2bfa8d805d825752a8ca1a",
+      "bytes": 2116
+    },
+    "docs/development-reference/capture-helper/capture-helper.cpp": {
+      "sha256": "bed779d4302b68e4397a8e3fe9afddfa886c9b96c8667a4a9279def85e11a43b",
+      "bytes": 16267
+    },
     "docs/development-reference/historical-replays/INDEX.json": {
       "sha256": "9fc3d3f1055f92eba036d5a274741c7afca344eccf7348a2b3a988b2b0c3afc4",
       "bytes": 5070
@@ -473,6 +489,10 @@
       "sha256": "24286742271d2691d0ed9453aff4084c02e7eb947665dad03c2e4175ba69ea07",
       "bytes": 2921
     },
+    "docs/evidence/hosted-capture-reference-6ecfdb.json": {
+      "sha256": "cefbc5f880fcada9641c6901f954e25218df627713ee919a7593656eed22f8b0",
+      "bytes": 2138
+    },
     "docs/evidence/hosted-containment-canonical-f85c515.json": {
       "sha256": "be1a7ea7474b1e83ec8a49d22cb4e95904ab144516eaebe322dd216773e07ccc",
       "bytes": 3518
@@ -496,6 +516,10 @@
     "docs/evidence/hosted-iis-74ee215.json": {
       "sha256": "f82301b7aff7bec8fcc79c5ccd8192d54db336bcf1f8269b2b03da1b2607cf2d",
       "bytes": 3526
+    },
+    "docs/evidence/hosted-local-pipe-6ecfdb.json": {
+      "sha256": "23fbc6560390075ae576aa564c1bc04db121837000222b97c5dcf8e63ba11227",
+      "bytes": 2287
     },
     "docs/evidence/hosted-native-lifecycle-4322658.json": {
       "sha256": "f5d65908fbb1c421cefb50f4a4bb53770b216aaec0385dcaff9141fcc22a2ad5",
@@ -568,6 +592,10 @@
     "docs/evidence/hosted-prerequisites-3f3ecfe.json": {
       "sha256": "7065d40ff86fe80e2e2256c472f800acbe0c5c2054c97eb37573ec947ea781e8",
       "bytes": 2521
+    },
+    "docs/evidence/hosted-recovery-c42e0eb.json": {
+      "sha256": "34f45a0154b625df77002e826051412806b168eff79bf382499ab00cbab4d276",
+      "bytes": 10530
     },
     "docs/evidence/hosted-source-matrix-05c127a.json": {
       "sha256": "588d7823582070cfa2cf0eb7ed867145013d3ef2ac7f5bb034026c88ab180e92",
@@ -649,17 +677,21 @@
       "sha256": "dc28bfc1b3261a489c94e6311c250f8ccb63d0de890000cf83a968a28e6bcfe6",
       "bytes": 3420
     },
+    "docs/tasks/capture-reference-build.md": {
+      "sha256": "cd32e2470cd8fa663ee07a78511258e26b5492b899162f1d1eadc30140f72134",
+      "bytes": 4094
+    },
     "docs/tasks/ci-01.md": {
-      "sha256": "8480c8861754cf7f6d37e0362ed4d5eb05631c05668f65cc4b42547784dc8e62",
-      "bytes": 79254
+      "sha256": "97aeabe38cfae29abf9237d945db3114bc9ea222a69f189663056b174fd934bf",
+      "bytes": 79543
     },
     "docs/tasks/ci-windows-inert-runtime.md": {
       "sha256": "433017dec142e8e249efa176df4080493490ec859c87c1fc0e36ed0d3ff2f7dd",
       "bytes": 5610
     },
     "docs/tasks/cloud-authentication-recovery.md": {
-      "sha256": "ce086d4be8bae79d60634a3f389ce950a5990302a9dc74b89bcb133861eef28b",
-      "bytes": 5075
+      "sha256": "7146ad473917047377782a4808a8d0053c1fde0c83595c4b5c9ee6cc5d4e8368",
+      "bytes": 7523
     },
     "docs/tasks/data-challenge-build.md": {
       "sha256": "57c26ac21929fbf1bb2286dfcaeb2482dce6205fce2cc27ab7777f35ce73d835",
@@ -678,16 +710,16 @@
       "bytes": 10222
     },
     "docs/tasks/owned-core-dependencies.md": {
-      "sha256": "8638f9ba8c35766c51bf1f941542056df5cd42fc13e1bf9a3eadad6268bb8267",
-      "bytes": 3434
+      "sha256": "0818d538fb636c9ad1d7bc6472d82775f91695cb3ff2c8b546a9080362e6149c",
+      "bytes": 3690
     },
     "docs/tasks/owned-core-process.md": {
       "sha256": "01eb2bf2e64bf6961b765b6763fbcb642d8036f41c863b93050d6a277862fa69",
       "bytes": 7616
     },
     "docs/tasks/owned-core-read.md": {
-      "sha256": "d1c5571a1669d40b2821431f462984d2d9c954e8248e23db4463c6b0aa357a3b",
-      "bytes": 10150
+      "sha256": "7e77c059b14fab2fef1df4e7eb598b7aa14a3ed77bf5af23748ee6672e393b94",
+      "bytes": 10469
     },
     "docs/tasks/owned-core-runtime.md": {
       "sha256": "d0e7823700a8a258e8f5c7e83b20607e8d4e9caed3c0bf00e03ad4acbf4b24cd",
@@ -717,9 +749,13 @@
       "sha256": "717982467836ca36d6c70e8a9b8756fe7b8d80389f079350f3f8db7c34ba46b5",
       "bytes": 8503
     },
+    "docs/tasks/quick-match-same-session.md": {
+      "sha256": "2ca9abe79cb0cc6b63a8d944d40df1180283bea2113ae2c3686088de4b0df1a5",
+      "bytes": 4455
+    },
     "docs/tasks/remaining-bugs.md": {
-      "sha256": "500dac13c272f725d485fe7292914dc5569ccd4ab4d5ccd9076ea5caa0c634fc",
-      "bytes": 6500
+      "sha256": "a13b41c2f9a69f35efd1ba0f37ab68a68b36db2a3d943dd3fec0216ca2647f14",
+      "bytes": 7238
     },
     "docs/tasks/server-01.md": {
       "sha256": "4d50b9dc1ad716e494cc17d25bc7ab5ab31144ae39dd84b9198effc21a4c5f09",
@@ -810,8 +846,8 @@
       "bytes": 10766
     },
     "docs/tasks/ui-06-native-return.md": {
-      "sha256": "476efbee0ddff6f727a2d58b920a527b7b574a429f00a5c5d9cd5ab4aa72f64c",
-      "bytes": 13091
+      "sha256": "0a8997673903bb63d20bb7a15f9b8390b1c0056b391bddd9622179f86794d213",
+      "bytes": 16807
     },
     "docs/tasks/ui-06.md": {
       "sha256": "ecb76a245c1691905f04bd3326fbba7693da1248b1da0cd1df060c5b7b9a6067",
@@ -893,5 +929,6 @@
       "sha256": "183adac21e7d96c508c8fd34d394b7b6708bc81564ad1bad61ab66143a008cd2",
       "bytes": 5431
     }
-  }
+  },
+  "remote_code_map_links_verified": 63
 }
