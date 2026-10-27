@@ -2,12 +2,12 @@
 
 > 原云执行器及 GitHub 接入已恢复，原未推送成果已保全并推送。
 > 本快照绑定已推送源码，固定入口的远端 Git 对象已核对。
-> 完整统一包仍受默认存档隐私门禁和未完成集成限制；组件或参考 EXE 不是完整包。
+> 公共默认模板已按原哈希准入；完整候选下载与验收范围见对应源码的候选测试说明。
 
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`311052da801ee95b085ffbcd95498d5dde5f45ef`](https://github.com/caox233/FifthFreedom/commit/311052da801ee95b085ffbcd95498d5dde5f45ef)
+- 本批文档对应源码提交：[`6f720f56ab026f54edfb7ad08fdfbf01c24832a6`](https://github.com/caox233/FifthFreedom/commit/6f720f56ab026f54edfb7ad08fdfbf01c24832a6)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -74,11 +74,10 @@
 Codex 云端负责后续实现；GitHub-hosted Windows/Linux Actions 是常规构建目标；
 用户实机反馈单独验收，不把离线通过说成实机通过。
 
-当前公开源码缺少尚在隐私审查门禁内的默认存档，不得声称可以从公开 checkout
-独立构建完整包。本地已验证包使用的是本地保留输入。不要通过造假资源或放松 hash
-校验绕过门禁。首次 GitHub source-checks 已执行，资源完整性检查因暂存输入缺失而失败，
-这是明确的未完成项，不是通过。后续托管运行的结果按准确提交记录在 PROJECT-STATE.json 与 CLOUD-PROGRESS.md；
-早先 Windows/Linux 组件通过不能替代最新提交验证，完整包仍受资源门禁阻止。
+八份默认存档原件已根据所有者对公共模板的明确确认准入，20 项严格输入校验通过。
+四份 donor-only 输入与独立 C71 回放缺口继续保留，不放松 hash 校验。
+完整 Windows 候选的实际构建、冒烟、下载和校验值以 [候选测试说明](docs/DEVELOPMENT-CANDIDATE-TESTING.md) 为准；
+组件通过、测试包交付均不代表六项目标或实机验收全部完成。历史失败原样保留。
 开发代码由[源码草稿 PR #1](https://github.com/caox233/FifthFreedom/pull/1)审查。
 
 平台当前没有可调用的持续 Goal/调度接口。云端这一轮与 GitHub Actions 不依赖

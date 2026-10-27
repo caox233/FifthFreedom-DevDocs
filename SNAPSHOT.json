@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "311052da801ee95b085ffbcd95498d5dde5f45ef",
-  "previous_snapshot_source_commit": "329f18a40f9959cfb06939c26150cd50126c26ee",
-  "created_utc": "2026-10-27T00:30:37.982536+00:00",
+  "source_commit": "6f720f56ab026f54edfb7ad08fdfbf01c24832a6",
+  "previous_snapshot_source_commit": "311052da801ee95b085ffbcd95498d5dde5f45ef",
+  "created_utc": "2026-10-27T22:12:39.665759+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "23970b93bb61763caf43c6e6ab4e1fbc2040810b",
+  "last_verified_remote_knowledge_commit": "05edc5594fcb50907a01422cc024218f84bac0a3",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "d6bfdc724ae87fe213f2b8a87113483a3f2bd2dc8151c86e6c203c38d5dd98b3",
+      "sha256": "a2b8f8c435b95138911d3194d8eaadd492c1865be33becbc5265de628c18f8de",
       "bytes": 13443
     },
     "LICENSE": {
@@ -19,12 +19,12 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "cf70c95bcb90262e972bc58a1a1ac770343539cc5f04c8a8aa03e841bdbdc859",
-      "bytes": 85848
+      "sha256": "7950488fef64c6c3612b82cdf6d3a27fc55a86fd9b2ad498939b52aace53e569",
+      "bytes": 85168
     },
     "README.md": {
-      "sha256": "a50ad00f6d76e2211911fc957abe0d85adf88e34f293da7e9e539c532eaaab6d",
-      "bytes": 6647
+      "sha256": "edf8625a7fd163622faffcb0fddd32b79f22dcca49747345fb1fead0b179eeea",
+      "bytes": 6528
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
@@ -35,12 +35,12 @@
       "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "d9179e5112f4131be7d9aa8b6975385936cf845a20e695d5cb1726aef801d4fd",
-      "bytes": 6317
+      "sha256": "351db6c99f022f32c2890def7d2e67081cfbb0db9dd824ccf0dc67fa90f5169d",
+      "bytes": 6853
     },
     "docs/ASSET-PUBLICATION.json": {
-      "sha256": "af63ab0ca31925a68756912df1686a460d2c4e9b148cb58bf0659b5618b4702b",
-      "bytes": 4985
+      "sha256": "fd5a559bb3b49e3cf4e3cc349058a04db737277cb6549c4bc8e88cc7c15645ad",
+      "bytes": 7794
     },
     "docs/BUILD.md": {
       "sha256": "8e916e49786e2cbe41b7e0c9773791191d121b6f1b3a97f3f9de46c16a6ec689",
@@ -59,8 +59,8 @@
       "bytes": 1879
     },
     "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
-      "sha256": "f1c687d8a6fcb2faf78437846a1b4ebdf27c069bc60e329bbce47cc82d2dcff5",
-      "bytes": 3927
+      "sha256": "32b5e08941621ed167bc355ea8ed49ff48f891f4a1ace2df5df94652d7ffa7cc",
+      "bytes": 2886
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -346,6 +346,14 @@
       "sha256": "bed779d4302b68e4397a8e3fe9afddfa886c9b96c8667a4a9279def85e11a43b",
       "bytes": 16267
     },
+    "docs/development-reference/default-save-inputs-20261028/README.md": {
+      "sha256": "46900333e2f2962e2e9215d1bf142d2e24d3ffa3acb978db7f59a6b42033c105",
+      "bytes": 1058
+    },
+    "docs/development-reference/default-save-inputs-20261028/receipt.json": {
+      "sha256": "0aade764f224d69c549305d60656882796b596f23aee7f75e87d72162be16c8e",
+      "bytes": 2610
+    },
     "docs/development-reference/fusionfix-loader-memorymodule/README.md": {
       "sha256": "f680c1edac04712465891b0f3e3c1978eabb62bde543bbe3971968e3acb6b77b",
       "bytes": 3547
@@ -573,6 +581,10 @@
     "docs/evidence/artifact-windows-metadata-regression.json": {
       "sha256": "d70f4de37ab88b4cd425673b82b72dc3a86df1f30cb388170fb3faeb70e42861",
       "bytes": 6807
+    },
+    "docs/evidence/default-input-admission-20261028.json": {
+      "sha256": "975c03cedc83dac527bcc545c1e1def95184bc237847b3c9b2a74c3fe3ba4d9b",
+      "bytes": 6439
     },
     "docs/evidence/diagnostic-streaming.json": {
       "sha256": "47dc20473639eda177fcbeb26637908c03d33b793cd41761b9ce6b4ced9bd678",
