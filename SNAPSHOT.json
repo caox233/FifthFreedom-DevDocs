@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "da1805e6764ac202bf6b8c1a9548fa2c44d4c085",
-  "previous_snapshot_source_commit": "6f720f56ab026f54edfb7ad08fdfbf01c24832a6",
-  "created_utc": "2026-10-27T22:26:46.706305+00:00",
+  "source_commit": "12d394086a22c04e7e1defc7678ceccfe02ee004",
+  "previous_snapshot_source_commit": "da1805e6764ac202bf6b8c1a9548fa2c44d4c085",
+  "created_utc": "2026-10-27T22:51:10.396881+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "b3907b1b903344ffd325e166aca06d4e4abe5b1b",
+  "last_verified_remote_knowledge_commit": "686000cbb0047a5b739d363048436f83c6075d29",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "8cd437fae65a1de4d9a78251bb36a1606b47a6a6e3635b7fb8610ca346355f73",
+      "sha256": "5ad7458b0fe501826434a9c19b6481171f44090e77c09238779d971874672cff",
       "bytes": 13443
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "eecee7b92511672c9e39f35c06ac08f0eabcb05b27588978445c55bcfdc7394b",
-      "bytes": 85303
+      "sha256": "30310b2ea22626c81f6230aa9d249f5aeab324694c66eeedf0c348fc2b4bdb3e",
+      "bytes": 87868
     },
     "README.md": {
-      "sha256": "d872d3a97857866bae2ee48216dd7ccc7e4f15a8b9f2a7f659cbd022a694b3aa",
+      "sha256": "4ff054ac8b9cf7989cd2a787da19a71effb3660b496f1b79d28e0a7c047f55c4",
       "bytes": 6528
     },
     "docs/ACCEPTANCE.md": {
@@ -35,12 +35,12 @@
       "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "ae2dbe1fcf4f4e7d0f0649e674a6ae792a9dfbf07d3b3bb57c8ef73f049edc0c",
-      "bytes": 7056
+      "sha256": "9304595ac6e9ae9f33f2c3ec90191e1949d688ba777b222cc615cfc4b1c5ad3c",
+      "bytes": 7278
     },
     "docs/ASSET-PUBLICATION.json": {
-      "sha256": "fd5a559bb3b49e3cf4e3cc349058a04db737277cb6549c4bc8e88cc7c15645ad",
-      "bytes": 7794
+      "sha256": "0cdf13aa59f9f617fb00620594b30f40dc4e7e61fe1fcd77029d84d0d54b02bd",
+      "bytes": 7869
     },
     "docs/BUILD.md": {
       "sha256": "e5a9ee8c1e548ec0615fd9681e005b8537b5a0667294b5ec0b81fb7bb4dc92e7",
@@ -51,16 +51,16 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "2dce102b49d1a8e60f59f8e2e79c0a453229f7a92955f8f785b2b8940201042e",
-      "bytes": 107601
+      "sha256": "0375b833f980ccb69c68501fdeb0897b2b5ae702e21e925340e5840a720aac03",
+      "bytes": 109142
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
       "bytes": 1879
     },
     "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
-      "sha256": "32b5e08941621ed167bc355ea8ed49ff48f891f4a1ace2df5df94652d7ffa7cc",
-      "bytes": 2886
+      "sha256": "91539a0394ed90c10520985b4d1af2ceb908e6c30a6d43a049c8d11ef67f8951",
+      "bytes": 6122
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -91,8 +91,8 @@
       "bytes": 1955
     },
     "docs/dependency-closure.md": {
-      "sha256": "b28e1a914fd951051a220b94d9463ce2793e3d2c58e23987083999cb0db44e10",
-      "bytes": 18275
+      "sha256": "975268f9ecbbc5868c3a1d4b41af1dc9305bf5e6aef6558147f1d6362ff45f77",
+      "bytes": 18419
     },
     "docs/dependency-patches/.gitattributes": {
       "sha256": "d2814d02cb9ed55525636622157e35e83043f80b5b7497166dcf64724ed30b7e",
@@ -582,6 +582,10 @@
       "sha256": "d70f4de37ab88b4cd425673b82b72dc3a86df1f30cb388170fb3faeb70e42861",
       "bytes": 6807
     },
+    "docs/evidence/complete-package-download-da1805e.json": {
+      "sha256": "c6806abdb474d0b922273c087445f3de1629a1b80ec773c3befc5116c42095ef",
+      "bytes": 2254
+    },
     "docs/evidence/default-input-admission-20261028.json": {
       "sha256": "975c03cedc83dac527bcc545c1e1def95184bc237847b3c9b2a74c3fe3ba4d9b",
       "bytes": 6439
@@ -685,6 +689,10 @@
     "docs/evidence/hosted-capture-reference-6ecfdb.json": {
       "sha256": "cefbc5f880fcada9641c6901f954e25218df627713ee919a7593656eed22f8b0",
       "bytes": 2138
+    },
+    "docs/evidence/hosted-complete-package-da1805e.json": {
+      "sha256": "edf3dad78a0316214a80ce5f0c62df7424152db5061ac103cddb208f9ae7f2ad",
+      "bytes": 14435
     },
     "docs/evidence/hosted-components-7c614c1.json": {
       "sha256": "d17d2856d6dc2f56f1dc64a9507aace7e3200c3f5ed04f275259f196bc95e2e3",
@@ -979,8 +987,8 @@
       "bytes": 5918
     },
     "docs/tasks/ci-01.md": {
-      "sha256": "21c87d15be017d569ee5afe09b05b68bb8d9efac7164e78096cc35d61b2da17c",
-      "bytes": 83547
+      "sha256": "a9ba965dd4668e7e28c0e6474b6fc464b7fd56a069cfaa2360a44737d18d4f95",
+      "bytes": 84098
     },
     "docs/tasks/ci-artifact-source-closure.md": {
       "sha256": "eb9a933af973bc536e23694aea9b3adeb3a16d1b7a43c53c30bcff83daf1b3cc",
