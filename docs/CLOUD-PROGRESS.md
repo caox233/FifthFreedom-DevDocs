@@ -1,5 +1,60 @@
 # Cloud implementation evidence
 
+The final [same-run composition receipt](evidence/hosted-composition-329f18a.json)
+for tested source `329f18a` is now verified. Candidate `40420957576` finishes with
+8 successful jobs, 2 input-gate failures and 1 skipped complete-package job.
+Lease-revoke and peer-loss both establish five owned native listeners and a held
+connection before their controls. The exact harness requires an OPEN acknowledgement
+before each trigger. Lease-revoke records exit 92, five rebound ports and EOF/reset
+while the overlay remains alive; peer-loss records exact peer/native cleanup,
+permanent revocation and zero listeners without claiming remote TCP EOF. Both
+cases remove their two namespaces, with no cleanup errors; copied inputs match,
+the private stage is removed and the source package remains unchanged.
+
+The same job's guard3 six-patch recipe, build profile, lock and target bind to
+the exact tested source. Core/CLI hashes are runner-reported; those runtime
+binaries were not uploaded or rehashed locally. This finite TCP composition pass
+does not establish the distinct peer-map71 or Windows core/NIC chain, ordinary
+Public startup or gameplay. Earlier query, cleanup, SQLite, fdinfo, hidden-source
+and Windows-metadata failures remain preserved. Full packaging still lacks the
+three privacy-held default payloads (eight paths); C71's thirteen inputs remain
+separate. No complete unified package has been delivered.
+
+The earlier observation below predates this final composition result.
+
+Exact published source `329f18a` now has verified real upload/download closure.
+[Source run `40420957554`](evidence/hosted-source-329f18a.json) passed Linux
+668 with 2 skips and Windows 554 with 116 skips, no failures/errors. The new
+Windows owned-file fixture measured directory-entry link count 0 versus fresh
+path normal-file 1 and actual hard-link 2. Its real hard-link check passed;
+this does not retrospectively measure the older failed run's fields.
+
+The [official candidate evidence](evidence/hosted-artifact-native-329f18a.json)
+verifies run `40420957576`: Windows publication contains exactly 61 files;
+assembly contains 65 (64 in the candidate root and one lane receipt). All 50
+notice/source files, including the five hidden sources, survive actual transfer
+with exact hashes. The 38 MemoryModule source files match reviewed Git blobs;
+permission closure remains a separate open boundary. Six component identities
+match the same run, and production read-only candidate validation passes. The
+previous incomplete ZIPs remain preserved and rejected.
+
+Linux LAN passed 519 with no failures/ignored cases. The actual native lifecycle
+passed all five withheld/denied/EOF/expiry/parent-death controls with three
+namespaces removed, all children reaped and source package unchanged. Separate
+matrix `40420957466` passed all nine transport phases and cleaned six namespaces.
+At the recorded observation, composition job `121924250674` was still compiling;
+no new composition outcome or complete Public readiness is inferred.
+
+Full packaging remains skipped for eight missing SAV/META paths representing
+three privacy-held original payloads. The thirteen C71 inputs remain a distinct
+gate. No reduced package profile is enabled. The source and knowledge branches
+are published; the reviewed README correction uses actual Fifth Freedom names,
+real LAN steps and an explicit historical-notes boundary. The retained Capture
+build evidence closes its stale publication-follow-up entry without claiming
+binary equivalence or any capture lifecycle acceptance.
+
+Earlier checkpoint records follow with their original scope.
+
 The next published source `2429db8` exposed a Windows metadata portability
 failure before artifact publication. Source run `40419346353` passed Linux
 665 with 2 skips, but Windows had 546 passes, 116 skips and five failed methods
