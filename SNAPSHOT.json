@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "6f720f56ab026f54edfb7ad08fdfbf01c24832a6",
-  "previous_snapshot_source_commit": "311052da801ee95b085ffbcd95498d5dde5f45ef",
-  "created_utc": "2026-10-27T22:12:39.665759+00:00",
+  "source_commit": "da1805e6764ac202bf6b8c1a9548fa2c44d4c085",
+  "previous_snapshot_source_commit": "6f720f56ab026f54edfb7ad08fdfbf01c24832a6",
+  "created_utc": "2026-10-27T22:26:46.706305+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "05edc5594fcb50907a01422cc024218f84bac0a3",
+  "last_verified_remote_knowledge_commit": "b3907b1b903344ffd325e166aca06d4e4abe5b1b",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "a2b8f8c435b95138911d3194d8eaadd492c1865be33becbc5265de628c18f8de",
+      "sha256": "8cd437fae65a1de4d9a78251bb36a1606b47a6a6e3635b7fb8610ca346355f73",
       "bytes": 13443
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "7950488fef64c6c3612b82cdf6d3a27fc55a86fd9b2ad498939b52aace53e569",
-      "bytes": 85168
+      "sha256": "eecee7b92511672c9e39f35c06ac08f0eabcb05b27588978445c55bcfdc7394b",
+      "bytes": 85303
     },
     "README.md": {
-      "sha256": "edf8625a7fd163622faffcb0fddd32b79f22dcca49747345fb1fead0b179eeea",
+      "sha256": "d872d3a97857866bae2ee48216dd7ccc7e4f15a8b9f2a7f659cbd022a694b3aa",
       "bytes": 6528
     },
     "docs/ACCEPTANCE.md": {
@@ -35,24 +35,24 @@
       "bytes": 2202
     },
     "docs/ASSET-PROVENANCE.md": {
-      "sha256": "351db6c99f022f32c2890def7d2e67081cfbb0db9dd824ccf0dc67fa90f5169d",
-      "bytes": 6853
+      "sha256": "ae2dbe1fcf4f4e7d0f0649e674a6ae792a9dfbf07d3b3bb57c8ef73f049edc0c",
+      "bytes": 7056
     },
     "docs/ASSET-PUBLICATION.json": {
       "sha256": "fd5a559bb3b49e3cf4e3cc349058a04db737277cb6549c4bc8e88cc7c15645ad",
       "bytes": 7794
     },
     "docs/BUILD.md": {
-      "sha256": "8e916e49786e2cbe41b7e0c9773791191d121b6f1b3a97f3f9de46c16a6ec689",
-      "bytes": 9280
+      "sha256": "e5a9ee8c1e548ec0615fd9681e005b8537b5a0667294b5ec0b81fb7bb4dc92e7",
+      "bytes": 9691
     },
     "docs/CLOUD-HANDOFF.md": {
       "sha256": "e3d14deee2e945a191d6be5011dea24af9c82e46ea2a27bf48e3f68c2d8c45bd",
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "61bc13b59265be122591ab27f74061b8fc6697bb3001d658c30709ee3794057f",
-      "bytes": 105351
+      "sha256": "2dce102b49d1a8e60f59f8e2e79c0a453229f7a92955f8f785b2b8940201042e",
+      "bytes": 107601
     },
     "docs/CRASH-DIAGNOSTICS.md": {
       "sha256": "902acfcc6a25d3a0334736217a3fd5db87decac58bc8bde3997ac9908d9d5d3c",
@@ -91,8 +91,8 @@
       "bytes": 1955
     },
     "docs/dependency-closure.md": {
-      "sha256": "366917782e0689a87d0f064b044219333bfb3f842a88bcdc1b8b55a20b22fec3",
-      "bytes": 17967
+      "sha256": "b28e1a914fd951051a220b94d9463ce2793e3d2c58e23987083999cb0db44e10",
+      "bytes": 18275
     },
     "docs/dependency-patches/.gitattributes": {
       "sha256": "d2814d02cb9ed55525636622157e35e83043f80b5b7497166dcf64724ed30b7e",
@@ -714,6 +714,10 @@
       "sha256": "946c3e50355574bc07ca6a860d953c6f801e238cd5ebb8d8e4b8eb7b019c7ca1",
       "bytes": 5698
     },
+    "docs/evidence/hosted-final-311052d.json": {
+      "sha256": "66d0cde2c0b06673c537c1f4065f6f80f1fef0ebe32273e37523d61b1cb52ba9",
+      "bytes": 23755
+    },
     "docs/evidence/hosted-final-9139c9e.json": {
       "sha256": "89765a51d5e25d80251d9cdcc17d714b9cbdbf2482f632cfc60ac3017bfdd8d5",
       "bytes": 26547
@@ -826,6 +830,10 @@
       "sha256": "f2026592772b53ca45c1bbe0ad9b6dddb42deca68415fc3884260d05d78c4b2a",
       "bytes": 8847
     },
+    "docs/evidence/hosted-package-failure-6f720f5.json": {
+      "sha256": "4b77859c93fe39cd9f2d1b5a4eb2beecbc1633a56630c462192853b064594a18",
+      "bytes": 17266
+    },
     "docs/evidence/hosted-peer-map-c42e0eb.json": {
       "sha256": "9149f52a0c0970122a92e983cfe4c72eb414dd08a266be83faa8e2f352a3f653",
       "bytes": 2000
@@ -930,6 +938,10 @@
       "sha256": "ef193e633bd037830ba2def313afa091e0069b2c5185f33fd739d56df2db377c",
       "bytes": 3424
     },
+    "docs/evidence/package-checksum-encoding-regression.json": {
+      "sha256": "56ece5f98d60dd7f901e7738192c08ea26f65db70bc4056cb792335c86072d1b",
+      "bytes": 3737
+    },
     "docs/evidence/query-exit-transition-regression.json": {
       "sha256": "ea3164bc47dc7d60f100d53e8641edf6027d25242bd973a3db22d66df75a95e2",
       "bytes": 3745
@@ -937,6 +949,10 @@
     "docs/evidence/quick-match-close-callback-regression.json": {
       "sha256": "866b2cfe915f449ac8cce6677b547ca076833f5680bcca2250c084e30b7d7966",
       "bytes": 3979
+    },
+    "docs/evidence/quick-match-empty-lobby-regressions.json": {
+      "sha256": "5c613120161ae8b02a3c9490e39aa0bcfbd21e0ad18f438619fe5ffa62f2d1a2",
+      "bytes": 5181
     },
     "docs/evidence/quick-match-protocol-regressions.json": {
       "sha256": "f674844de431a38d5d3bb7f68bac3b23af7ae0c9308422baacc5eaa148925eb5",
@@ -963,8 +979,8 @@
       "bytes": 5918
     },
     "docs/tasks/ci-01.md": {
-      "sha256": "06b086fa32004596ce51b781bbb6e1b6d90ce75eb4a2f45fd9a4965bc20efe50",
-      "bytes": 81675
+      "sha256": "21c87d15be017d569ee5afe09b05b68bb8d9efac7164e78096cc35d61b2da17c",
+      "bytes": 83547
     },
     "docs/tasks/ci-artifact-source-closure.md": {
       "sha256": "eb9a933af973bc536e23694aea9b3adeb3a16d1b7a43c53c30bcff83daf1b3cc",
@@ -1035,8 +1051,8 @@
       "bytes": 8503
     },
     "docs/tasks/quick-match-same-session.md": {
-      "sha256": "10cc226f6ccb5baa608eff4fa40a54a56c19a4710a73b2aefbd7f8e5133bc92e",
-      "bytes": 8493
+      "sha256": "b9b6dfa296f859b1120d3ebd73923f77b9dba79b3cd8b8883c1b0dc788927c6e",
+      "bytes": 11642
     },
     "docs/tasks/remaining-bugs.md": {
       "sha256": "a13b41c2f9a69f35efd1ba0f37ab68a68b36db2a3d943dd3fec0216ca2647f14",
