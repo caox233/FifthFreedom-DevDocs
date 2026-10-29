@@ -1,30 +1,30 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "12d394086a22c04e7e1defc7678ceccfe02ee004",
-  "previous_snapshot_source_commit": "da1805e6764ac202bf6b8c1a9548fa2c44d4c085",
-  "created_utc": "2026-10-27T22:51:10.396881+00:00",
+  "source_commit": "4e8eb0b96481772d724022faa1453907b8681bda",
+  "previous_snapshot_source_commit": "12d394086a22c04e7e1defc7678ceccfe02ee004",
+  "created_utc": "2026-10-29T03:24:18.907099+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "686000cbb0047a5b739d363048436f83c6075d29",
+  "last_verified_remote_knowledge_commit": "80b92b412890282d3b465e9b7f89140ac6fb76d9",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "5ad7458b0fe501826434a9c19b6481171f44090e77c09238779d971874672cff",
-      "bytes": 13443
+      "sha256": "63d5af90717f8da06ee44a9fc7f6faafbaa15328a062c08fd63ccf37afaec6b0",
+      "bytes": 14361
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "30310b2ea22626c81f6230aa9d249f5aeab324694c66eeedf0c348fc2b4bdb3e",
-      "bytes": 87868
+      "sha256": "174af2bd857f0df159bbec9bdb9c1951de4b2b7988fe263eb459c1d3179f2d31",
+      "bytes": 88083
     },
     "README.md": {
-      "sha256": "4ff054ac8b9cf7989cd2a787da19a71effb3660b496f1b79d28e0a7c047f55c4",
-      "bytes": 6528
+      "sha256": "2d692b079ab4cdc7c3d3faeaacfd5c5fd30cd92ce5a5c8b0eb8483762a762f56",
+      "bytes": 6673
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
@@ -994,6 +994,10 @@
       "sha256": "eb9a933af973bc536e23694aea9b3adeb3a16d1b7a43c53c30bcff83daf1b3cc",
       "bytes": 9073
     },
+    "docs/tasks/ci-visual-01.md": {
+      "sha256": "5b84cbfcc3d1b83af0b089f27e9731e6cbcfaa13b29dffe1f70763e22848149e",
+      "bytes": 4085
+    },
     "docs/tasks/ci-windows-inert-runtime.md": {
       "sha256": "433017dec142e8e249efa176df4080493490ec859c87c1fc0e36ed0d3ff2f7dd",
       "bytes": 5610
@@ -1173,6 +1177,10 @@
     "docs/tasks/ui-09.md": {
       "sha256": "a16a64489abe0579657b71a3dd34f81e62b4a0b5aedfc10bd8c14861b7e26b4d",
       "bytes": 10602
+    },
+    "docs/tasks/ui-mode-flow-review.md": {
+      "sha256": "55b922110f6a7d73242612c52381d0646bd1e7e8d38d15d2093b450038845c1b",
+      "bytes": 4522
     },
     "docs/tasks/vss-lifecycle-audit.md": {
       "sha256": "4a9472d339f1b739b90df08bcca57d32af598076b0db084c9122e331a882409a",

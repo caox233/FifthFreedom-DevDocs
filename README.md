@@ -7,7 +7,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`12d394086a22c04e7e1defc7678ceccfe02ee004`](https://github.com/caox233/FifthFreedom/commit/12d394086a22c04e7e1defc7678ceccfe02ee004)
+- 本批文档对应源码提交：[`4e8eb0b96481772d724022faa1453907b8681bda`](https://github.com/caox233/FifthFreedom/commit/4e8eb0b96481772d724022faa1453907b8681bda)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
@@ -62,6 +62,8 @@
 - [云会话授权恢复与真实续接步骤](docs/tasks/cloud-authentication-recovery.md)
 - [MemoryModule 精确上游源码与随包说明](docs/development-reference/fusionfix-loader-memorymodule/README.md)
 - [候选产物上传与源码完整性](docs/tasks/ci-artifact-source-closure.md)
+- [统一模式、设置与本地连接流程](docs/tasks/ui-mode-flow-review.md)
+- [实际 WPF DPI 与弹层验证](docs/tasks/ci-visual-01.md)
 - [公网依赖固定版本与许可门禁](docs/tasks/public-network-dependencies.md)
 - [冻结依赖来源与剩余闭包](docs/dependency-closure.md)
 - [迁移范围](docs/MIGRATION.md)
