@@ -7,7 +7,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`dcb97d0295c9c8700fd390249f2d617430d89dcf`](https://github.com/caox233/FifthFreedom/commit/dcb97d0295c9c8700fd390249f2d617430d89dcf)
+- 本批文档对应源码提交：[`d207fc611be3a89351f8517fcbc37aeb18610dd4`](https://github.com/caox233/FifthFreedom/commit/d207fc611be3a89351f8517fcbc37aeb18610dd4)
 - [开发历史与实现地图](docs/DEVELOPMENT-HISTORY.md)
 - [源码入口直达](CODE-MAP.md)
 - [14项保留结果与验收边界](docs/ACCEPTANCE.md)
