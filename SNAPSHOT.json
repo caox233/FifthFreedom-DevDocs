@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "9c029cd021d829c8c06ad8d32fd244dee64e8b4f",
-  "previous_snapshot_source_commit": "7e9fff371bb4e0654bb73e5878d292378dcf36c7",
-  "created_utc": "2026-10-29T04:03:20.902739+00:00",
+  "source_commit": "dcb97d0295c9c8700fd390249f2d617430d89dcf",
+  "previous_snapshot_source_commit": "9c029cd021d829c8c06ad8d32fd244dee64e8b4f",
+  "created_utc": "2026-10-29T04:13:12.956264+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "fda6e2ceec16b1d32fa6f1e6350932bb553dc3b7",
+  "last_verified_remote_knowledge_commit": "0cf5f4aac51d0e9ecbc17349829d2352e42c09fe",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "91af97530a7e9357bfcdeec618649f6564f12293ebc6b8f80f1e60812b1022ea",
+      "sha256": "166d3f5b0928820d9d873f21398c978be8b74bbe70c729016ef35b844f076ccd",
       "bytes": 14361
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "dd7a12aaa5aad63465b6d1f61242adaf1b013ff5e3815e494b45ac607222d4ab",
-      "bytes": 88386
+      "sha256": "97e6a1313f29e3e65044e3bac298e1ea90b0317760ce59f026fa5bb515ddc794",
+      "bytes": 88635
     },
     "README.md": {
-      "sha256": "4ecd47723fa2338e84a811328960b5772de3104e7b5ce292fc3896dd0ecc5252",
+      "sha256": "14fb578b722deb550f7c0d6b49494eee9f5c9583aa61d590a1979e02d7491fa5",
       "bytes": 6673
     },
     "docs/ACCEPTANCE.md": {
@@ -882,6 +882,10 @@
       "sha256": "127943a87dcd4e2743471d0935df371e48a5d1fea0c720eccc8aaadb1e2fe38f",
       "bytes": 28658
     },
+    "docs/evidence/hosted-ui-visual-9c029cd.json": {
+      "sha256": "7199bba0d06e8ee2b2b5a8c8fe8dd0a8cdbe0cb69a2315d3f1e40e3c196e1c24",
+      "bytes": 11015
+    },
     "docs/evidence/hosted-wfp-diagnostic-f319a07.json": {
       "sha256": "e2985a264fb47c19671ed78fdc0c30fdacb58dd0794738319c96852f5362f39f",
       "bytes": 4157
@@ -966,6 +970,10 @@
       "sha256": "f674844de431a38d5d3bb7f68bac3b23af7ae0c9308422baacc5eaa148925eb5",
       "bytes": 4622
     },
+    "docs/evidence/tun-absence-fixture-9c029cd.json": {
+      "sha256": "9a68b6961eb120f090d83210f0042374868251d55d49eed0a59b702cd0ec4c21",
+      "bytes": 2133
+    },
     "docs/evidence/ui-mode-first-hosted-4e8.json": {
       "sha256": "54c4d98a4b135ddc4f9cdc70489cbf98209371311089f95a51a9de054b57601e",
       "bytes": 3122
@@ -1003,8 +1011,8 @@
       "bytes": 9073
     },
     "docs/tasks/ci-visual-01.md": {
-      "sha256": "30fcb00225bf0a1d8c72d4fe35606b14c26183c670e68800c94a4a4f79ac1226",
-      "bytes": 7970
+      "sha256": "91ccc057c2d84c1610282a232f23558d39965c30b88201821a62b9d3a2759e74",
+      "bytes": 10074
     },
     "docs/tasks/ci-windows-inert-runtime.md": {
       "sha256": "433017dec142e8e249efa176df4080493490ec859c87c1fc0e36ed0d3ff2f7dd",
