@@ -1,30 +1,30 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "b7846360b6e80a90fca23f580f3778b2a85abe90",
-  "previous_snapshot_source_commit": "0e691519b878a8fbbb0695392eb2a2ba9616e841",
-  "created_utc": "2026-10-31T17:02:22.783232+00:00",
+  "source_commit": "b6b6e5b2c736c1f1d3b4758d3f53605a581194f3",
+  "previous_snapshot_source_commit": "b7846360b6e80a90fca23f580f3778b2a85abe90",
+  "created_utc": "2026-10-31T17:39:46.744384+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "2044879b905fa763c3926fb74f34e1fdaa832847",
+  "last_verified_remote_knowledge_commit": "c6a0b713adcc050b041da17fc8884a5dd75db23e",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "33a3bdd1094b820984c977987d48aa6d15c8aef2463814118a80456a88bed227",
-      "bytes": 14361
+      "sha256": "aff5404e5ec63f785f25786ff36e605e643db5acdfcf002aa2c8c5aae554b7a0",
+      "bytes": 16128
     },
     "LICENSE": {
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "b19d2d043195a2586406061c4c56f848ce63b9273186ea913c95018d7b4c4ec0",
-      "bytes": 93808
+      "sha256": "b47446e682fa1b451e98b10a2c3cc12692c53e6af617c71557d264d4c18b8d50",
+      "bytes": 96395
     },
     "README.md": {
-      "sha256": "7e0a4d3ffea71a035c0e4f780439fed82f7d3d5f18f1d13bc220426a51892ff9",
-      "bytes": 6673
+      "sha256": "bcdca45eaba52468c241ba23c7b228c24d092e13c6a7ea6b3ebe15c478bd0729",
+      "bytes": 6952
     },
     "docs/ACCEPTANCE.md": {
       "sha256": "d5107be3c52817cdf175972d71fe6796a7f4b3c193cace22d1491e12c129976a",
@@ -51,8 +51,8 @@
       "bytes": 4466
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "ef9525baaa04865e7290280e5768c7ed9fef029bfb5839346b07a21b1ca50e33",
-      "bytes": 115490
+      "sha256": "b4177f12b8940bca33052c85b7c8238e3938d0d8d992ba94c100bc23ddd8778e",
+      "bytes": 117627
     },
     "docs/COMPLETE-PACKAGE-REPAIR.md": {
       "sha256": "ce2013fa485191d0613f2eff687df36076a5fa438f0da7141a02ffb187396b3a",
@@ -63,8 +63,8 @@
       "bytes": 1879
     },
     "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
-      "sha256": "1e56c53f1048ac602b43f202cca503454617a3060a899336fdeba8b76ded0aa6",
-      "bytes": 4504
+      "sha256": "f40ce4f5c5f4f91d8ee04b31474fd792f7ee78b4d6e49d714c7f0ceb01552e99",
+      "bytes": 5260
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -590,9 +590,17 @@
       "sha256": "c442cae9f22b69bbe99d611ef543da982b7a52448b9d8b411a1a990247127bad",
       "bytes": 7647
     },
+    "docs/evidence/camera-disable-built-abi-b784636.json": {
+      "sha256": "d3ae86fe7abdee1bbe44858c0f704d9a6a649e81a8acc4ac82d4e8fda359dbbf",
+      "bytes": 13756
+    },
     "docs/evidence/camera-dispatch-feedback-20261101.json": {
       "sha256": "e6d15d0ae1299cd35703b5aa2aa949b51d680959d8cf030aacb31b8bd6f67b27",
       "bytes": 5616
+    },
+    "docs/evidence/complete-package-download-b784636.json": {
+      "sha256": "935c274c5fe220f6b905a2ead3ea7b1696f0991cd3275ff0a667ce97de306278",
+      "bytes": 1850
     },
     "docs/evidence/complete-package-download-d40bfc3.json": {
       "sha256": "bea095d7d2838a3f464ba0caf475076d386a3f7bf81295665d3f502478ed281b",
@@ -657,6 +665,10 @@
     "docs/evidence/hosted-authenticated-receive-build-05c127a.json": {
       "sha256": "465052e10dcd7a15d0f6aea95edfe627822ec983b20dad043dd2f786ee8a541f",
       "bytes": 6332
+    },
+    "docs/evidence/hosted-camera-abi-b784636.json": {
+      "sha256": "8108968bc688518e6aaa9dbd644e6c9bc5fc2744a3480c0f1598e6dd67af03ca",
+      "bytes": 20022
     },
     "docs/evidence/hosted-candidate-0ac6695.json": {
       "sha256": "5239576e7de8d26d02976d3d2725702533e44f6df9dde3a42684eda7ead59b72",
@@ -726,6 +738,10 @@
       "sha256": "cefbc5f880fcada9641c6901f954e25218df627713ee919a7593656eed22f8b0",
       "bytes": 2138
     },
+    "docs/evidence/hosted-complete-package-b784636.json": {
+      "sha256": "48a49c0b678e2347063ff0e18fc75125eff1fd3cae410d9e36625e924e40a426",
+      "bytes": 4771
+    },
     "docs/evidence/hosted-complete-package-d40bfc3.json": {
       "sha256": "b4dc0163cba1578ca6231d8ac6aa32030ca12232afd46897dbd6293ef4173d7e",
       "bytes": 2718
@@ -757,6 +773,22 @@
     "docs/evidence/hosted-data-challenge-build-4322658.json": {
       "sha256": "a6cd176dfa4af694afa8210ea5d04375490b01d8224b81c997f6644235a37da6",
       "bytes": 17886
+    },
+    "docs/evidence/hosted-dispatch-dependent-b784636.json": {
+      "sha256": "d9107bcff28397b0f7d291139d9c914ac35696537348cd8b103a4ca5de46aab8",
+      "bytes": 7846
+    },
+    "docs/evidence/hosted-dispatch-linux-b784636.json": {
+      "sha256": "057b3ec8c09434d5c0ca774f13659697e9b952e4d40937949867fed5e96f1c61",
+      "bytes": 10764
+    },
+    "docs/evidence/hosted-dispatch-source-b784636.json": {
+      "sha256": "fa10823a67b1fccb5d28a30fbe740bd97a930d86b885e77208742028b42cc427",
+      "bytes": 1510
+    },
+    "docs/evidence/hosted-dispatch-ui-b784636.json": {
+      "sha256": "b20e416877f6bc511fa3f4e87552cc00aedcb5d5e0748b20eda23dc29624f043",
+      "bytes": 6169
     },
     "docs/evidence/hosted-e4-composition-final-20261101.json": {
       "sha256": "f854518237888cdf6583b907bff468eeeef5317f2addbe742445e47d445e7388",
@@ -1339,8 +1371,8 @@
       "bytes": 6443
     },
     "docs/tasks/sticky-camera-deploy-crash.md": {
-      "sha256": "3e8b5155f39435b4b0edc678a03f18e8908b42ae79b45205b60711765fb707e5",
-      "bytes": 14733
+      "sha256": "ca9ae34bf9976f246d85561011fc0b6da92ab7d5aca0feb3495b638acd2a40e2",
+      "bytes": 16396
     },
     "docs/tasks/ui-01.md": {
       "sha256": "7d20d76d6b4f15cac0d82af9d2a548c2a2b8c1eac5f02636b222f6703f94e7e2",
