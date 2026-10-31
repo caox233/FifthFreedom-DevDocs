@@ -7,7 +7,7 @@
 供后续开发者接手的开发过程、代码职责、实现原理与验证边界。不是完整私人聊天、日志或捕获的公开导出。
 
 - [项目源码](https://github.com/caox233/FifthFreedom)
-- 本批文档对应源码提交：[`b6b6e5b2c736c1f1d3b4758d3f53605a581194f3`](https://github.com/caox233/FifthFreedom/commit/b6b6e5b2c736c1f1d3b4758d3f53605a581194f3)
+- 本批文档对应源码提交：[`16aad5bbfabd5de600a134dd177855017bceb2ea`](https://github.com/caox233/FifthFreedom/commit/16aad5bbfabd5de600a134dd177855017bceb2ea)
 - [当前完整测试包、校验值与简短说明](docs/DEVELOPMENT-CANDIDATE-TESTING.md)
 - [摄影机 Disable ABI 修复与实际四角色](docs/tasks/sticky-camera-deploy-crash.md)
 - [LAN 能力探测与发现的独立待办](docs/tasks/lan-capability-discovery-feedback.md)
