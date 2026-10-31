@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "72e92af58c09bb04e00a6a7466b9f45890c098b3",
-  "previous_snapshot_source_commit": "d207fc611be3a89351f8517fcbc37aeb18610dd4",
-  "created_utc": "2026-10-31T10:13:16.561655+00:00",
+  "source_commit": "d40bfc36601f25f4d662f9f75af0c7b13aaad688",
+  "previous_snapshot_source_commit": "72e92af58c09bb04e00a6a7466b9f45890c098b3",
+  "created_utc": "2026-10-31T10:37:10.199703+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "d05f58411eadda0f8ea87361cdf29a8b051329d8",
+  "last_verified_remote_knowledge_commit": "1a574ab7e6163945428b1b13406c9e588c08b7b5",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "9469e44a97703b74b10368fd4d242c853d4b89e5f4146e12138651ae3d17e725",
+      "sha256": "8448939b6924e0d7fa5dcfc682853267b051b8690889f3fb2387e0c1a89b8f0b",
       "bytes": 14361
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "6eada9555db9f5393f74c120236cabdd6a8036f30b853a58a39a0d9d2b8f9dfc",
-      "bytes": 90714
+      "sha256": "4a5918605ba1877f6465db56f04a40a799be4163fff89360d5187d2fe0756d12",
+      "bytes": 91013
     },
     "README.md": {
-      "sha256": "e51666893e2c390a318988e504c18035e30e207259773494ba2fb674efd8ffdd",
+      "sha256": "c345cf4ee181818590ced4e64efa64351947f97695484f8e54a497dea77e02fc",
       "bytes": 6673
     },
     "docs/ACCEPTANCE.md": {
@@ -738,6 +738,10 @@
       "sha256": "946c3e50355574bc07ca6a860d953c6f801e238cd5ebb8d8e4b8eb7b019c7ca1",
       "bytes": 5698
     },
+    "docs/evidence/hosted-feedback-runner-path-72e92af.json": {
+      "sha256": "c6fcef38249b52ea9b3ea0f5f153e872dabddf97763306a80ccded19bba90213",
+      "bytes": 2974
+    },
     "docs/evidence/hosted-final-311052d.json": {
       "sha256": "66d0cde2c0b06673c537c1f4065f6f80f1fef0ebe32273e37523d61b1cb52ba9",
       "bytes": 23755
@@ -906,6 +910,10 @@
       "sha256": "127943a87dcd4e2743471d0935df371e48a5d1fea0c720eccc8aaadb1e2fe38f",
       "bytes": 28658
     },
+    "docs/evidence/hosted-ui-direct-failure-72e92af.json": {
+      "sha256": "8d25ed174f6db406d45359f9a1751617a92bf9e72ca2a1c4ff638f8b49c5ceec",
+      "bytes": 9755
+    },
     "docs/evidence/hosted-ui-visual-9c029cd.json": {
       "sha256": "7199bba0d06e8ee2b2b5a8c8fe8dd0a8cdbe0cb69a2315d3f1e40e3c196e1c24",
       "bytes": 11015
@@ -1013,6 +1021,10 @@
     "docs/evidence/quick-match-protocol-regressions.json": {
       "sha256": "f674844de431a38d5d3bb7f68bac3b23af7ae0c9308422baacc5eaa148925eb5",
       "bytes": 4622
+    },
+    "docs/evidence/sticky-camera-first-throw-source-review-20261031.json": {
+      "sha256": "afafd26383aa4190bf02013ee5e715c7e90fb6be7f96f10db2e7c82ef6fd4ad2",
+      "bytes": 8097
     },
     "docs/evidence/sticky-camera-lifecycle-source-20261031.json": {
       "sha256": "295ede4d6780e0953d7d205203d963fc106ea195bb2c8df292b9a89a8c8aefb7",
@@ -1227,8 +1239,8 @@
       "bytes": 6443
     },
     "docs/tasks/sticky-camera-deploy-crash.md": {
-      "sha256": "2b6d21cd31e2dcd40257fa1c1e9914cfb3d1301da1eca58e59ac379505f171b0",
-      "bytes": 5169
+      "sha256": "6ff6be1be8b4c0dc0296930bfcca0b880f44d325a1ca64877dea6db80a4beb1e",
+      "bytes": 6254
     },
     "docs/tasks/ui-01.md": {
       "sha256": "7d20d76d6b4f15cac0d82af9d2a548c2a2b8c1eac5f02636b222f6703f94e7e2",
@@ -1271,8 +1283,8 @@
       "bytes": 10602
     },
     "docs/tasks/ui-mode-flow-review.md": {
-      "sha256": "2a5ccdd92a6ac575a1c0459d04d6a191518f72c01aff1b8410a4c48972ef683b",
-      "bytes": 9892
+      "sha256": "2c16d70040ff266b48015a003216e4d4b7430d0389bcfcbcd4a2c86c028be765",
+      "bytes": 11494
     },
     "docs/tasks/vss-lifecycle-audit.md": {
       "sha256": "4a9472d339f1b739b90df08bcca57d32af598076b0db084c9122e331a882409a",
