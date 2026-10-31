@@ -1,17 +1,17 @@
 {
   "source_repository": "caox233/FifthFreedom",
-  "source_commit": "e4f899072c53e2ea1079b8dd1e54616026357b21",
-  "previous_snapshot_source_commit": "d40bfc36601f25f4d662f9f75af0c7b13aaad688",
-  "created_utc": "2026-10-31T11:07:08.866040+00:00",
+  "source_commit": "0e691519b878a8fbbb0695392eb2a2ba9616e841",
+  "previous_snapshot_source_commit": "e4f899072c53e2ea1079b8dd1e54616026357b21",
+  "created_utc": "2026-10-31T11:33:46.989072+00:00",
   "scope": "Reviewed public source/docs snapshot; private raw evidence excluded; source repository remains authoritative",
   "publication_at_creation": "source_remote_verified_knowledge_pending_push",
   "new_source_links_verified_against_local_git_objects": true,
   "new_source_links_verified_against_remote_git_objects": true,
   "new_source_remote_accessibility_verified": true,
-  "last_verified_remote_knowledge_commit": "52ed19487479cca8585244d6010f1d7b1d090de4",
+  "last_verified_remote_knowledge_commit": "d2c6eb0eebf375c503293b1edd32ce7530dc1356",
   "files": {
     "CODE-MAP.md": {
-      "sha256": "587b0f264a5601d9d8ac01f3ad28697219420003d70c3574064925115bed1909",
+      "sha256": "9ca79df1566f82bcf2f339de45c90bce8545b4c94af9f77da4d70c5b3020801e",
       "bytes": 14361
     },
     "LICENSE": {
@@ -19,11 +19,11 @@
       "bytes": 35149
     },
     "PROJECT-STATE.json": {
-      "sha256": "4cbf76983f584662a8fd590cc8b428f84c7062a0022ca124040b2f8679d80a66",
-      "bytes": 91545
+      "sha256": "e41d18f1a6d526ac9182ee960dbb6b839cff6bcd6153974e0a429149201e89cf",
+      "bytes": 93147
     },
     "README.md": {
-      "sha256": "cba69d80c0923e585ef3e2c00385abaa489515bec49fb0e1cf668bf09fd37da9",
+      "sha256": "5a333f0d2342bb4af62938a591410c3da24ac4306fe1cbc80dd7b0052d32dfd5",
       "bytes": 6673
     },
     "docs/ACCEPTANCE.md": {
@@ -51,8 +51,8 @@
       "bytes": 3633
     },
     "docs/CLOUD-PROGRESS.md": {
-      "sha256": "a262d57b2cabd6829b88d9cac19dbe9855a2b2f308ec78658604f14137a37d17",
-      "bytes": 114345
+      "sha256": "ef9525baaa04865e7290280e5768c7ed9fef029bfb5839346b07a21b1ca50e33",
+      "bytes": 115490
     },
     "docs/COMPLETE-PACKAGE-REPAIR.md": {
       "sha256": "9e8a94927309bd032523e0283f3fbc4ba1dea09995e96769ffe1c9cbcd5c82cf",
@@ -63,8 +63,8 @@
       "bytes": 1879
     },
     "docs/DEVELOPMENT-CANDIDATE-TESTING.md": {
-      "sha256": "1ca70bdbc2444ed333a178fb59e86693bec2f00e1453ce2bc23b8c70c0e51a13",
-      "bytes": 5270
+      "sha256": "1e56c53f1048ac602b43f202cca503454617a3060a899336fdeba8b76ded0aa6",
+      "bytes": 4504
     },
     "docs/DEVELOPMENT-HISTORY.md": {
       "sha256": "84afb59af7b774e02281c51430291e35bedf4fcc9721b6d0a38071a1b0f56df9",
@@ -598,6 +598,10 @@
       "sha256": "7163d8dc71ad4be019a1fa89486ce225b28227977f655198804cfd9914398b41",
       "bytes": 1850
     },
+    "docs/evidence/complete-package-download-e4f8990.json": {
+      "sha256": "fc5e985df599d0a9ee8934329f69b4eabf886d84c9a6e449b2d15536c4021128",
+      "bytes": 1850
+    },
     "docs/evidence/default-input-admission-20261028.json": {
       "sha256": "975c03cedc83dac527bcc545c1e1def95184bc237847b3c9b2a74c3fe3ba4d9b",
       "bytes": 6439
@@ -718,6 +722,10 @@
       "sha256": "cf7cbbd438ceaa2a91d9ae70d64367190892ac4890586bdeb71a0c0ecb8201eb",
       "bytes": 5449
     },
+    "docs/evidence/hosted-complete-package-e4f8990.json": {
+      "sha256": "ce69a2e25a06d338c0b3cd80fb99c5df87254eedc480a33f210d1d6754bc4d9e",
+      "bytes": 2808
+    },
     "docs/evidence/hosted-components-7c614c1.json": {
       "sha256": "d17d2856d6dc2f56f1dc64a9507aace7e3200c3f5ed04f275259f196bc95e2e3",
       "bytes": 5160
@@ -746,9 +754,17 @@
       "sha256": "946c3e50355574bc07ca6a860d953c6f801e238cd5ebb8d8e4b8eb7b019c7ca1",
       "bytes": 5698
     },
+    "docs/evidence/hosted-feedback-dependent-e4f8990.json": {
+      "sha256": "da64b42f7e6870b7f45b1d9423a6f92f6057aa53f7ccdcb287a359800b7662c2",
+      "bytes": 13307
+    },
     "docs/evidence/hosted-feedback-linux-d40bfc3.json": {
       "sha256": "be471d66a3d7fbaf59933de1c66f01c457681e51b88f2a3f1c9fd4b7d88831b6",
       "bytes": 24050
+    },
+    "docs/evidence/hosted-feedback-linux-e4f8990.json": {
+      "sha256": "0dcddccb4c1b8109e8795cccd0ff1c64f11811edd9f7a2eda69c5c0e7dec7869",
+      "bytes": 24416
     },
     "docs/evidence/hosted-feedback-runner-path-72e92af.json": {
       "sha256": "c6fcef38249b52ea9b3ea0f5f153e872dabddf97763306a80ccded19bba90213",
@@ -757,6 +773,10 @@
     "docs/evidence/hosted-feedback-source-d40bfc3.json": {
       "sha256": "de6eac0347404be8b0b48c1f019b475aa8b8c98f5a9e7c7c4eb92fdca931946b",
       "bytes": 3230
+    },
+    "docs/evidence/hosted-feedback-source-e4f8990.json": {
+      "sha256": "2667f7b87542c92dc60a4de74566a4f87f3f4ab5dd0c9614b7d666c5e1b32ae1",
+      "bytes": 3107
     },
     "docs/evidence/hosted-final-311052d.json": {
       "sha256": "66d0cde2c0b06673c537c1f4065f6f80f1fef0ebe32273e37523d61b1cb52ba9",
@@ -821,6 +841,10 @@
     "docs/evidence/hosted-native-lifecycle-b67af6c.json": {
       "sha256": "580bfde5813483dcb449cc7d2d8432cb660e5cb5513c7bc6e8a7af718478cbeb",
       "bytes": 4074
+    },
+    "docs/evidence/hosted-native-production-e4f8990.json": {
+      "sha256": "09758e52bfe2fa405c9447a0685bdb8878c58784062497b678af68f3e001fc18",
+      "bytes": 24233
     },
     "docs/evidence/hosted-owned-core-08b3d07.json": {
       "sha256": "d57bba70389cd96e6ed61aa8a603934904ce94e25a1ffd09292c4fb4434080dd",
@@ -933,6 +957,10 @@
     "docs/evidence/hosted-ui-direct-d40bfc3.json": {
       "sha256": "98949ca3246dd300b8c2fa362ea18837cde0773aae1b336caaa688c9ad2bfe6d",
       "bytes": 12325
+    },
+    "docs/evidence/hosted-ui-direct-e4f8990.json": {
+      "sha256": "2dd1825fc67bbec50eee389f0ccf34cae65a15e59309525bbebb3eb06f06f70c",
+      "bytes": 8112
     },
     "docs/evidence/hosted-ui-direct-failure-72e92af.json": {
       "sha256": "d87ec69f8b19c896330e05cc1c88116967174e3fb12c2cb7a0d223e085040120",
@@ -1151,8 +1179,8 @@
       "bytes": 7657
     },
     "docs/tasks/package-compatibility-feedback.md": {
-      "sha256": "75d7f2a9fbc4c9f612649a7d855b37a6d47a6fbd9e4f060aa2a4a726e9590fe2",
-      "bytes": 4075
+      "sha256": "d3c7622fc727520b12bc0d3b41f83407469acccec43d4dff26880f022fff34d2",
+      "bytes": 4258
     },
     "docs/tasks/peer-map-build.md": {
       "sha256": "4a6a5ad44ed566c02cca321e08ceb62d012b90d60019533e435ce689f776f630",
@@ -1167,12 +1195,12 @@
       "bytes": 4206
     },
     "docs/tasks/progression-table-regions.md": {
-      "sha256": "acf24c36ce49b557998145d9abb31e4a44134cc469b8cb1785e63ed447578baf",
-      "bytes": 3202
+      "sha256": "585f357877280f0d253f66cd307c419baf46523329d3545d2929e2bdf212c2c7",
+      "bytes": 4033
     },
     "docs/tasks/protocol-feedback.md": {
-      "sha256": "c84f79cdc743a3ef2c5ee24e72fc4c32c56ae9f5cd6acf109171bcd4545c7f28",
-      "bytes": 7651
+      "sha256": "17ca90c304e958754292c47c8a5d821dfb09ed1e23dda315951278e970e86c1f",
+      "bytes": 8047
     },
     "docs/tasks/public-candidate.md": {
       "sha256": "eacd0bc3ad9f5872a4805125633bd9e6eda9b4576357f119c05a4b9378d5d91b",
@@ -1191,8 +1219,8 @@
       "bytes": 8503
     },
     "docs/tasks/quick-match-same-session.md": {
-      "sha256": "c2c544c78a6b9cd7d89a4406056bbd4b5ac3303abc2105b69739bbb5b083c3e0",
-      "bytes": 16024
+      "sha256": "40c056d102fea2111f28e483d600ff9053009b449c8380def8e02b9f5dac57c0",
+      "bytes": 16508
     },
     "docs/tasks/remaining-bugs.md": {
       "sha256": "cb019d7a367402d9faa60551c19ae7dab5a0fae2074e5c84bb8af5aa6ed0ae78",
@@ -1267,8 +1295,8 @@
       "bytes": 6443
     },
     "docs/tasks/sticky-camera-deploy-crash.md": {
-      "sha256": "de391bb198137c64d8421b3b1dd72e63b6f8b2465d940750005c681b8fee74ae",
-      "bytes": 8927
+      "sha256": "e8e9e62eb72c1f1100ee96fd5ef3aeac0462cb9c81e714aefeca0e32a8824fda",
+      "bytes": 11168
     },
     "docs/tasks/ui-01.md": {
       "sha256": "7d20d76d6b4f15cac0d82af9d2a548c2a2b8c1eac5f02636b222f6703f94e7e2",
@@ -1311,8 +1339,8 @@
       "bytes": 10602
     },
     "docs/tasks/ui-mode-flow-review.md": {
-      "sha256": "b9c844b67749d42ea83c7f0c7bcf4815952a342f7e22346168d0f8ecab998719",
-      "bytes": 13471
+      "sha256": "2f54b6f47370589c28da8315171666d41a7201a4b44982952ef3101101139567",
+      "bytes": 14224
     },
     "docs/tasks/vss-lifecycle-audit.md": {
       "sha256": "4a9472d339f1b739b90df08bcca57d32af598076b0db084c9122e331a882409a",
